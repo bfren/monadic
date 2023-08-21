@@ -126,19 +126,24 @@ either <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a> or <a class=
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
   <dt><code>value</code> <span class="xref">T</span></dt>
-  <dd></dd>
+  <dd><p>Value to wrap.</p>
+</dd>
 </dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Monadic.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
-  <dd></dd>
+  <dd><p><a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a> if <code class="paramref">value</code> is not null
+or <code class="typeparamref">T</code> is a nullable value type -
+otherwise <a class="xref" href="Monadic.None.html">None</a>.</p>
+</dd>
 </dl>
 
 <h4 class="section">Type Parameters</h4>
 <dl class="parameters">
   <dt><code>T</code></dt>
-  <dd></dd>
+  <dd><p>Maybe value type.</p>
+</dd>
 </dl>
 
 
@@ -181,7 +186,7 @@ without the ? suffix), you will get a <a class="xref" href="Monadic.M.None.html#
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+          <span>Copyright (c) 2019-2023 <a href="https://bfren.dev">bfren</a>. Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
         </div>
       </div>
     </footer>

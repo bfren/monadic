@@ -34,89 +34,42 @@ references:
   commentId: T:Monadic.E
   fullName: Monadic.E
   nameWithType: E
+- uid: Monadic.E.Left*
+  name: Left
+  href: api/Monadic.E.Left.html
+  commentId: Overload:Monadic.E.Left
+  fullName: Monadic.E.Left
+  nameWithType: E.Left
+- uid: Monadic.E.Left``2(``0)
+  name: Left<TLeft, TRight>(TLeft)
+  href: api/Monadic.E.Left.html#Monadic_E_Left__2___0_
+  commentId: M:Monadic.E.Left``2(``0)
+  name.vb: Left(Of TLeft, TRight)(TLeft)
+  fullName: Monadic.E.Left<TLeft, TRight>(TLeft)
+  fullName.vb: Monadic.E.Left(Of TLeft, TRight)(TLeft)
+  nameWithType: E.Left<TLeft, TRight>(TLeft)
+  nameWithType.vb: E.Left(Of TLeft, TRight)(TLeft)
+- uid: Monadic.E.Right*
+  name: Right
+  href: api/Monadic.E.Right.html
+  commentId: Overload:Monadic.E.Right
+  fullName: Monadic.E.Right
+  nameWithType: E.Right
+- uid: Monadic.E.Right``2(``1)
+  name: Right<TLeft, TRight>(TRight)
+  href: api/Monadic.E.Right.html#Monadic_E_Right__2___1_
+  commentId: M:Monadic.E.Right``2(``1)
+  name.vb: Right(Of TLeft, TRight)(TRight)
+  fullName: Monadic.E.Right<TLeft, TRight>(TRight)
+  fullName.vb: Monadic.E.Right(Of TLeft, TRight)(TRight)
+  nameWithType: E.Right<TLeft, TRight>(TRight)
+  nameWithType.vb: E.Right(Of TLeft, TRight)(TRight)
 - uid: Monadic.EitherExtensions
   name: EitherExtensions
   href: api/Monadic.EitherExtensions.html
   commentId: T:Monadic.EitherExtensions
   fullName: Monadic.EitherExtensions
   nameWithType: EitherExtensions
-- uid: Monadic.EitherExtensions.InvalidType`2
-  name: EitherExtensions.InvalidType<TLeft, TRight>
-  href: api/Monadic.EitherExtensions.InvalidType-2.html
-  commentId: T:Monadic.EitherExtensions.InvalidType`2
-  name.vb: EitherExtensions.InvalidType(Of TLeft, TRight)
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight)
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight)
-- uid: Monadic.EitherExtensions.InvalidType`2.#ctor(System.Object,System.IntPtr)
-  name: InvalidType(object, IntPtr)
-  href: api/Monadic.EitherExtensions.InvalidType-2.-ctor.html#Monadic_EitherExtensions_InvalidType_2__ctor_System_Object_System_IntPtr_
-  commentId: M:Monadic.EitherExtensions.InvalidType`2.#ctor(System.Object,System.IntPtr)
-  name.vb: New(Object, IntPtr)
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.InvalidType(object, System.IntPtr)
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).New(Object, System.IntPtr)
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.InvalidType(object, IntPtr)
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).New(Object, IntPtr)
-- uid: Monadic.EitherExtensions.InvalidType`2.#ctor*
-  name: InvalidType
-  href: api/Monadic.EitherExtensions.InvalidType-2.-ctor.html
-  commentId: Overload:Monadic.EitherExtensions.InvalidType`2.#ctor
-  name.vb: New
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.InvalidType
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).New
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.InvalidType
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).New
-- uid: Monadic.EitherExtensions.InvalidType`2.BeginInvoke(Monadic.IEither{`0,`1},System.AsyncCallback,System.Object)
-  name: BeginInvoke(IEither<TLeft, TRight>, AsyncCallback, object)
-  href: api/Monadic.EitherExtensions.InvalidType-2.BeginInvoke.html#Monadic_EitherExtensions_InvalidType_2_BeginInvoke_Monadic_IEither__0__1__System_AsyncCallback_System_Object_
-  commentId: M:Monadic.EitherExtensions.InvalidType`2.BeginInvoke(Monadic.IEither{`0,`1},System.AsyncCallback,System.Object)
-  name.vb: BeginInvoke(IEither(Of TLeft, TRight), AsyncCallback, Object)
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.BeginInvoke(Monadic.IEither<TLeft, TRight>, System.AsyncCallback, object)
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).BeginInvoke(Monadic.IEither(Of TLeft, TRight), System.AsyncCallback, Object)
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.BeginInvoke(IEither<TLeft, TRight>, AsyncCallback, object)
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).BeginInvoke(IEither(Of TLeft, TRight), AsyncCallback, Object)
-- uid: Monadic.EitherExtensions.InvalidType`2.BeginInvoke*
-  name: BeginInvoke
-  href: api/Monadic.EitherExtensions.InvalidType-2.BeginInvoke.html
-  commentId: Overload:Monadic.EitherExtensions.InvalidType`2.BeginInvoke
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.BeginInvoke
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).BeginInvoke
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.BeginInvoke
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).BeginInvoke
-- uid: Monadic.EitherExtensions.InvalidType`2.EndInvoke(System.IAsyncResult)
-  name: EndInvoke(IAsyncResult)
-  href: api/Monadic.EitherExtensions.InvalidType-2.EndInvoke.html#Monadic_EitherExtensions_InvalidType_2_EndInvoke_System_IAsyncResult_
-  commentId: M:Monadic.EitherExtensions.InvalidType`2.EndInvoke(System.IAsyncResult)
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.EndInvoke(System.IAsyncResult)
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).EndInvoke(System.IAsyncResult)
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.EndInvoke(IAsyncResult)
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).EndInvoke(IAsyncResult)
-- uid: Monadic.EitherExtensions.InvalidType`2.EndInvoke*
-  name: EndInvoke
-  href: api/Monadic.EitherExtensions.InvalidType-2.EndInvoke.html
-  commentId: Overload:Monadic.EitherExtensions.InvalidType`2.EndInvoke
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.EndInvoke
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).EndInvoke
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.EndInvoke
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).EndInvoke
-- uid: Monadic.EitherExtensions.InvalidType`2.Invoke(Monadic.IEither{`0,`1})
-  name: Invoke(IEither<TLeft, TRight>)
-  href: api/Monadic.EitherExtensions.InvalidType-2.Invoke.html#Monadic_EitherExtensions_InvalidType_2_Invoke_Monadic_IEither__0__1__
-  commentId: M:Monadic.EitherExtensions.InvalidType`2.Invoke(Monadic.IEither{`0,`1})
-  name.vb: Invoke(IEither(Of TLeft, TRight))
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.Invoke(Monadic.IEither<TLeft, TRight>)
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).Invoke(Monadic.IEither(Of TLeft, TRight))
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.Invoke(IEither<TLeft, TRight>)
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).Invoke(IEither(Of TLeft, TRight))
-- uid: Monadic.EitherExtensions.InvalidType`2.Invoke*
-  name: Invoke
-  href: api/Monadic.EitherExtensions.InvalidType-2.Invoke.html
-  commentId: Overload:Monadic.EitherExtensions.InvalidType`2.Invoke
-  fullName: Monadic.EitherExtensions.InvalidType<TLeft, TRight>.Invoke
-  fullName.vb: Monadic.EitherExtensions.InvalidType(Of TLeft, TRight).Invoke
-  nameWithType: EitherExtensions.InvalidType<TLeft, TRight>.Invoke
-  nameWithType.vb: EitherExtensions.InvalidType(Of TLeft, TRight).Invoke
 - uid: Monadic.Either`2
   name: Either<TLeft, TRight>
   href: api/Monadic.Either-2.html
@@ -879,18 +832,24 @@ references:
   commentId: T:Monadic.Exceptions.InvalidEitherTypeException
   fullName: Monadic.Exceptions.InvalidEitherTypeException
   nameWithType: InvalidEitherTypeException
-- uid: Monadic.Exceptions.InvalidEitherTypeException.Create(System.Type)
-  name: Create(Type)
-  href: api/Monadic.Exceptions.InvalidEitherTypeException.Create.html#Monadic_Exceptions_InvalidEitherTypeException_Create_System_Type_
-  commentId: M:Monadic.Exceptions.InvalidEitherTypeException.Create(System.Type)
-  fullName: Monadic.Exceptions.InvalidEitherTypeException.Create(System.Type)
-  nameWithType: InvalidEitherTypeException.Create(Type)
-- uid: Monadic.Exceptions.InvalidEitherTypeException.Create*
-  name: Create
-  href: api/Monadic.Exceptions.InvalidEitherTypeException.Create.html
-  commentId: Overload:Monadic.Exceptions.InvalidEitherTypeException.Create
-  fullName: Monadic.Exceptions.InvalidEitherTypeException.Create
-  nameWithType: InvalidEitherTypeException.Create
+- uid: Monadic.Exceptions.InvalidEitherTypeException.#ctor(System.Type)
+  name: InvalidEitherTypeException(Type)
+  href: api/Monadic.Exceptions.InvalidEitherTypeException.-ctor.html#Monadic_Exceptions_InvalidEitherTypeException__ctor_System_Type_
+  commentId: M:Monadic.Exceptions.InvalidEitherTypeException.#ctor(System.Type)
+  name.vb: New(Type)
+  fullName: Monadic.Exceptions.InvalidEitherTypeException.InvalidEitherTypeException(System.Type)
+  fullName.vb: Monadic.Exceptions.InvalidEitherTypeException.New(System.Type)
+  nameWithType: InvalidEitherTypeException.InvalidEitherTypeException(Type)
+  nameWithType.vb: InvalidEitherTypeException.New(Type)
+- uid: Monadic.Exceptions.InvalidEitherTypeException.#ctor*
+  name: InvalidEitherTypeException
+  href: api/Monadic.Exceptions.InvalidEitherTypeException.-ctor.html
+  commentId: Overload:Monadic.Exceptions.InvalidEitherTypeException.#ctor
+  name.vb: New
+  fullName: Monadic.Exceptions.InvalidEitherTypeException.InvalidEitherTypeException
+  fullName.vb: Monadic.Exceptions.InvalidEitherTypeException.New
+  nameWithType: InvalidEitherTypeException.InvalidEitherTypeException
+  nameWithType.vb: InvalidEitherTypeException.New
 - uid: Monadic.Exceptions.InvalidMaybeTypeException
   name: InvalidMaybeTypeException
   href: api/Monadic.Exceptions.InvalidMaybeTypeException.html
@@ -4017,24 +3976,6 @@ references:
   fullName.vb: Monadic.Right(Of TLeft, TRight)
   nameWithType: Right<TLeft, TRight>
   nameWithType.vb: Right(Of TLeft, TRight)
-- uid: Monadic.Right`2.#ctor(`1)
-  name: Right(TRight)
-  href: api/Monadic.Right-2.-ctor.html#Monadic_Right_2__ctor__1_
-  commentId: M:Monadic.Right`2.#ctor(`1)
-  name.vb: New(TRight)
-  fullName: Monadic.Right<TLeft, TRight>.Right(TRight)
-  fullName.vb: Monadic.Right(Of TLeft, TRight).New(TRight)
-  nameWithType: Right<TLeft, TRight>.Right(TRight)
-  nameWithType.vb: Right(Of TLeft, TRight).New(TRight)
-- uid: Monadic.Right`2.#ctor*
-  name: Right
-  href: api/Monadic.Right-2.-ctor.html
-  commentId: Overload:Monadic.Right`2.#ctor
-  name.vb: New
-  fullName: Monadic.Right<TLeft, TRight>.Right
-  fullName.vb: Monadic.Right(Of TLeft, TRight).New
-  nameWithType: Right<TLeft, TRight>.Right
-  nameWithType.vb: Right(Of TLeft, TRight).New
 - uid: Monadic.Right`2.EqualityContract
   name: EqualityContract
   href: api/Monadic.Right-2.EqualityContract.html#Monadic_Right_2_EqualityContract

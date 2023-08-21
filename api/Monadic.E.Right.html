@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Method Create
+      <title>Method Right
  | Monadic </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Method Create
+      <meta name="title" content="Method Right
  | Monadic ">
       
       <link rel="icon" href="../favicon.ico">
@@ -73,19 +73,19 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Monadic.Exceptions.InvalidEitherTypeException.Create*">
+        <article data-uid="Monadic.E.Right*">
 
 
 
 
 
-<h1 id="Monadic_Exceptions_InvalidEitherTypeException_Create_" data-uid="Monadic.Exceptions.InvalidEitherTypeException.Create*" class="text-break">
-  Method Create
+<h1 id="Monadic_E_Right_" data-uid="Monadic.E.Right*" class="text-break">
+  Method Right
   
 </h1>
 
 <div class="facts text-secondary">
-  <dl><dt>Namespace</dt><dd><a class="xref" href="Monadic.html">Monadic</a>.<a class="xref" href="Monadic.Exceptions.html">Exceptions</a></dd></dl>
+  <dl><dt>Namespace</dt><dd><a class="xref" href="Monadic.html">Monadic</a></dd></dl>
   <dl><dt>Assembly</dt><dd>Either.dll</dd></dl>
 </div>
 
@@ -107,32 +107,44 @@
 
 
 
-<a id="Monadic_Exceptions_InvalidEitherTypeException_Create_" data-uid="Monadic.Exceptions.InvalidEitherTypeException.Create*"></a>
+<a id="Monadic_E_Right_" data-uid="Monadic.E.Right*"></a>
 
-<h3 id="Monadic_Exceptions_InvalidEitherTypeException_Create_System_Type_" data-uid="Monadic.Exceptions.InvalidEitherTypeException.Create(System.Type)">
-  Create(Type)
+<h3 id="Monadic_E_Right__2___1_" data-uid="Monadic.E.Right``2(``1)">
+  Right&lt;TLeft, TRight&gt;(TRight)
   
 </h3>
 
-<div class="markdown level1 summary"></div>
+<div class="markdown level1 summary"><p>Create a right (correct / valid) value.</p>
+</div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static InvalidEitherTypeException Create(Type type)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Either&lt;TLeft, TRight&gt; Right&lt;TLeft, TRight&gt;(TRight value)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
-  <dt><code>type</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.type">Type</a></dt>
-  <dd></dd>
+  <dt><code>value</code> <span class="xref">TRight</span></dt>
+  <dd><p>Left (error / invalid) value.</p>
+</dd>
 </dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
-  <dt><a class="xref" href="Monadic.Exceptions.InvalidEitherTypeException.html">InvalidEitherTypeException</a></dt>
-  <dd></dd>
+  <dt><a class="xref" href="Monadic.Either-2.html">Either</a>&lt;TLeft, TRight&gt;</dt>
+  <dd><p><a class="xref" href="Monadic.Right-2.html">Right&lt;TLeft, TRight&gt;</a> with value <code class="paramref">value</code>.</p>
+</dd>
 </dl>
 
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>TLeft</code></dt>
+  <dd><p>Left (error / invalid) value type.</p>
+</dd>
+  <dt><code>TRight</code></dt>
+  <dd><p>Right (correct / valid) value type.</p>
+</dd>
+</dl>
 
 
 
@@ -160,7 +172,7 @@
     <footer class="border-top">
       <div class="container-xxl">
         <div class="flex-fill">
-          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+          <span>Copyright (c) 2019-2023 <a href="https://bfren.dev">bfren</a>. Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
         </div>
       </div>
     </footer>

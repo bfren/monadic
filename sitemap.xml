@@ -2,1297 +2,1273 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.DictionaryExtensions.GetValueOrNone.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.DictionaryExtensions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://bfren.github.io/monadic/api/Monadic.E.Left.html</loc>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://bfren.github.io/monadic/api/Monadic.E.Right.html</loc>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.E.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.AsTask.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.EqualityContract.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.GetEnumerator.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.PrintMembers.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.ToString.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Either-2.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bfren.github.io/monadic/api/Monadic.EitherExtensions.InvalidType-2.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bfren.github.io/monadic/api/Monadic.EitherExtensions.InvalidType-2.BeginInvoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bfren.github.io/monadic/api/Monadic.EitherExtensions.InvalidType-2.EndInvoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bfren.github.io/monadic/api/Monadic.EitherExtensions.InvalidType-2.Invoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bfren.github.io/monadic/api/Monadic.EitherExtensions.InvalidType-2.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EitherExtensions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.Bind.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.BindAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.ElementAtOrNone.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.Filter.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.FilterAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.FilterBind.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.FilterBindAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.FilterMap.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.FilterMapAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.FirstOrNone.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.Iterate.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.IterateAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.LastOrNone.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.Map.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.MapAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.SingleOrNone.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.EnumerableExtensions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.ToString.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.Value.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Err.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.InvalidEitherTypeException.Create.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.InvalidEitherTypeException.-ctor.html</loc>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.InvalidEitherTypeException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.InvalidMaybeTypeException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.InvalidResultTypeException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.InvalidTypeException.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.InvalidTypeException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.MonadicException.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.MonadicException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.PredicateFalseException.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.PredicateFalseException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.SimpleErrorException.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.SimpleErrorException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Exceptions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ErrorLogger.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ErrorLogger.BeginInvoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ErrorLogger.EndInvoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ErrorLogger.Invoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ErrorLogger.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ExceptionLogger.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ExceptionLogger.BeginInvoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ExceptionLogger.EndInvoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ExceptionLogger.Invoke.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.ExceptionLogger.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.IsNullableValueType.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.LogError.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.LogException.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.F.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.IEither-2.GetEnumerator.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.IEither-2.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ILeft-2.Value.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ILeft-2.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.IRight-2.Value.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.IRight-2.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.EqualityContract.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.PrintMembers.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.ToString.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.Value.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Left-2.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.MaybeExtensions.Select.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.MaybeExtensions.SelectMany.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.MaybeExtensions.Where.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.MaybeExtensions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.ResultExtensions.Select.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.ResultExtensions.SelectMany.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.ResultExtensions.Where.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.ResultExtensions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Linq.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.DefaultCulture.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.None.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseBool.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseByte.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseChar.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseDateOnly.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseDateTime.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseDateTimeOffset.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseDecimal.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseDouble.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseGuid.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseInt16.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseInt32.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseInt64.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseIntPtr.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseSByte.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseSingle.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseTimeOnly.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseUInt16.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseUInt32.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseUInt64.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.ParseUIntPtr.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.Switch.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.SwitchAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.Wrap.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.M.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.AsTask.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.EqualityContract.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.GetEnumerator.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.PrintMembers.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.ToString.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.op_Implicit.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Maybe-1.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.Audit.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.AuditAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.Bind.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.BindAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.Filter.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.FilterAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.Map.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.MapAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.Switch.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.SwitchAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.Unwrap.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.UnwrapAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.UnwrapSingle.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.UnwrapSingleAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.MaybeExtensions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.None.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.EqualityContract.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.PrintMembers.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.Value.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Ok-1.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.R.Err.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.R.Ok.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.R.Switch.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.R.SwitchAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.R.Try.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.R.TryAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.R.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.AsTask.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.EqualityContract.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.GetEnumerator.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.PrintMembers.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.ToString.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.op_Implicit.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Result-1.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.Audit.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.AuditAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.Bind.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.BindAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.Filter.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.FilterAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.Map.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.MapAsync.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.ResultExtensions.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.-ctor.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.EqualityContract.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.PrintMembers.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.ToString.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.Value.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Right-2.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.-Clone--.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.EqualityContract.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.Equals.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.GetHashCode.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.PrintMembers.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.Value.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.op_Equality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.Some-1.op_Inequality.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/Monadic.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/api/index.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/articles/intro.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://bfren.github.io/monadic/index.html</loc>
-    <lastmod>2023-08-21T09:03:49+00:00</lastmod>
+    <lastmod>2023-08-21T09:18:53+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

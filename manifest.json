@@ -33,6 +33,26 @@
       "source_relative_path": "api/Monadic.E.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Monadic.E.Left.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.E.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.E.Right.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.E.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Monadic.E.html"
         }
       },
@@ -154,56 +174,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Monadic.Either-2.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.EitherExtensions.InvalidType-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.EitherExtensions.InvalidType-2.-ctor.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.EitherExtensions.InvalidType-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.EitherExtensions.InvalidType-2.Invoke.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.EitherExtensions.InvalidType-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.EitherExtensions.InvalidType-2.BeginInvoke.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.EitherExtensions.InvalidType-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.EitherExtensions.InvalidType-2.EndInvoke.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.EitherExtensions.InvalidType-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.EitherExtensions.InvalidType-2.html"
         }
       },
       "version": ""
@@ -473,7 +443,7 @@
       "source_relative_path": "api/Monadic.Exceptions.InvalidEitherTypeException.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Monadic.Exceptions.InvalidEitherTypeException.Create.html"
+          "relative_path": "api/Monadic.Exceptions.InvalidEitherTypeException.-ctor.html"
         }
       },
       "version": ""
@@ -1393,36 +1363,6 @@
       "source_relative_path": "api/Monadic.MaybeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Monadic.MaybeExtensions.Audit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.MaybeExtensions.AuditAsync.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.MaybeExtensions.Bind.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.MaybeExtensions.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Monadic.MaybeExtensions.BindAsync.html"
         }
       },
@@ -1534,6 +1474,36 @@
       "output": {
         ".html": {
           "relative_path": "api/Monadic.MaybeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.MaybeExtensions.Audit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.MaybeExtensions.AuditAsync.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.MaybeExtensions.Bind.html"
         }
       },
       "version": ""
@@ -1843,6 +1813,26 @@
       "source_relative_path": "api/Monadic.ResultExtensions.yml",
       "output": {
         ".html": {
+          "relative_path": "api/Monadic.ResultExtensions.Audit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.ResultExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.ResultExtensions.AuditAsync.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.ResultExtensions.yml",
+      "output": {
+        ".html": {
           "relative_path": "api/Monadic.ResultExtensions.Bind.html"
         }
       },
@@ -1904,36 +1894,6 @@
       "output": {
         ".html": {
           "relative_path": "api/Monadic.ResultExtensions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.ResultExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.ResultExtensions.Audit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.ResultExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.ResultExtensions.AuditAsync.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.Right-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.Right-2.-ctor.html"
         }
       },
       "version": ""
@@ -2043,36 +2003,6 @@
       "source_relative_path": "api/Monadic.Some-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Monadic.Some-1.PrintMembers.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.Some-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.Some-1.op_Inequality.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.Some-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.Some-1.op_Equality.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.Some-1.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Monadic.Some-1.GetHashCode.html"
         }
       },
@@ -2124,6 +2054,36 @@
       "output": {
         ".html": {
           "relative_path": "api/Monadic.Some-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.Some-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.Some-1.PrintMembers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.Some-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.Some-1.op_Inequality.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.Some-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.Some-1.op_Equality.html"
         }
       },
       "version": ""
