@@ -1,4 +1,9 @@
 {
+  "sitemap": {
+    "baseUrl": "https://bfren.github.io/monadic/",
+    "changefreq": "daily",
+    "priority": 0.5
+  },
   "homepages": [],
   "source_base_path": "/github/workspace/docs",
   "xrefmap": "xrefmap.yml",
@@ -908,26 +913,6 @@
       "source_relative_path": "api/Monadic.Linq.MaybeExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Monadic.Linq.MaybeExtensions.Where.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.Linq.MaybeExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.Linq.MaybeExtensions.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.Linq.MaybeExtensions.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Monadic.Linq.MaybeExtensions.Select.html"
         }
       },
@@ -939,6 +924,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Monadic.Linq.MaybeExtensions.SelectMany.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.Linq.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.Linq.MaybeExtensions.Where.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.Linq.MaybeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.Linq.MaybeExtensions.html"
         }
       },
       "version": ""
@@ -1838,26 +1843,6 @@
       "source_relative_path": "api/Monadic.ResultExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Monadic.ResultExtensions.Audit.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.ResultExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monadic.ResultExtensions.AuditAsync.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monadic.ResultExtensions.yml",
-      "output": {
-        ".html": {
           "relative_path": "api/Monadic.ResultExtensions.Bind.html"
         }
       },
@@ -1919,6 +1904,26 @@
       "output": {
         ".html": {
           "relative_path": "api/Monadic.ResultExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.ResultExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.ResultExtensions.Audit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monadic.ResultExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monadic.ResultExtensions.AuditAsync.html"
         }
       },
       "version": ""
