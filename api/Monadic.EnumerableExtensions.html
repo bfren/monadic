@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class EnumerableExtensions
+ </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class EnumerableExtensions
+ ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Monadic.EnumerableExtensions">
+
+
+
+  <h1 id="Monadic_EnumerableExtensions" data-uid="Monadic.EnumerableExtensions" class="text-break">
+    Class EnumerableExtensions
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Monadic.html">Monadic</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Maybe.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extension methods for <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable&lt;T&gt;</a> objects.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class EnumerableExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">EnumerableExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.BindAsync.html#Monadic_EnumerableExtensions_BindAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_Monadic_Maybe___1___">BindAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Maybe&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.BindAsync.html#Monadic_EnumerableExtensions_BindAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_Monadic_Maybe___1____">BindAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;Maybe&lt;TReturn&gt;&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.BindAsync.html#Monadic_EnumerableExtensions_BindAsync__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_Monadic_Maybe___1____">BindAsync&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;Maybe&lt;TReturn&gt;&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.Bind.html#Monadic_EnumerableExtensions_Bind__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_Monadic_Maybe___1___">Bind&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Maybe&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.ElementAtOrNone.html#Monadic_EnumerableExtensions_ElementAtOrNone__1_System_Collections_Generic_IEnumerable___0__System_Int32_">ElementAtOrNone&lt;T&gt;(IEnumerable&lt;T&gt;, int)</a></dt>
+    <dd><p>Safely get a value from a list.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterAsync.html#Monadic_EnumerableExtensions_FilterAsync__1_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___">FilterAsync&lt;T&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;)</a></dt>
+    <dd><p>Filter out <a class="xref" href="Monadic.None.html">None</a> objects from a list.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterAsync.html#Monadic_EnumerableExtensions_FilterAsync__1_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__">FilterAsync&lt;T&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">predicate</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterAsync.html#Monadic_EnumerableExtensions_FilterAsync__1_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___">FilterAsync&lt;T&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">predicate</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterAsync.html#Monadic_EnumerableExtensions_FilterAsync__1_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___">FilterAsync&lt;T&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">predicate</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterBindAsync.html#Monadic_EnumerableExtensions_FilterBindAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task_Monadic_Maybe___1____">FilterBindAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;Maybe&lt;TReturn&gt;&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterBindAsync.html#Monadic_EnumerableExtensions_FilterBindAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_Monadic_Maybe___1___">FilterBindAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Maybe&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterBindAsync.html#Monadic_EnumerableExtensions_FilterBindAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task_Monadic_Maybe___1____">FilterBindAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;Maybe&lt;TReturn&gt;&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterBindAsync.html#Monadic_EnumerableExtensions_FilterBindAsync__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task_Monadic_Maybe___1____">FilterBindAsync&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;Maybe&lt;TReturn&gt;&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterBindAsync.html#Monadic_EnumerableExtensions_FilterBindAsync__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_Monadic_Maybe___1___">FilterBindAsync&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Maybe&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterBindAsync.html#Monadic_EnumerableExtensions_FilterBindAsync__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task_Monadic_Maybe___1____">FilterBindAsync&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;Maybe&lt;TReturn&gt;&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterBind.html#Monadic_EnumerableExtensions_FilterBind__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__System_Func___0_Monadic_Maybe___1___">FilterBind&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, Maybe&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">bind</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterMapAsync.html#Monadic_EnumerableExtensions_FilterMapAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task___1___">FilterMapAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterMapAsync.html#Monadic_EnumerableExtensions_FilterMapAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task___1___">FilterMapAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterMapAsync.html#Monadic_EnumerableExtensions_FilterMapAsync__2_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0___1__">FilterMapAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterMapAsync.html#Monadic_EnumerableExtensions_FilterMapAsync__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task___1___">FilterMapAsync&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterMapAsync.html#Monadic_EnumerableExtensions_FilterMapAsync__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task___1___">FilterMapAsync&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterMapAsync.html#Monadic_EnumerableExtensions_FilterMapAsync__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0___1__">FilterMapAsync&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FilterMap.html#Monadic_EnumerableExtensions_FilterMap__2_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__System_Func___0___1__">FilterMap&lt;T, TReturn&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each element of <code class="paramref">this</code> that matches <code class="paramref">predicate</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.Filter.html#Monadic_EnumerableExtensions_Filter__1_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___">Filter&lt;T&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;)</a></dt>
+    <dd><p>Filter out <a class="xref" href="Monadic.None.html">None</a> objects from a list.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.Filter.html#Monadic_EnumerableExtensions_Filter__1_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Boolean__">Filter&lt;T&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, bool&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">predicate</code> on each value in <code class="paramref">this</code> that is <a class="xref" href="Monadic.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.FirstOrNone.html#Monadic_EnumerableExtensions_FirstOrNone__1_System_Collections_Generic_IEnumerable___0__">FirstOrNone&lt;T&gt;(IEnumerable&lt;T&gt;)</a></dt>
+    <dd><p>Safely get the first value from a list.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.IterateAsync.html#Monadic_EnumerableExtensions_IterateAsync__1_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Action___0__">IterateAsync&lt;T&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Action&lt;T&gt;)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.IterateAsync.html#Monadic_EnumerableExtensions_IterateAsync__1_System_Collections_Generic_IAsyncEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task__">IterateAsync&lt;T&gt;(IAsyncEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&gt;)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.IterateAsync.html#Monadic_EnumerableExtensions_IterateAsync__1_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Func___0_System_Threading_Tasks_Task__">IterateAsync&lt;T&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Func&lt;T, Task&gt;)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.Iterate.html#Monadic_EnumerableExtensions_Iterate__1_System_Collections_Generic_IEnumerable_Monadic_Maybe___0___System_Action___0__">Iterate&lt;T&gt;(IEnumerable&lt;Maybe&lt;T&gt;&gt;, Action&lt;T&gt;)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.LastOrNone.html#Monadic_EnumerableExtensions_LastOrNone__1_System_Collections_Generic_IEnumerable___0__">LastOrNone&lt;T&gt;(IEnumerable&lt;T&gt;)</a></dt>
+    <dd><p>Safely get the last value from a list.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.MapAsync.html#Monadic_EnumerableExtensions_MapAsync__2_System_Collections_Generic_IAsyncEnumerable___0__System_Func___0_System_Threading_Tasks_Task___1___">MapAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;T&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each value in <code class="paramref">this</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.MapAsync.html#Monadic_EnumerableExtensions_MapAsync__2_System_Collections_Generic_IAsyncEnumerable___0__System_Func___0___1__">MapAsync&lt;T, TReturn&gt;(IAsyncEnumerable&lt;T&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each value in <code class="paramref">this</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.MapAsync.html#Monadic_EnumerableExtensions_MapAsync__2_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Threading_Tasks_Task___1___">MapAsync&lt;T, TReturn&gt;(IEnumerable&lt;T&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each value in <code class="paramref">this</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.Map.html#Monadic_EnumerableExtensions_Map__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__">Map&lt;T, TReturn&gt;(IEnumerable&lt;T&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">map</code> on each value in <code class="paramref">this</code>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Monadic.EnumerableExtensions.SingleOrNone.html#Monadic_EnumerableExtensions_SingleOrNone__1_System_Collections_Generic_IEnumerable___0__">SingleOrNone&lt;T&gt;(IEnumerable&lt;T&gt;)</a></dt>
+    <dd><p>Safely get the single value of a list.</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
