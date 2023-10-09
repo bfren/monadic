@@ -1,0 +1,1107 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Method MatchAsync
+ | Wrap </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Method MatchAsync
+ | Wrap ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Wrap">
+            Wrap
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Wrap.M.MatchAsync*">
+
+
+
+
+
+<h1 id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*" class="text-break">
+  Method MatchAsync
+  
+</h1>
+
+<div class="facts text-secondary">
+  <dl><dt>Namespace</dt><dd><a class="xref" href="Wrap.html">Wrap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Maybe.dll</dd></dl>
+</div>
+
+<div class="markdown summary"></div>
+<div class="markdown conceptual"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__1_Wrap_Maybe___0__System_Action_System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.M.MatchAsync``1(Wrap.Maybe{``0},System.Action,System.Func{``0,System.Threading.Tasks.Task})">
+  MatchAsync&lt;T&gt;(Maybe&lt;T&gt;, Action, Func&lt;T, Task&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run an action based on the value of <code class="paramref">maybe</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Maybe&lt;T&gt; maybe, Action none, Func&lt;T, Task&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action">Action</a></dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__1_Wrap_Maybe___0__System_Action_System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__System_Action___0__" data-uid="Wrap.M.MatchAsync``1(Wrap.Maybe{``0},System.Func{System.Threading.Tasks.Task},System.Action{``0})">
+  MatchAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&gt;, Action&lt;T&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run an action based on the value of <code class="paramref">maybe</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Maybe&lt;T&gt; maybe, Func&lt;Task&gt; none, Action&lt;T&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__System_Action___0___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.M.MatchAsync``1(Wrap.Maybe{``0},System.Func{System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})">
+  MatchAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&gt;, Func&lt;T, Task&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run an action based on the value of <code class="paramref">maybe</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Maybe&lt;T&gt; maybe, Func&lt;Task&gt; none, Func&lt;T, Task&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.M.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Maybe{``0}},System.Func{System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})">
+  MatchAsync&lt;T&gt;(Task&lt;Maybe&lt;T&gt;&gt;, Func&lt;Task&gt;, Func&lt;T, Task&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run an action based on the value of <code class="paramref">maybe</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Task&lt;Maybe&lt;T&gt;&gt; maybe, Func&lt;Task&gt; none, Func&lt;T, Task&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></dt>
+  <dd></dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_Wrap_Maybe___0____1_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.M.MatchAsync``2(Wrap.Maybe{``0},``1,System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, TReturn, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt; maybe, TReturn none, Func&lt;T, Task&lt;TReturn&gt;&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <span class="xref">TReturn</span></dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_Wrap_Maybe___0____1_System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.M.MatchAsync``2(Wrap.Maybe{``0},System.Func{``1},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt; maybe, Func&lt;TReturn&gt; none, Func&lt;T, Task&lt;TReturn&gt;&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0___1__" data-uid="Wrap.M.MatchAsync``2(Wrap.Maybe{``0},System.Func{System.Threading.Tasks.Task{``1}},System.Func{``0,``1})">
+  MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt; maybe, Func&lt;Task&lt;TReturn&gt;&gt; none, Func&lt;T, TReturn&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0___1___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.M.MatchAsync``2(Wrap.Maybe{``0},System.Func{System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt; maybe, Func&lt;Task&lt;TReturn&gt;&gt; none, Func&lt;T, Task&lt;TReturn&gt;&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0_____1_System_Func___0___1__" data-uid="Wrap.M.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Maybe{``0}},``1,System.Func{``0,``1})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt;, TReturn, Func&lt;T, TReturn&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt; maybe, TReturn none, Func&lt;T, TReturn&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <span class="xref">TReturn</span></dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0_____1_System_Func___0___1___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0_____1_System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.M.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Maybe{``0}},``1,System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt;, TReturn, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt; maybe, TReturn none, Func&lt;T, Task&lt;TReturn&gt;&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <span class="xref">TReturn</span></dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0_____1_System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func___1__System_Func___0___1__" data-uid="Wrap.M.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Maybe{``0}},System.Func{``1},System.Func{``0,``1})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt;, Func&lt;TReturn&gt;, Func&lt;T, TReturn&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt; maybe, Func&lt;TReturn&gt; none, Func&lt;T, TReturn&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func___1__System_Func___0___1___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func___1__System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.M.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Maybe{``0}},System.Func{``1},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt;, Func&lt;TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt; maybe, Func&lt;TReturn&gt; none, Func&lt;T, Task&lt;TReturn&gt;&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func___1__System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func_System_Threading_Tasks_Task___1___System_Func___0___1__" data-uid="Wrap.M.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Maybe{``0}},System.Func{System.Threading.Tasks.Task{``1}},System.Func{``0,``1})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt; maybe, Func&lt;Task&lt;TReturn&gt;&gt; none, Func&lt;T, TReturn&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func_System_Threading_Tasks_Task___1___System_Func___0___1___remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+<a id="Wrap_M_MatchAsync_" data-uid="Wrap.M.MatchAsync*"></a>
+
+<h3 id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.M.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Maybe{``0}},System.Func{System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Run a function based on the value of <code class="paramref">maybe</code> and return its value.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Maybe&lt;T&gt;&gt; maybe, Func&lt;Task&lt;TReturn&gt;&gt; none, Func&lt;T, Task&lt;TReturn&gt;&gt; some)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>maybe</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</dt>
+  <dd><p>Maybe object.</p>
+</dd>
+  <dt><code>none</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.None.html">None</a>.</p>
+</dd>
+  <dt><code>some</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">maybe</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
+  <dd><p>Value generated by either <code class="paramref">none</code> or <code class="paramref">some</code>.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Some value type.</p>
+</dd>
+  <dt><code>TReturn</code></dt>
+  <dd><p>Return value type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_M_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Maybe___0___System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+            It would be possible to achieve the same thing using switch statements, but doing that would add the
+            potential for not handling both cases (<a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and <a class="xref" href="Wrap.None.html">None</a>).
+            </p>
+<p>
+            This way there has to be a function to handle both cases.
+            </p>
+</div>
+
+<h4 class="section">Exceptions</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Exceptions.InvalidMaybeTypeException.html">InvalidMaybeTypeException</a></dt>
+  <dd></dd>
+  <dt><a class="xref" href="Wrap.Exceptions.NullMaybeException.html">NullMaybeException</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright (c) 2019-2023 <a href="https://bfren.dev">bfren</a>. Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

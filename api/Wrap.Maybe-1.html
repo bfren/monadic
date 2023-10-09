@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class Maybe&lt;T&gt;
+ | Wrap </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class Maybe&lt;T&gt;
+ | Wrap ">
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+  </head>
+
+  <script type="module">
+    import options from './../public/main.js'
+    import { init } from './../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="Wrap">
+            Wrap
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Wrap.Maybe`1">
+
+
+
+  <h1 id="Wrap_Maybe_1" data-uid="Wrap.Maybe`1" class="text-break">
+    Class Maybe&lt;T&gt;
+  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Wrap.html">Wrap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Maybe.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Maybe monad.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract record Maybe&lt;T&gt; : IEither&lt;Maybe&lt;T&gt;, None, T&gt;, IEither&lt;None, T&gt;, IEquatable&lt;Maybe&lt;T&gt;&gt;</code></pre>
+  </div>
+
+
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Some value type.</p>
+</dd>
+  </dl>
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">Maybe&lt;T&gt;</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="Wrap.IEither-3.html">IEither</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;, <a class="xref" href="Wrap.None.html">None</a>, T&gt;</div>
+      <div><a class="xref" href="Wrap.IEither-2.html">IEither</a>&lt;<a class="xref" href="Wrap.None.html">None</a>, T&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Wrap.Some-1.html">Some</a>&lt;T&gt;</div>
+    </dd>
+  </dl>
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+  <dl class="typelist extensionMethods">
+    <dt>Extension Methods</dt>
+    <dd>
+  <div>
+      <a class="xref" href="Wrap.Linq.MaybeExtensions.SelectMany.html#Wrap_Linq_MaybeExtensions_SelectMany__3_Wrap_Maybe___0__System_Func___0_System_Threading_Tasks_Task_Wrap_Maybe___1____System_Func___0___1___2__">MaybeExtensions.SelectMany&lt;T, TInner, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;Maybe&lt;TInner&gt;&gt;&gt;, Func&lt;T, TInner, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.Linq.MaybeExtensions.SelectMany.html#Wrap_Linq_MaybeExtensions_SelectMany__3_Wrap_Maybe___0__System_Func___0_Wrap_Maybe___1___System_Func___0___1___2__">MaybeExtensions.SelectMany&lt;T, TInner, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, Maybe&lt;TInner&gt;&gt;, Func&lt;T, TInner, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.Linq.MaybeExtensions.Select.html#Wrap_Linq_MaybeExtensions_Select__2_Wrap_Maybe___0__System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.Select&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.Linq.MaybeExtensions.Select.html#Wrap_Linq_MaybeExtensions_Select__2_Wrap_Maybe___0__System_Func___0___1__">MaybeExtensions.Select&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.Linq.MaybeExtensions.Where.html#Wrap_Linq_MaybeExtensions_Where__1_Wrap_Maybe___0__System_Func___0_System_Boolean__">MaybeExtensions.Where&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.Linq.MaybeExtensions.Where.html#Wrap_Linq_MaybeExtensions_Where__1_Wrap_Maybe___0__System_Func___0_System_Threading_Tasks_Task_System_Boolean___">MaybeExtensions.Where&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;bool&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.AuditAsync.html#Wrap_MaybeExtensions_AuditAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">MaybeExtensions.AuditAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&gt;?, Func&lt;T, Task&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.AuditAsync.html#Wrap_MaybeExtensions_AuditAsync__1_Wrap_Maybe___0__System_Func_Wrap_Maybe___0__System_Threading_Tasks_Task__">MaybeExtensions.AuditAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Maybe&lt;T&gt;, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Audit.html#Wrap_MaybeExtensions_Audit__1_Wrap_Maybe___0__System_Action_System_Action___0__">MaybeExtensions.Audit&lt;T&gt;(Maybe&lt;T&gt;, Action?, Action&lt;T&gt;?)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Audit.html#Wrap_MaybeExtensions_Audit__1_Wrap_Maybe___0__System_Action_Wrap_Maybe___0___">MaybeExtensions.Audit&lt;T&gt;(Maybe&lt;T&gt;, Action&lt;Maybe&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.BindAsync.html#Wrap_MaybeExtensions_BindAsync__2_Wrap_Maybe___0__System_Func___0_System_Threading_Tasks_Task_Wrap_Maybe___1____">MaybeExtensions.BindAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;Maybe&lt;TReturn&gt;&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Bind.html#Wrap_MaybeExtensions_Bind__2_Wrap_Maybe___0__System_Func___0_Wrap_Maybe___1___">MaybeExtensions.Bind&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, Maybe&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.FilterAsync.html#Wrap_MaybeExtensions_FilterAsync__1_Wrap_Maybe___0__System_Func___0_System_Threading_Tasks_Task_System_Boolean___">MaybeExtensions.FilterAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;bool&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Filter.html#Wrap_MaybeExtensions_Filter__1_Wrap_Maybe___0__System_Func___0_System_Boolean__">MaybeExtensions.Filter&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T, bool&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.IfNoneAsync.html#Wrap_MaybeExtensions_IfNoneAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__">MaybeExtensions.IfNoneAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.IfNone.html#Wrap_MaybeExtensions_IfNone__1_Wrap_Maybe___0__System_Action_">MaybeExtensions.IfNone&lt;T&gt;(Maybe&lt;T&gt;, Action)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.IfSomeAsync.html#Wrap_MaybeExtensions_IfSomeAsync__1_Wrap_Maybe___0__System_Func___0_System_Threading_Tasks_Task__">MaybeExtensions.IfSomeAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.IfSome.html#Wrap_MaybeExtensions_IfSome__1_Wrap_Maybe___0__System_Action___0__">MaybeExtensions.IfSome&lt;T&gt;(Maybe&lt;T&gt;, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MapAsync.html#Wrap_MaybeExtensions_MapAsync__2_Wrap_Maybe___0__System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MapAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Map.html#Wrap_MaybeExtensions_Map__2_Wrap_Maybe___0__System_Func___0___1__">MaybeExtensions.Map&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchAsync.html#Wrap_MaybeExtensions_MatchAsync__1_Wrap_Maybe___0__System_Action_System_Func___0_System_Threading_Tasks_Task__">MaybeExtensions.MatchAsync&lt;T&gt;(Maybe&lt;T&gt;, Action, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchAsync.html#Wrap_MaybeExtensions_MatchAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__System_Action___0__">MaybeExtensions.MatchAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&gt;, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchAsync.html#Wrap_MaybeExtensions_MatchAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">MaybeExtensions.MatchAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&gt;, Func&lt;T, Task&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchAsync.html#Wrap_MaybeExtensions_MatchAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchAsync.html#Wrap_MaybeExtensions_MatchAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0___1__">MaybeExtensions.MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchAsync.html#Wrap_MaybeExtensions_MatchAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchAsync.html#Wrap_MaybeExtensions_MatchAsync__2_Wrap_Maybe___0____1_System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, TReturn, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task___1___System_Func___0___1__">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Boolean__System_Func___0___1__System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Boolean__System_Func___0___1__System_Func___0___1__">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, bool&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task___1___System_Func___0___1__">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0___1__System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0___1__System_Func___0___1__">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Boolean__System_Func___0_System_Threading_Tasks_Task___1___System_Func___0___1__">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, bool&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Boolean__System_Func___0___1__System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, bool&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0_System_Threading_Tasks_Task___1___System_Func___0___1__">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0___1__System_Func___0_System_Threading_Tasks_Task___1___">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIfAsync.html#Wrap_MaybeExtensions_MatchIfAsync__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Threading_Tasks_Task_System_Boolean___System_Func___0___1__System_Func___0___1__">MaybeExtensions.MatchIfAsync&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, Task&lt;bool&gt;&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.MatchIf.html#Wrap_MaybeExtensions_MatchIf__2_Wrap_Maybe___0__System_Func___1__System_Func___0_System_Boolean__System_Func___0___1__System_Func___0___1__">MaybeExtensions.MatchIf&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, bool&gt;, Func&lt;T, TReturn&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Match.html#Wrap_MaybeExtensions_Match__1_Wrap_Maybe___0__System_Action_System_Action___0__">MaybeExtensions.Match&lt;T&gt;(Maybe&lt;T&gt;, Action, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Match.html#Wrap_MaybeExtensions_Match__2_Wrap_Maybe___0__System_Func___1__System_Func___0___1__">MaybeExtensions.Match&lt;T, TReturn&gt;(Maybe&lt;T&gt;, Func&lt;TReturn&gt;, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Match.html#Wrap_MaybeExtensions_Match__2_Wrap_Maybe___0____1_System_Func___0___1__">MaybeExtensions.Match&lt;T, TReturn&gt;(Maybe&lt;T&gt;, TReturn, Func&lt;T, TReturn&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.UnwrapAsync.html#Wrap_MaybeExtensions_UnwrapAsync__1_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___0___">MaybeExtensions.UnwrapAsync&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;T&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.UnwrapSingleAsync.html#Wrap_MaybeExtensions_UnwrapSingleAsync__2_Wrap_Maybe___0__System_Func_System_Threading_Tasks_Task___1___">MaybeExtensions.UnwrapSingleAsync&lt;T, TSingle&gt;(Maybe&lt;T&gt;, Func&lt;Task&lt;TSingle&gt;&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.UnwrapSingle.html#Wrap_MaybeExtensions_UnwrapSingle__2_Wrap_Maybe___0__System_Func___1__">MaybeExtensions.UnwrapSingle&lt;T, TSingle&gt;(Maybe&lt;T&gt;, Func&lt;TSingle&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.MaybeExtensions.Unwrap.html#Wrap_MaybeExtensions_Unwrap__1_Wrap_Maybe___0__System_Func___0__">MaybeExtensions.Unwrap&lt;T&gt;(Maybe&lt;T&gt;, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.ObjectExtensions.WrapLeft.html#Wrap_ObjectExtensions_WrapLeft__2___0_">ObjectExtensions.WrapLeft&lt;TLeft, TRight&gt;(TLeft)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.ObjectExtensions.WrapMaybe.html#Wrap_ObjectExtensions_WrapMaybe__1___0_">ObjectExtensions.WrapMaybe&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.ObjectExtensions.WrapResult.html#Wrap_ObjectExtensions_WrapResult__1___0_">ObjectExtensions.WrapResult&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.ObjectExtensions.WrapRight.html#Wrap_ObjectExtensions_WrapRight__2___1_">ObjectExtensions.WrapRight&lt;TLeft, TRight&gt;(TRight)</a>
+  </div>
+  </dd></dl>
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.-ctor.html#Wrap_Maybe_1__ctor">Maybe()</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.-ctor.html#Wrap_Maybe_1__ctor_Wrap_Maybe__0__">Maybe(Maybe&lt;T&gt;)</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.EqualityContract.html#Wrap_Maybe_1_EqualityContract">EqualityContract</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.AsTask.html#Wrap_Maybe_1_AsTask">AsTask()</a></dt>
+    <dd><p>Shorthand for returning the current object as a task.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.Equals.html#Wrap_Maybe_1_Equals_System_Object_">Equals(object?)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.Equals.html#Wrap_Maybe_1_Equals_Wrap_Maybe__0__">Equals(Maybe&lt;T&gt;?)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.GetEnumerator.html#Wrap_Maybe_1_GetEnumerator">GetEnumerator()</a></dt>
+    <dd><p>Use enumerator pattern to get TRight value.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.GetHashCode.html#Wrap_Maybe_1_GetHashCode">GetHashCode()</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.PrintMembers.html#Wrap_Maybe_1_PrintMembers_System_Text_StringBuilder_">PrintMembers(StringBuilder)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.ToString.html#Wrap_Maybe_1_ToString">ToString()</a></dt>
+    <dd><p>Convert the current object to a string.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.-Clone--.html#Wrap_Maybe_1__Clone__">&lt;Clone&gt;$()</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h2 class="section" id="operators">Operators
+</h2>
+
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.op_Equality.html#Wrap_Maybe_1_op_Equality_Wrap_Maybe__0__Wrap_Maybe__0__">operator ==(Maybe&lt;T&gt;?, Maybe&lt;T&gt;?)</a></dt>
+    <dd></dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.op_Implicit.html#Wrap_Maybe_1_op_Implicit_Wrap_None__Wrap_Maybe__0_">implicit operator Maybe&lt;T&gt;(None)</a></dt>
+    <dd><p>Implicitly convert a <a class="xref" href="Wrap.None.html">None</a> into a <a class="xref" href="Wrap.Maybe-1.html">Maybe&lt;T&gt;.None</a> object.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.op_Implicit.html#Wrap_Maybe_1_op_Implicit__0__Wrap_Maybe__0_">implicit operator Maybe&lt;T&gt;(T)</a></dt>
+    <dd><p>Wrap <code class="paramref">value</code> as a <a class="xref" href="Wrap.Maybe-1.html">Maybe&lt;T&gt;</a> object.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.Maybe-1.op_Inequality.html#Wrap_Maybe_1_op_Inequality_Wrap_Maybe__0__Wrap_Maybe__0__">operator !=(Maybe&lt;T&gt;?, Maybe&lt;T&gt;?)</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Copyright (c) 2019-2023 <a href="https://bfren.dev">bfren</a>. Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
