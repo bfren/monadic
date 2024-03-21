@@ -1108,6 +1108,33 @@ references:
   commentId: N:Wrap.Exceptions
   fullName: Wrap.Exceptions
   nameWithType: Wrap.Exceptions
+- uid: Wrap.Exceptions.IncorrectValueTypeException`2
+  name: IncorrectValueTypeException<TUnion, TExpectedValue>
+  href: api/Wrap.Exceptions.IncorrectValueTypeException-2.html
+  commentId: T:Wrap.Exceptions.IncorrectValueTypeException`2
+  name.vb: IncorrectValueTypeException(Of TUnion, TExpectedValue)
+  fullName: Wrap.Exceptions.IncorrectValueTypeException<TUnion, TExpectedValue>
+  fullName.vb: Wrap.Exceptions.IncorrectValueTypeException(Of TUnion, TExpectedValue)
+  nameWithType: IncorrectValueTypeException<TUnion, TExpectedValue>
+  nameWithType.vb: IncorrectValueTypeException(Of TUnion, TExpectedValue)
+- uid: Wrap.Exceptions.IncorrectValueTypeException`2.#ctor(System.Text.Json.JsonException)
+  name: IncorrectValueTypeException(JsonException)
+  href: api/Wrap.Exceptions.IncorrectValueTypeException-2.-ctor.html#Wrap_Exceptions_IncorrectValueTypeException_2__ctor_System_Text_Json_JsonException_
+  commentId: M:Wrap.Exceptions.IncorrectValueTypeException`2.#ctor(System.Text.Json.JsonException)
+  name.vb: New(JsonException)
+  fullName: Wrap.Exceptions.IncorrectValueTypeException<TUnion, TExpectedValue>.IncorrectValueTypeException(System.Text.Json.JsonException)
+  fullName.vb: Wrap.Exceptions.IncorrectValueTypeException(Of TUnion, TExpectedValue).New(System.Text.Json.JsonException)
+  nameWithType: IncorrectValueTypeException<TUnion, TExpectedValue>.IncorrectValueTypeException(JsonException)
+  nameWithType.vb: IncorrectValueTypeException(Of TUnion, TExpectedValue).New(JsonException)
+- uid: Wrap.Exceptions.IncorrectValueTypeException`2.#ctor*
+  name: IncorrectValueTypeException
+  href: api/Wrap.Exceptions.IncorrectValueTypeException-2.-ctor.html
+  commentId: Overload:Wrap.Exceptions.IncorrectValueTypeException`2.#ctor
+  name.vb: New
+  fullName: Wrap.Exceptions.IncorrectValueTypeException<TUnion, TExpectedValue>.IncorrectValueTypeException
+  fullName.vb: Wrap.Exceptions.IncorrectValueTypeException(Of TUnion, TExpectedValue).New
+  nameWithType: IncorrectValueTypeException<TUnion, TExpectedValue>.IncorrectValueTypeException
+  nameWithType.vb: IncorrectValueTypeException(Of TUnion, TExpectedValue).New
 - uid: Wrap.Exceptions.InvalidEitherTypeException
   name: InvalidEitherTypeException
   href: api/Wrap.Exceptions.InvalidEitherTypeException.html
