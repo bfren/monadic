@@ -130,7 +130,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Action&lt;FailValue&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Action&lt;FailValue&gt; fail, Func&lt;T, Task&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -138,7 +138,7 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
@@ -196,7 +196,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&gt; err, Action&lt;T&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&gt; fail, Action&lt;T&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -204,7 +204,7 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
@@ -262,7 +262,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&gt; fail, Func&lt;T, Task&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -270,7 +270,7 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
@@ -328,7 +328,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&gt; fail, Func&lt;T, Task&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -336,7 +336,7 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
@@ -394,7 +394,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, TReturn&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, TReturn&gt; fail, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -402,7 +402,7 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
@@ -413,7 +413,7 @@
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
-  <dd><p>Value generated by either <code class="paramref">err</code> or <code class="paramref">ok</code>.</p>
+  <dd><p>Value generated by either <code class="paramref">fail</code> or <code class="paramref">ok</code>.</p>
 </dd>
 </dl>
 
@@ -464,7 +464,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; fail, Func&lt;T, TReturn&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -472,7 +472,7 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
@@ -483,7 +483,7 @@
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
-  <dd><p>Value generated by either <code class="paramref">err</code> or <code class="paramref">ok</code>.</p>
+  <dd><p>Value generated by either <code class="paramref">fail</code> or <code class="paramref">ok</code>.</p>
 </dd>
 </dl>
 
@@ -534,7 +534,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; fail, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -542,7 +542,7 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
@@ -553,7 +553,7 @@
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
-  <dd><p>Value generated by either <code class="paramref">err</code> or <code class="paramref">ok</code>.</p>
+  <dd><p>Value generated by either <code class="paramref">fail</code> or <code class="paramref">ok</code>.</p>
 </dd>
 </dl>
 
@@ -604,7 +604,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, TReturn&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, TReturn&gt; fail, Func&lt;T, TReturn&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -612,7 +612,7 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
@@ -623,7 +623,7 @@
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
-  <dd><p>Value generated by either <code class="paramref">err</code> or <code class="paramref">ok</code>.</p>
+  <dd><p>Value generated by either <code class="paramref">fail</code> or <code class="paramref">ok</code>.</p>
 </dd>
 </dl>
 
@@ -674,7 +674,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, TReturn&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, TReturn&gt; fail, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -682,7 +682,7 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
@@ -693,7 +693,7 @@
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
-  <dd><p>Value generated by either <code class="paramref">err</code> or <code class="paramref">ok</code>.</p>
+  <dd><p>Value generated by either <code class="paramref">fail</code> or <code class="paramref">ok</code>.</p>
 </dd>
 </dl>
 
@@ -744,7 +744,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; fail, Func&lt;T, TReturn&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -752,7 +752,7 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
@@ -763,7 +763,7 @@
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
-  <dd><p>Value generated by either <code class="paramref">err</code> or <code class="paramref">ok</code>.</p>
+  <dd><p>Value generated by either <code class="paramref">fail</code> or <code class="paramref">ok</code>.</p>
 </dd>
 </dl>
 
@@ -814,7 +814,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; fail, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -822,7 +822,7 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dt><code>fail</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
@@ -833,7 +833,7 @@
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;</dt>
-  <dd><p>Value generated by either <code class="paramref">err</code> or <code class="paramref">ok</code>.</p>
+  <dd><p>Value generated by either <code class="paramref">fail</code> or <code class="paramref">ok</code>.</p>
 </dd>
 </dl>
 

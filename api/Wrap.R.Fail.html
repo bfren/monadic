@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Method Err
+      <title>Method Fail
  | Wrap </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Method Err
+      <meta name="title" content="Method Fail
  | Wrap ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,14 +84,14 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Wrap.R.Err*">
+        <article data-uid="Wrap.R.Fail*">
 
 
 
 
 
-<h1 id="Wrap_R_Err_" data-uid="Wrap.R.Err*" class="text-break">
-  Method Err
+<h1 id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*" class="text-break">
+  Method Fail
   
 </h1>
 
@@ -118,32 +118,32 @@
 
 
 
-<a id="Wrap_R_Err_" data-uid="Wrap.R.Err*"></a>
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Err_Wrap_FailValue_" data-uid="Wrap.R.Err(Wrap.FailValue)">
-  Err(FailValue)
+<h3 id="Wrap_R_Fail_Wrap_FailValue_" data-uid="Wrap.R.Fail(Wrap.FailValue)">
+  Fail(FailValue)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from an error value.</p>
+<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a <a class="xref" href="Wrap.FailValue.html">FailValue</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Fail Err(FailValue error)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail(FailValue failure)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
-  <dt><code>error</code> <a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
-  <dd><p>Error value.</p>
+  <dt><code>failure</code> <a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
+  <dd><p>Failure value.</p>
 </dd>
 </dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
-  <dd><p>Error result.</p>
+  <dd><p>Failure result.</p>
 </dd>
 </dl>
 
@@ -153,41 +153,41 @@
 
 
 
-<h4 class="section" id="Wrap_R_Err_Wrap_FailValue__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail_Wrap_FailValue__remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
-            Also logs the error using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> or <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogError">LogError</a> first.
+            Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> or <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
             </p>
 </div>
 
 
 
 
-<a id="Wrap_R_Err_" data-uid="Wrap.R.Err*"></a>
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Err__1_Wrap_FailValue_" data-uid="Wrap.R.Err``1(Wrap.FailValue)">
-  Err&lt;T&gt;(FailValue)
+<h3 id="Wrap_R_Fail__1_Wrap_FailValue_" data-uid="Wrap.R.Fail``1(Wrap.FailValue)">
+  Fail&lt;T&gt;(FailValue)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from an error value.</p>
+<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a <a class="xref" href="Wrap.FailValue.html">FailValue</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Err&lt;T&gt;(FailValue error)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Fail&lt;T&gt;(FailValue failure)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
-  <dt><code>error</code> <a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
-  <dd><p>Error value.</p>
+  <dt><code>failure</code> <a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
+  <dd><p>Failure value.</p>
 </dd>
 </dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
-  <dd><p>Error result.</p>
+  <dd><p>Failure result.</p>
 </dd>
 </dl>
 
@@ -203,41 +203,41 @@
 
 
 
-<h4 class="section" id="Wrap_R_Err__1_Wrap_FailValue__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail__1_Wrap_FailValue__remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
-Also logs the error using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> or <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogError">LogError</a> first.
+Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> or <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
 </p>
 </div>
 
 
 
 
-<a id="Wrap_R_Err_" data-uid="Wrap.R.Err*"></a>
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Err_System_String_" data-uid="Wrap.R.Err(System.String)">
-  Err(string)
+<h3 id="Wrap_R_Fail_System_String_" data-uid="Wrap.R.Fail(System.String)">
+  Fail(string)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple error message.</p>
+<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple failure message.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Fail Err(string message)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail(string message)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
   <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-  <dd><p>Error message.</p>
+  <dd><p>Failure message.</p>
 </dd>
 </dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
-  <dd><p>Error result.</p>
+  <dd><p>Failure result.</p>
 </dd>
 </dl>
 
@@ -247,41 +247,41 @@ Also logs the error using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_
 
 
 
-<h4 class="section" id="Wrap_R_Err_System_String__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail_System_String__remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
-            Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogError">LogError</a> first.
+            Also logs the exception using <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
             </p>
 </div>
 
 
 
 
-<a id="Wrap_R_Err_" data-uid="Wrap.R.Err*"></a>
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Err__1_System_String_" data-uid="Wrap.R.Err``1(System.String)">
-  Err&lt;T&gt;(string)
+<h3 id="Wrap_R_Fail__1_System_String_" data-uid="Wrap.R.Fail``1(System.String)">
+  Fail&lt;T&gt;(string)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple error message.</p>
+<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple failure message.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Err&lt;T&gt;(string message)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Fail&lt;T&gt;(string message)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
   <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-  <dd><p>Error message.</p>
+  <dd><p>Failure message.</p>
 </dd>
 </dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
-  <dd><p>Error result.</p>
+  <dd><p>Failure result.</p>
 </dd>
 </dl>
 
@@ -297,19 +297,19 @@ Also logs the error using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_
 
 
 
-<h4 class="section" id="Wrap_R_Err__1_System_String__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail__1_System_String__remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
-Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogError">LogError</a> first.
+Also logs the exception using <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
 </p>
 </div>
 
 
 
 
-<a id="Wrap_R_Err_" data-uid="Wrap.R.Err*"></a>
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Err_System_Exception_" data-uid="Wrap.R.Err(System.Exception)">
-  Err(Exception)
+<h3 id="Wrap_R_Fail_System_Exception_" data-uid="Wrap.R.Fail(System.Exception)">
+  Fail(Exception)
   
 </h3>
 
@@ -318,7 +318,7 @@ Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogE
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Fail Err(Exception ex)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail(Exception ex)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -331,7 +331,7 @@ Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogE
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
-  <dd><p>Error result.</p>
+  <dd><p>Failure result.</p>
 </dd>
 </dl>
 
@@ -341,7 +341,7 @@ Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogE
 
 
 
-<h4 class="section" id="Wrap_R_Err_System_Exception__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail_System_Exception__remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> first.
             </p>
@@ -350,10 +350,10 @@ Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogE
 
 
 
-<a id="Wrap_R_Err_" data-uid="Wrap.R.Err*"></a>
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Err__1" data-uid="Wrap.R.Err``1">
-  Err&lt;TException&gt;()
+<h3 id="Wrap_R_Fail__1" data-uid="Wrap.R.Fail``1">
+  Fail&lt;TException&gt;()
   
 </h3>
 
@@ -362,14 +362,14 @@ Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogE
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Fail Err&lt;TException&gt;() where TException : Exception, new()</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail&lt;TException&gt;() where TException : Exception, new()</code></pre>
 </div>
 
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
-  <dd><p>Error result.</p>
+  <dd><p>Failure result.</p>
 </dd>
 </dl>
 
@@ -385,7 +385,7 @@ Also logs the error using <a class="xref" href="Wrap.F.LogError.html#Wrap_F_LogE
 
 
 
-<h4 class="section" id="Wrap_R_Err__1_remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail__1_remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
 Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> first.
 </p>
@@ -394,10 +394,10 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wra
 
 
 
-<a id="Wrap_R_Err_" data-uid="Wrap.R.Err*"></a>
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Err__1_System_Exception_" data-uid="Wrap.R.Err``1(System.Exception)">
-  Err&lt;T&gt;(Exception)
+<h3 id="Wrap_R_Fail__1_System_Exception_" data-uid="Wrap.R.Fail``1(System.Exception)">
+  Fail&lt;T&gt;(Exception)
   
 </h3>
 
@@ -406,7 +406,7 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wra
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Err&lt;T&gt;(Exception ex)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Fail&lt;T&gt;(Exception ex)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -419,7 +419,7 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wra
 <h4 class="section">Returns</h4>
 <dl class="parameters">
   <dt><a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
-  <dd><p>Error result.</p>
+  <dd><p>Failure result.</p>
 </dd>
 </dl>
 
@@ -435,7 +435,7 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wra
 
 
 
-<h4 class="section" id="Wrap_R_Err__1_System_Exception__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail__1_System_Exception__remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
 Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> first.
 </p>

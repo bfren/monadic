@@ -163,18 +163,18 @@
   
 </h3>
 
-<div class="markdown level1 summary"><p>Implicitly convert a <a class="xref" href="Wrap.Fail.html">Fail</a> into a <a class="xref" href="Wrap.Result-1.html">Result&lt;T&gt;.Err</a> object.</p>
+<div class="markdown level1 summary"><p>Implicitly convert a <a class="xref" href="Wrap.Fail.html">Fail</a> into a <a class="xref" href="Wrap.Result-1.html">Result&lt;T&gt;.Failure</a> object.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static implicit operator Result&lt;T&gt;(Fail err)</code></pre>
+  <pre><code class="lang-csharp hljs">public static implicit operator Result&lt;T&gt;(Fail fail)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
-  <dt><code>err</code> <a class="xref" href="Wrap.Fail.html">Fail</a></dt>
-  <dd><p>Error value.</p>
+  <dt><code>fail</code> <a class="xref" href="Wrap.Fail.html">Fail</a></dt>
+  <dd><p>Failure value.</p>
 </dd>
 </dl>
 

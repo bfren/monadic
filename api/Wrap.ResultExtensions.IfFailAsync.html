@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Method IfErrAsync
+      <title>Method IfFailAsync
  | Wrap </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Method IfErrAsync
+      <meta name="title" content="Method IfFailAsync
  | Wrap ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,14 +84,14 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Wrap.ResultExtensions.IfErrAsync*">
+        <article data-uid="Wrap.ResultExtensions.IfFailAsync*">
 
 
 
 
 
-<h1 id="Wrap_ResultExtensions_IfErrAsync_" data-uid="Wrap.ResultExtensions.IfErrAsync*" class="text-break">
-  Method IfErrAsync
+<h1 id="Wrap_ResultExtensions_IfFailAsync_" data-uid="Wrap.ResultExtensions.IfFailAsync*" class="text-break">
+  Method IfFailAsync
   
 </h1>
 
@@ -118,10 +118,10 @@
 
 
 
-<a id="Wrap_ResultExtensions_IfErrAsync_" data-uid="Wrap.ResultExtensions.IfErrAsync*"></a>
+<a id="Wrap_ResultExtensions_IfFailAsync_" data-uid="Wrap.ResultExtensions.IfFailAsync*"></a>
 
-<h3 id="Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})">
-  IfErrAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;)
+<h3 id="Wrap_ResultExtensions_IfFailAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfFailAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})">
+  IfFailAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;)
   
 </h3>
 
@@ -130,7 +130,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Result&lt;T&gt; @this, Func&lt;FailValue, Task&gt; f)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfFailAsync&lt;T&gt;(this Result&lt;T&gt; @this, Func&lt;FailValue, Task&gt; f)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -166,10 +166,10 @@
 
 
 
-<a id="Wrap_ResultExtensions_IfErrAsync_" data-uid="Wrap.ResultExtensions.IfErrAsync*"></a>
+<a id="Wrap_ResultExtensions_IfFailAsync_" data-uid="Wrap.ResultExtensions.IfFailAsync*"></a>
 
-<h3 id="Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})">
-  IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;FailValue&gt;)
+<h3 id="Wrap_ResultExtensions_IfFailAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__" data-uid="Wrap.ResultExtensions.IfFailAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})">
+  IfFailAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;FailValue&gt;)
   
 </h3>
 
@@ -178,7 +178,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Action&lt;FailValue&gt; f)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfFailAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Action&lt;FailValue&gt; f)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -214,10 +214,10 @@
 
 
 
-<a id="Wrap_ResultExtensions_IfErrAsync_" data-uid="Wrap.ResultExtensions.IfErrAsync*"></a>
+<a id="Wrap_ResultExtensions_IfFailAsync_" data-uid="Wrap.ResultExtensions.IfFailAsync*"></a>
 
-<h3 id="Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})">
-  IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&gt;)
+<h3 id="Wrap_ResultExtensions_IfFailAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfFailAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})">
+  IfFailAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&gt;)
   
 </h3>
 
@@ -226,7 +226,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Func&lt;FailValue, Task&gt; f)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfFailAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Func&lt;FailValue, Task&gt; f)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>

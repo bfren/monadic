@@ -1219,72 +1219,6 @@ references:
   commentId: T:Wrap.F
   fullName: Wrap.F
   nameWithType: F
-- uid: Wrap.F.ErrorLogger
-  name: F.ErrorLogger
-  href: api/Wrap.F.ErrorLogger.html
-  commentId: T:Wrap.F.ErrorLogger
-  fullName: Wrap.F.ErrorLogger
-  nameWithType: F.ErrorLogger
-- uid: Wrap.F.ErrorLogger.#ctor(System.Object,System.IntPtr)
-  name: ErrorLogger(object, nint)
-  href: api/Wrap.F.ErrorLogger.-ctor.html#Wrap_F_ErrorLogger__ctor_System_Object_System_IntPtr_
-  commentId: M:Wrap.F.ErrorLogger.#ctor(System.Object,System.IntPtr)
-  name.vb: New(Object, IntPtr)
-  fullName: Wrap.F.ErrorLogger.ErrorLogger(object, nint)
-  fullName.vb: Wrap.F.ErrorLogger.New(Object, System.IntPtr)
-  nameWithType: F.ErrorLogger.ErrorLogger(object, nint)
-  nameWithType.vb: F.ErrorLogger.New(Object, IntPtr)
-- uid: Wrap.F.ErrorLogger.#ctor*
-  name: ErrorLogger
-  href: api/Wrap.F.ErrorLogger.-ctor.html
-  commentId: Overload:Wrap.F.ErrorLogger.#ctor
-  name.vb: New
-  fullName: Wrap.F.ErrorLogger.ErrorLogger
-  fullName.vb: Wrap.F.ErrorLogger.New
-  nameWithType: F.ErrorLogger.ErrorLogger
-  nameWithType.vb: F.ErrorLogger.New
-- uid: Wrap.F.ErrorLogger.BeginInvoke(System.String,System.AsyncCallback,System.Object)
-  name: BeginInvoke(string, AsyncCallback, object)
-  href: api/Wrap.F.ErrorLogger.BeginInvoke.html#Wrap_F_ErrorLogger_BeginInvoke_System_String_System_AsyncCallback_System_Object_
-  commentId: M:Wrap.F.ErrorLogger.BeginInvoke(System.String,System.AsyncCallback,System.Object)
-  name.vb: BeginInvoke(String, AsyncCallback, Object)
-  fullName: Wrap.F.ErrorLogger.BeginInvoke(string, System.AsyncCallback, object)
-  fullName.vb: Wrap.F.ErrorLogger.BeginInvoke(String, System.AsyncCallback, Object)
-  nameWithType: F.ErrorLogger.BeginInvoke(string, AsyncCallback, object)
-  nameWithType.vb: F.ErrorLogger.BeginInvoke(String, AsyncCallback, Object)
-- uid: Wrap.F.ErrorLogger.BeginInvoke*
-  name: BeginInvoke
-  href: api/Wrap.F.ErrorLogger.BeginInvoke.html
-  commentId: Overload:Wrap.F.ErrorLogger.BeginInvoke
-  fullName: Wrap.F.ErrorLogger.BeginInvoke
-  nameWithType: F.ErrorLogger.BeginInvoke
-- uid: Wrap.F.ErrorLogger.EndInvoke(System.IAsyncResult)
-  name: EndInvoke(IAsyncResult)
-  href: api/Wrap.F.ErrorLogger.EndInvoke.html#Wrap_F_ErrorLogger_EndInvoke_System_IAsyncResult_
-  commentId: M:Wrap.F.ErrorLogger.EndInvoke(System.IAsyncResult)
-  fullName: Wrap.F.ErrorLogger.EndInvoke(System.IAsyncResult)
-  nameWithType: F.ErrorLogger.EndInvoke(IAsyncResult)
-- uid: Wrap.F.ErrorLogger.EndInvoke*
-  name: EndInvoke
-  href: api/Wrap.F.ErrorLogger.EndInvoke.html
-  commentId: Overload:Wrap.F.ErrorLogger.EndInvoke
-  fullName: Wrap.F.ErrorLogger.EndInvoke
-  nameWithType: F.ErrorLogger.EndInvoke
-- uid: Wrap.F.ErrorLogger.Invoke(System.String)
-  name: Invoke(string)
-  href: api/Wrap.F.ErrorLogger.Invoke.html#Wrap_F_ErrorLogger_Invoke_System_String_
-  commentId: M:Wrap.F.ErrorLogger.Invoke(System.String)
-  name.vb: Invoke(String)
-  fullName: Wrap.F.ErrorLogger.Invoke(string)
-  fullName.vb: Wrap.F.ErrorLogger.Invoke(String)
-  nameWithType: F.ErrorLogger.Invoke(string)
-  nameWithType.vb: F.ErrorLogger.Invoke(String)
-- uid: Wrap.F.ErrorLogger.Invoke*
-  name: Invoke
-  href: api/Wrap.F.ErrorLogger.Invoke.html
-  commentId: Overload:Wrap.F.ErrorLogger.Invoke
-  fullName: Wrap.F.ErrorLogger.Invoke
-  nameWithType: F.ErrorLogger.Invoke
 - uid: Wrap.F.ExceptionLogger
   name: F.ExceptionLogger
   href: api/Wrap.F.ExceptionLogger.html
@@ -1348,6 +1282,72 @@ references:
   commentId: Overload:Wrap.F.ExceptionLogger.Invoke
   fullName: Wrap.F.ExceptionLogger.Invoke
   nameWithType: F.ExceptionLogger.Invoke
+- uid: Wrap.F.FailureLogger
+  name: F.FailureLogger
+  href: api/Wrap.F.FailureLogger.html
+  commentId: T:Wrap.F.FailureLogger
+  fullName: Wrap.F.FailureLogger
+  nameWithType: F.FailureLogger
+- uid: Wrap.F.FailureLogger.#ctor(System.Object,System.IntPtr)
+  name: FailureLogger(object, nint)
+  href: api/Wrap.F.FailureLogger.-ctor.html#Wrap_F_FailureLogger__ctor_System_Object_System_IntPtr_
+  commentId: M:Wrap.F.FailureLogger.#ctor(System.Object,System.IntPtr)
+  name.vb: New(Object, IntPtr)
+  fullName: Wrap.F.FailureLogger.FailureLogger(object, nint)
+  fullName.vb: Wrap.F.FailureLogger.New(Object, System.IntPtr)
+  nameWithType: F.FailureLogger.FailureLogger(object, nint)
+  nameWithType.vb: F.FailureLogger.New(Object, IntPtr)
+- uid: Wrap.F.FailureLogger.#ctor*
+  name: FailureLogger
+  href: api/Wrap.F.FailureLogger.-ctor.html
+  commentId: Overload:Wrap.F.FailureLogger.#ctor
+  name.vb: New
+  fullName: Wrap.F.FailureLogger.FailureLogger
+  fullName.vb: Wrap.F.FailureLogger.New
+  nameWithType: F.FailureLogger.FailureLogger
+  nameWithType.vb: F.FailureLogger.New
+- uid: Wrap.F.FailureLogger.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  name: BeginInvoke(string, AsyncCallback, object)
+  href: api/Wrap.F.FailureLogger.BeginInvoke.html#Wrap_F_FailureLogger_BeginInvoke_System_String_System_AsyncCallback_System_Object_
+  commentId: M:Wrap.F.FailureLogger.BeginInvoke(System.String,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(String, AsyncCallback, Object)
+  fullName: Wrap.F.FailureLogger.BeginInvoke(string, System.AsyncCallback, object)
+  fullName.vb: Wrap.F.FailureLogger.BeginInvoke(String, System.AsyncCallback, Object)
+  nameWithType: F.FailureLogger.BeginInvoke(string, AsyncCallback, object)
+  nameWithType.vb: F.FailureLogger.BeginInvoke(String, AsyncCallback, Object)
+- uid: Wrap.F.FailureLogger.BeginInvoke*
+  name: BeginInvoke
+  href: api/Wrap.F.FailureLogger.BeginInvoke.html
+  commentId: Overload:Wrap.F.FailureLogger.BeginInvoke
+  fullName: Wrap.F.FailureLogger.BeginInvoke
+  nameWithType: F.FailureLogger.BeginInvoke
+- uid: Wrap.F.FailureLogger.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Wrap.F.FailureLogger.EndInvoke.html#Wrap_F_FailureLogger_EndInvoke_System_IAsyncResult_
+  commentId: M:Wrap.F.FailureLogger.EndInvoke(System.IAsyncResult)
+  fullName: Wrap.F.FailureLogger.EndInvoke(System.IAsyncResult)
+  nameWithType: F.FailureLogger.EndInvoke(IAsyncResult)
+- uid: Wrap.F.FailureLogger.EndInvoke*
+  name: EndInvoke
+  href: api/Wrap.F.FailureLogger.EndInvoke.html
+  commentId: Overload:Wrap.F.FailureLogger.EndInvoke
+  fullName: Wrap.F.FailureLogger.EndInvoke
+  nameWithType: F.FailureLogger.EndInvoke
+- uid: Wrap.F.FailureLogger.Invoke(System.String)
+  name: Invoke(string)
+  href: api/Wrap.F.FailureLogger.Invoke.html#Wrap_F_FailureLogger_Invoke_System_String_
+  commentId: M:Wrap.F.FailureLogger.Invoke(System.String)
+  name.vb: Invoke(String)
+  fullName: Wrap.F.FailureLogger.Invoke(string)
+  fullName.vb: Wrap.F.FailureLogger.Invoke(String)
+  nameWithType: F.FailureLogger.Invoke(string)
+  nameWithType.vb: F.FailureLogger.Invoke(String)
+- uid: Wrap.F.FailureLogger.Invoke*
+  name: Invoke
+  href: api/Wrap.F.FailureLogger.Invoke.html
+  commentId: Overload:Wrap.F.FailureLogger.Invoke
+  fullName: Wrap.F.FailureLogger.Invoke
+  nameWithType: F.FailureLogger.Invoke
 - uid: Wrap.F.IsNullableValueType*
   name: IsNullableValueType
   href: api/Wrap.F.IsNullableValueType.html
@@ -1363,18 +1363,6 @@ references:
   fullName.vb: Wrap.F.IsNullableValueType(Of T)(T)
   nameWithType: F.IsNullableValueType<T>(T)
   nameWithType.vb: F.IsNullableValueType(Of T)(T)
-- uid: Wrap.F.LogError
-  name: LogError
-  href: api/Wrap.F.LogError.html#Wrap_F_LogError
-  commentId: P:Wrap.F.LogError
-  fullName: Wrap.F.LogError
-  nameWithType: F.LogError
-- uid: Wrap.F.LogError*
-  name: LogError
-  href: api/Wrap.F.LogError.html
-  commentId: Overload:Wrap.F.LogError
-  fullName: Wrap.F.LogError
-  nameWithType: F.LogError
 - uid: Wrap.F.LogException
   name: LogException
   href: api/Wrap.F.LogException.html#Wrap_F_LogException
@@ -1387,6 +1375,18 @@ references:
   commentId: Overload:Wrap.F.LogException
   fullName: Wrap.F.LogException
   nameWithType: F.LogException
+- uid: Wrap.F.LogFailure
+  name: LogFailure
+  href: api/Wrap.F.LogFailure.html#Wrap_F_LogFailure
+  commentId: P:Wrap.F.LogFailure
+  fullName: Wrap.F.LogFailure
+  nameWithType: F.LogFailure
+- uid: Wrap.F.LogFailure*
+  name: LogFailure
+  href: api/Wrap.F.LogFailure.html
+  commentId: Overload:Wrap.F.LogFailure
+  fullName: Wrap.F.LogFailure
+  nameWithType: F.LogFailure
 - uid: Wrap.F.Wrap*
   name: Wrap
   href: api/Wrap.F.Wrap.html
@@ -5208,69 +5208,69 @@ references:
   commentId: T:Wrap.R
   fullName: Wrap.R
   nameWithType: R
-- uid: Wrap.R.Err(System.Exception)
-  name: Err(Exception)
-  href: api/Wrap.R.Err.html#Wrap_R_Err_System_Exception_
-  commentId: M:Wrap.R.Err(System.Exception)
-  fullName: Wrap.R.Err(System.Exception)
-  nameWithType: R.Err(Exception)
-- uid: Wrap.R.Err(System.String)
-  name: Err(string)
-  href: api/Wrap.R.Err.html#Wrap_R_Err_System_String_
-  commentId: M:Wrap.R.Err(System.String)
-  name.vb: Err(String)
-  fullName: Wrap.R.Err(string)
-  fullName.vb: Wrap.R.Err(String)
-  nameWithType: R.Err(string)
-  nameWithType.vb: R.Err(String)
-- uid: Wrap.R.Err(Wrap.FailValue)
-  name: Err(FailValue)
-  href: api/Wrap.R.Err.html#Wrap_R_Err_Wrap_FailValue_
-  commentId: M:Wrap.R.Err(Wrap.FailValue)
-  fullName: Wrap.R.Err(Wrap.FailValue)
-  nameWithType: R.Err(FailValue)
-- uid: Wrap.R.Err*
-  name: Err
-  href: api/Wrap.R.Err.html
-  commentId: Overload:Wrap.R.Err
-  fullName: Wrap.R.Err
-  nameWithType: R.Err
-- uid: Wrap.R.Err``1
-  name: Err<TException>()
-  href: api/Wrap.R.Err.html#Wrap_R_Err__1
-  commentId: M:Wrap.R.Err``1
-  name.vb: Err(Of TException)()
-  fullName: Wrap.R.Err<TException>()
-  fullName.vb: Wrap.R.Err(Of TException)()
-  nameWithType: R.Err<TException>()
-  nameWithType.vb: R.Err(Of TException)()
-- uid: Wrap.R.Err``1(System.Exception)
-  name: Err<T>(Exception)
-  href: api/Wrap.R.Err.html#Wrap_R_Err__1_System_Exception_
-  commentId: M:Wrap.R.Err``1(System.Exception)
-  name.vb: Err(Of T)(Exception)
-  fullName: Wrap.R.Err<T>(System.Exception)
-  fullName.vb: Wrap.R.Err(Of T)(System.Exception)
-  nameWithType: R.Err<T>(Exception)
-  nameWithType.vb: R.Err(Of T)(Exception)
-- uid: Wrap.R.Err``1(System.String)
-  name: Err<T>(string)
-  href: api/Wrap.R.Err.html#Wrap_R_Err__1_System_String_
-  commentId: M:Wrap.R.Err``1(System.String)
-  name.vb: Err(Of T)(String)
-  fullName: Wrap.R.Err<T>(string)
-  fullName.vb: Wrap.R.Err(Of T)(String)
-  nameWithType: R.Err<T>(string)
-  nameWithType.vb: R.Err(Of T)(String)
-- uid: Wrap.R.Err``1(Wrap.FailValue)
-  name: Err<T>(FailValue)
-  href: api/Wrap.R.Err.html#Wrap_R_Err__1_Wrap_FailValue_
-  commentId: M:Wrap.R.Err``1(Wrap.FailValue)
-  name.vb: Err(Of T)(FailValue)
-  fullName: Wrap.R.Err<T>(Wrap.FailValue)
-  fullName.vb: Wrap.R.Err(Of T)(Wrap.FailValue)
-  nameWithType: R.Err<T>(FailValue)
-  nameWithType.vb: R.Err(Of T)(FailValue)
+- uid: Wrap.R.Fail(System.Exception)
+  name: Fail(Exception)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_Exception_
+  commentId: M:Wrap.R.Fail(System.Exception)
+  fullName: Wrap.R.Fail(System.Exception)
+  nameWithType: R.Fail(Exception)
+- uid: Wrap.R.Fail(System.String)
+  name: Fail(string)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_
+  commentId: M:Wrap.R.Fail(System.String)
+  name.vb: Fail(String)
+  fullName: Wrap.R.Fail(string)
+  fullName.vb: Wrap.R.Fail(String)
+  nameWithType: R.Fail(string)
+  nameWithType.vb: R.Fail(String)
+- uid: Wrap.R.Fail(Wrap.FailValue)
+  name: Fail(FailValue)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail_Wrap_FailValue_
+  commentId: M:Wrap.R.Fail(Wrap.FailValue)
+  fullName: Wrap.R.Fail(Wrap.FailValue)
+  nameWithType: R.Fail(FailValue)
+- uid: Wrap.R.Fail*
+  name: Fail
+  href: api/Wrap.R.Fail.html
+  commentId: Overload:Wrap.R.Fail
+  fullName: Wrap.R.Fail
+  nameWithType: R.Fail
+- uid: Wrap.R.Fail``1
+  name: Fail<TException>()
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail__1
+  commentId: M:Wrap.R.Fail``1
+  name.vb: Fail(Of TException)()
+  fullName: Wrap.R.Fail<TException>()
+  fullName.vb: Wrap.R.Fail(Of TException)()
+  nameWithType: R.Fail<TException>()
+  nameWithType.vb: R.Fail(Of TException)()
+- uid: Wrap.R.Fail``1(System.Exception)
+  name: Fail<T>(Exception)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_System_Exception_
+  commentId: M:Wrap.R.Fail``1(System.Exception)
+  name.vb: Fail(Of T)(Exception)
+  fullName: Wrap.R.Fail<T>(System.Exception)
+  fullName.vb: Wrap.R.Fail(Of T)(System.Exception)
+  nameWithType: R.Fail<T>(Exception)
+  nameWithType.vb: R.Fail(Of T)(Exception)
+- uid: Wrap.R.Fail``1(System.String)
+  name: Fail<T>(string)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_System_String_
+  commentId: M:Wrap.R.Fail``1(System.String)
+  name.vb: Fail(Of T)(String)
+  fullName: Wrap.R.Fail<T>(string)
+  fullName.vb: Wrap.R.Fail(Of T)(String)
+  nameWithType: R.Fail<T>(string)
+  nameWithType.vb: R.Fail(Of T)(String)
+- uid: Wrap.R.Fail``1(Wrap.FailValue)
+  name: Fail<T>(FailValue)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_Wrap_FailValue_
+  commentId: M:Wrap.R.Fail``1(Wrap.FailValue)
+  name.vb: Fail(Of T)(FailValue)
+  fullName: Wrap.R.Fail<T>(Wrap.FailValue)
+  fullName.vb: Wrap.R.Fail(Of T)(Wrap.FailValue)
+  nameWithType: R.Fail<T>(FailValue)
+  nameWithType.vb: R.Fail(Of T)(FailValue)
 - uid: Wrap.R.Match*
   name: Match
   href: api/Wrap.R.Match.html
@@ -5643,54 +5643,54 @@ references:
   fullName.vb: Wrap.ResultExtensions.Filter(Of T)(Wrap.Result(Of T), System.Func(Of T, Boolean))
   nameWithType: ResultExtensions.Filter<T>(Result<T>, Func<T, bool>)
   nameWithType.vb: ResultExtensions.Filter(Of T)(Result(Of T), Func(Of T, Boolean))
-- uid: Wrap.ResultExtensions.IfErr*
-  name: IfErr
-  href: api/Wrap.ResultExtensions.IfErr.html
-  commentId: Overload:Wrap.ResultExtensions.IfErr
-  fullName: Wrap.ResultExtensions.IfErr
-  nameWithType: ResultExtensions.IfErr
-- uid: Wrap.ResultExtensions.IfErrAsync*
-  name: IfErrAsync
-  href: api/Wrap.ResultExtensions.IfErrAsync.html
-  commentId: Overload:Wrap.ResultExtensions.IfErrAsync
-  fullName: Wrap.ResultExtensions.IfErrAsync
-  nameWithType: ResultExtensions.IfErrAsync
-- uid: Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})
-  name: IfErrAsync<T>(Task<Result<T>>, Action<FailValue>)
-  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__
-  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})
-  name.vb: IfErrAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue))
-  fullName: Wrap.ResultExtensions.IfErrAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Action<Wrap.FailValue>)
-  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Action(Of Wrap.FailValue))
-  nameWithType: ResultExtensions.IfErrAsync<T>(Task<Result<T>>, Action<FailValue>)
-  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue))
-- uid: Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
-  name: IfErrAsync<T>(Task<Result<T>>, Func<FailValue, Task>)
-  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
-  name.vb: IfErrAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task))
-  fullName: Wrap.ResultExtensions.IfErrAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.IfErrAsync<T>(Task<Result<T>>, Func<FailValue, Task>)
-  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task))
-- uid: Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
-  name: IfErrAsync<T>(Result<T>, Func<FailValue, Task>)
-  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
-  name.vb: IfErrAsync(Of T)(Result(Of T), Func(Of FailValue, Task))
-  fullName: Wrap.ResultExtensions.IfErrAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.IfErrAsync<T>(Result<T>, Func<FailValue, Task>)
-  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Result(Of T), Func(Of FailValue, Task))
-- uid: Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.FailValue})
-  name: IfErr<T>(Result<T>, Action<FailValue>)
-  href: api/Wrap.ResultExtensions.IfErr.html#Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_FailValue__
-  commentId: M:Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.FailValue})
-  name.vb: IfErr(Of T)(Result(Of T), Action(Of FailValue))
-  fullName: Wrap.ResultExtensions.IfErr<T>(Wrap.Result<T>, System.Action<Wrap.FailValue>)
-  fullName.vb: Wrap.ResultExtensions.IfErr(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.FailValue))
-  nameWithType: ResultExtensions.IfErr<T>(Result<T>, Action<FailValue>)
-  nameWithType.vb: ResultExtensions.IfErr(Of T)(Result(Of T), Action(Of FailValue))
+- uid: Wrap.ResultExtensions.IfFail*
+  name: IfFail
+  href: api/Wrap.ResultExtensions.IfFail.html
+  commentId: Overload:Wrap.ResultExtensions.IfFail
+  fullName: Wrap.ResultExtensions.IfFail
+  nameWithType: ResultExtensions.IfFail
+- uid: Wrap.ResultExtensions.IfFailAsync*
+  name: IfFailAsync
+  href: api/Wrap.ResultExtensions.IfFailAsync.html
+  commentId: Overload:Wrap.ResultExtensions.IfFailAsync
+  fullName: Wrap.ResultExtensions.IfFailAsync
+  nameWithType: ResultExtensions.IfFailAsync
+- uid: Wrap.ResultExtensions.IfFailAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})
+  name: IfFailAsync<T>(Task<Result<T>>, Action<FailValue>)
+  href: api/Wrap.ResultExtensions.IfFailAsync.html#Wrap_ResultExtensions_IfFailAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__
+  commentId: M:Wrap.ResultExtensions.IfFailAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})
+  name.vb: IfFailAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue))
+  fullName: Wrap.ResultExtensions.IfFailAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Action<Wrap.FailValue>)
+  fullName.vb: Wrap.ResultExtensions.IfFailAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Action(Of Wrap.FailValue))
+  nameWithType: ResultExtensions.IfFailAsync<T>(Task<Result<T>>, Action<FailValue>)
+  nameWithType.vb: ResultExtensions.IfFailAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue))
+- uid: Wrap.ResultExtensions.IfFailAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name: IfFailAsync<T>(Task<Result<T>>, Func<FailValue, Task>)
+  href: api/Wrap.ResultExtensions.IfFailAsync.html#Wrap_ResultExtensions_IfFailAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.IfFailAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name.vb: IfFailAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task))
+  fullName: Wrap.ResultExtensions.IfFailAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.ResultExtensions.IfFailAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.IfFailAsync<T>(Task<Result<T>>, Func<FailValue, Task>)
+  nameWithType.vb: ResultExtensions.IfFailAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task))
+- uid: Wrap.ResultExtensions.IfFailAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name: IfFailAsync<T>(Result<T>, Func<FailValue, Task>)
+  href: api/Wrap.ResultExtensions.IfFailAsync.html#Wrap_ResultExtensions_IfFailAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.IfFailAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name.vb: IfFailAsync(Of T)(Result(Of T), Func(Of FailValue, Task))
+  fullName: Wrap.ResultExtensions.IfFailAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.ResultExtensions.IfFailAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.IfFailAsync<T>(Result<T>, Func<FailValue, Task>)
+  nameWithType.vb: ResultExtensions.IfFailAsync(Of T)(Result(Of T), Func(Of FailValue, Task))
+- uid: Wrap.ResultExtensions.IfFail``1(Wrap.Result{``0},System.Action{Wrap.FailValue})
+  name: IfFail<T>(Result<T>, Action<FailValue>)
+  href: api/Wrap.ResultExtensions.IfFail.html#Wrap_ResultExtensions_IfFail__1_Wrap_Result___0__System_Action_Wrap_FailValue__
+  commentId: M:Wrap.ResultExtensions.IfFail``1(Wrap.Result{``0},System.Action{Wrap.FailValue})
+  name.vb: IfFail(Of T)(Result(Of T), Action(Of FailValue))
+  fullName: Wrap.ResultExtensions.IfFail<T>(Wrap.Result<T>, System.Action<Wrap.FailValue>)
+  fullName.vb: Wrap.ResultExtensions.IfFail(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.FailValue))
+  nameWithType: ResultExtensions.IfFail<T>(Result<T>, Action<FailValue>)
+  nameWithType.vb: ResultExtensions.IfFail(Of T)(Result(Of T), Action(Of FailValue))
 - uid: Wrap.ResultExtensions.IfOk*
   name: IfOk
   href: api/Wrap.ResultExtensions.IfOk.html
