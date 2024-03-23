@@ -120,8 +120,8 @@
 
 <a id="Wrap_ResultExtensions_Unwrap_" data-uid="Wrap.ResultExtensions.Unwrap*"></a>
 
-<h3 id="Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_ErrValue___0__" data-uid="Wrap.ResultExtensions.Unwrap``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,``0})">
-  Unwrap&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, T&gt;)
+<h3 id="Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_FailValue___0__" data-uid="Wrap.ResultExtensions.Unwrap``1(Wrap.Result{``0},System.Func{Wrap.FailValue,``0})">
+  Unwrap&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, T&gt;)
   
 </h3>
 
@@ -130,7 +130,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static T Unwrap&lt;T&gt;(this Result&lt;T&gt; @this, Func&lt;ErrValue, T&gt; ifNone)</code></pre>
+  <pre><code class="lang-csharp hljs">public static T Unwrap&lt;T&gt;(this Result&lt;T&gt; @this, Func&lt;FailValue, T&gt; ifNone)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -138,8 +138,8 @@
   <dt><code>this</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>ifNone</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, T&gt;</dt>
-  <dd><p>Function to generate a value if <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>ifNone</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, T&gt;</dt>
+  <dd><p>Function to generate a value if <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
 </dl>
 
@@ -162,13 +162,13 @@
 
 
 
-<h4 class="section" id="Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_ErrValue___0___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_FailValue___0___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
 Provides access to the value wrapped by a <a class="xref" href="Wrap.Result-1.html">Result&lt;T&gt;</a> object.
 </p>
 <p>
 You need to provide a default value via <code class="paramref">ifNone</code> in case
-<code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.
+<code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.
 </p>
 </div>
 

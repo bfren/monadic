@@ -153,7 +153,7 @@
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_ErrValue__System_Action___0__">AuditAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;ErrValue&gt;?, Action&lt;T&gt;?)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__System_Action___0__">AuditAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;FailValue&gt;?, Action&lt;T&gt;?)</a></dt>
     <dd><p>Run <code class="paramref">err</code> or <code class="paramref">ok</code> depending on the value of <code class="paramref">this</code>.</p>
 </dd>
   </dl>
@@ -163,7 +163,7 @@
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">AuditAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&gt;?, Func&lt;T, Task&gt;?)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">AuditAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&gt;?, Func&lt;T, Task&gt;?)</a></dt>
     <dd><p>Run <code class="paramref">err</code> or <code class="paramref">ok</code> depending on the value of <code class="paramref">this</code>.</p>
 </dd>
   </dl>
@@ -173,7 +173,7 @@
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">AuditAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;?, Func&lt;T, Task&gt;?)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">AuditAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;?, Func&lt;T, Task&gt;?)</a></dt>
     <dd><p>Run <code class="paramref">err</code> or <code class="paramref">ok</code> depending on the value of <code class="paramref">this</code>.</p>
 </dd>
   </dl>
@@ -183,7 +183,7 @@
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Action___0__">Audit&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;?, Action&lt;T&gt;?)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Action___0__">Audit&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;?, Action&lt;T&gt;?)</a></dt>
     <dd><p>Run <code class="paramref">err</code> or <code class="paramref">ok</code> depending on the value of <code class="paramref">this</code>.</p>
 </dd>
   </dl>
@@ -233,23 +233,23 @@
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_ErrValue__">IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;ErrValue&gt;)</a></dt>
-    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+    <dt><a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__">IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;FailValue&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__">IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&gt;)</a></dt>
-    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+    <dt><a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__">IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__">IfErrAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;)</a></dt>
-    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+    <dt><a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__">IfErrAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.IfErr.html#Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_ErrValue__">IfErr&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;)</a></dt>
-    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+    <dt><a class="xref" href="Wrap.ResultExtensions.IfErr.html#Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_FailValue__">IfErr&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;)</a></dt>
+    <dd><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
@@ -293,77 +293,77 @@
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&gt;, Func&lt;T, Task&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&gt;, Func&lt;T, Task&gt;)</a></dt>
     <dd><p>Run an action based on the value of <code class="paramref">result</code>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;, Func&lt;T, Task&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;, Func&lt;T, Task&gt;)</a></dt>
     <dd><p>Run an action based on the value of <code class="paramref">result</code>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0___1__">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0___1__">MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, TReturn&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__">MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__">MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___">MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Action___0__">Match&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;, Action&lt;T&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Action___0__">Match&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;, Action&lt;T&gt;)</a></dt>
     <dd><p>Run an action based on the value of <code class="paramref">result</code>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0___1__">Match&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, TReturn&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0___1__">Match&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, TReturn&gt;)</a></dt>
     <dd><p>Run a function based on the value of <code class="paramref">result</code> and return its value.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___0___">UnwrapAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&lt;T&gt;&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___0___">UnwrapAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&lt;T&gt;&gt;)</a></dt>
     <dd><p>Unwrap the value contained in <code class="paramref">this</code>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___0__">UnwrapAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, T&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___0__">UnwrapAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, T&gt;)</a></dt>
     <dd><p>Unwrap the value contained in <code class="paramref">this</code>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___0___">UnwrapAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;T&gt;&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___0___">UnwrapAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;T&gt;&gt;)</a></dt>
     <dd><p>Unwrap the value contained in <code class="paramref">this</code>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ResultExtensions.Unwrap.html#Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_ErrValue___0__">Unwrap&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, T&gt;)</a></dt>
+    <dt><a class="xref" href="Wrap.ResultExtensions.Unwrap.html#Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_FailValue___0__">Unwrap&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, T&gt;)</a></dt>
     <dd><p>Unwrap the value contained in <code class="paramref">this</code>.</p>
 </dd>
   </dl>

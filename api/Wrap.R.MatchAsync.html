@@ -120,8 +120,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Func{``0,System.Threading.Tasks.Task})">
-  MatchAsync&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;, Func&lt;T, Task&gt;)
+<h3 id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Func{``0,System.Threading.Tasks.Task})">
+  MatchAsync&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;, Func&lt;T, Task&gt;)
   
 </h3>
 
@@ -130,7 +130,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Action&lt;ErrValue&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Action&lt;FailValue&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -138,8 +138,8 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -164,10 +164,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -186,8 +186,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Action___0__" data-uid="Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Action{``0})">
-  MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;, Action&lt;T&gt;)
+<h3 id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Action___0__" data-uid="Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Action{``0})">
+  MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;, Action&lt;T&gt;)
   
 </h3>
 
@@ -196,7 +196,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;ErrValue, Task&gt; err, Action&lt;T&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&gt; err, Action&lt;T&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -204,8 +204,8 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -230,10 +230,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Action___0___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Action___0___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -252,8 +252,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})">
-  MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;, Func&lt;T, Task&gt;)
+<h3 id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})">
+  MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;, Func&lt;T, Task&gt;)
   
 </h3>
 
@@ -262,7 +262,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;ErrValue, Task&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -270,8 +270,8 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -296,10 +296,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -318,8 +318,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.R.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})">
-  MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&gt;, Func&lt;T, Task&gt;)
+<h3 id="Wrap_R_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__" data-uid="Wrap.R.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})">
+  MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&gt;, Func&lt;T, Task&gt;)
   
 </h3>
 
@@ -328,7 +328,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;ErrValue, Task&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task MatchAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&gt; err, Func&lt;T, Task&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -336,8 +336,8 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -362,10 +362,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -384,8 +384,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})">
-  MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+<h3 id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
   
 </h3>
 
@@ -394,7 +394,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;ErrValue, TReturn&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, TReturn&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -402,8 +402,8 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, TReturn&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -432,10 +432,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -454,8 +454,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__" data-uid="Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})">
-  MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)
+<h3 id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__" data-uid="Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})">
+  MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)
   
 </h3>
 
@@ -464,7 +464,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -472,8 +472,8 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -502,10 +502,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -524,8 +524,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})">
-  MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+<h3 id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
   
 </h3>
 
@@ -534,7 +534,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -542,8 +542,8 @@
   <dt><code>result</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -572,10 +572,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -594,8 +594,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0___1__" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})">
-  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, TReturn&gt;)
+<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0___1__" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, TReturn&gt;)
   
 </h3>
 
@@ -604,7 +604,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;ErrValue, TReturn&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, TReturn&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -612,8 +612,8 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, TReturn&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -642,10 +642,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0___1___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0___1___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -664,8 +664,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})">
-  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
   
 </h3>
 
@@ -674,7 +674,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;ErrValue, TReturn&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, TReturn&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -682,8 +682,8 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, TReturn&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, TReturn&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -712,10 +712,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -734,8 +734,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})">
-  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)
+<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)
   
 </h3>
 
@@ -744,7 +744,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, TReturn&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -752,8 +752,8 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, TReturn&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -782,10 +782,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1___remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1___remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.
@@ -804,8 +804,8 @@
 
 <a id="Wrap_R_MatchAsync_" data-uid="Wrap.R.MatchAsync*"></a>
 
-<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})">
-  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
+<h3 id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___" data-uid="Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})">
+  MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)
   
 </h3>
 
@@ -814,7 +814,7 @@
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;TReturn&gt; MatchAsync&lt;T, TReturn&gt;(Task&lt;Result&lt;T&gt;&gt; result, Func&lt;FailValue, Task&lt;TReturn&gt;&gt; err, Func&lt;T, Task&lt;TReturn&gt;&gt; ok)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -822,8 +822,8 @@
   <dt><code>result</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>err</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
   <dt><code>ok</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;TReturn&gt;&gt;</dt>
   <dd><p>Function to run when <code class="paramref">result</code> is <a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a>.</p>
@@ -852,10 +852,10 @@
 
 
 
-<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1____remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
             It would be possible to achieve the same thing using switch statements, but doing that would add the
-            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Err.html">Err</a>).
+            potential for not handling both cases (<a class="xref" href="Wrap.Ok-1.html">Ok&lt;T&gt;</a> and <a class="xref" href="Wrap.Fail.html">Fail</a>).
             </p>
 <p>
             This way there has to be a function to handle both cases.

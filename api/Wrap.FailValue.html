@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Struct ErrValue
+      <title>Struct FailValue
  | Wrap </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Struct ErrValue
+      <meta name="title" content="Struct FailValue
  | Wrap ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,12 +84,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Wrap.ErrValue">
+        <article data-uid="Wrap.FailValue">
 
 
 
-  <h1 id="Wrap_ErrValue" data-uid="Wrap.ErrValue" class="text-break">
-    Struct ErrValue
+  <h1 id="Wrap_FailValue" data-uid="Wrap.FailValue" class="text-break">
+    Struct FailValue
   
   </h1>
 
@@ -103,7 +103,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly struct ErrValue : IEquatable&lt;ErrValue&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly struct FailValue : IEquatable&lt;FailValue&gt;</code></pre>
   </div>
 
 
@@ -113,7 +113,7 @@
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>&gt;</div>
     </dd>
   </dl>
 
@@ -156,12 +156,17 @@
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.Exception.html#Wrap_ErrValue_Exception">Exception</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.Exception.html#Wrap_FailValue_Exception">Exception</a></dt>
     <dd><p>[Optional] Exception object.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.Message.html#Wrap_ErrValue_Message">Message</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a></dt>
+    <dd><p>LogLevel - default value is <a class="xref" href="Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Unknown">Unknown</a>.</p>
+</dd>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.FailValue.Message.html#Wrap_FailValue_Message">Message</a></dt>
     <dd><p>Error message.</p>
 </dd>
   </dl>
@@ -170,19 +175,19 @@
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.Equals.html#Wrap_ErrValue_Equals_System_Object_">Equals(object)</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.Equals.html#Wrap_FailValue_Equals_System_Object_">Equals(object)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.Equals.html#Wrap_ErrValue_Equals_Wrap_ErrValue_">Equals(ErrValue)</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.Equals.html#Wrap_FailValue_Equals_Wrap_FailValue_">Equals(FailValue)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.GetHashCode.html#Wrap_ErrValue_GetHashCode">GetHashCode()</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.GetHashCode.html#Wrap_FailValue_GetHashCode">GetHashCode()</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.ToString.html#Wrap_ErrValue_ToString">ToString()</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.ToString.html#Wrap_FailValue_ToString">ToString()</a></dt>
     <dd></dd>
   </dl>
 
@@ -190,21 +195,23 @@
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.op_Equality.html#Wrap_ErrValue_op_Equality_Wrap_ErrValue_Wrap_ErrValue_">operator ==(ErrValue, ErrValue)</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.op_Equality.html#Wrap_FailValue_op_Equality_Wrap_FailValue_Wrap_FailValue_">operator ==(FailValue, FailValue)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.op_Implicit.html#Wrap_ErrValue_op_Implicit_System_Exception__Wrap_ErrValue">implicit operator ErrValue(Exception)</a></dt>
-    <dd><p>Convert an exception to an <a class="xref" href="Wrap.ErrValue.html">ErrValue</a> opject.</p>
+    <dt><a class="xref" href="Wrap.FailValue.op_Implicit.html#Wrap_FailValue_op_Implicit_System_Exception__Wrap_FailValue">implicit operator FailValue(Exception)</a></dt>
+    <dd><p>Convert an exception to an <a class="xref" href="Wrap.FailValue.html">FailValue</a> object
+setting <a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a> to <a class="xref" href="Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Error">Error</a>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.op_Implicit.html#Wrap_ErrValue_op_Implicit_System_String__Wrap_ErrValue">implicit operator ErrValue(string)</a></dt>
-    <dd><p>Convert an error message to an <a class="xref" href="Wrap.ErrValue.html">ErrValue</a> object.</p>
+    <dt><a class="xref" href="Wrap.FailValue.op_Implicit.html#Wrap_FailValue_op_Implicit_System_String__Wrap_FailValue">implicit operator FailValue(string)</a></dt>
+    <dd><p>Convert an error message to an <a class="xref" href="Wrap.FailValue.html">FailValue</a> object,
+setting <a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a> to <a class="xref" href="Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Unknown">Unknown</a>.</p>
 </dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.ErrValue.op_Inequality.html#Wrap_ErrValue_op_Inequality_Wrap_ErrValue_Wrap_ErrValue_">operator !=(ErrValue, ErrValue)</a></dt>
+    <dt><a class="xref" href="Wrap.FailValue.op_Inequality.html#Wrap_FailValue_op_Inequality_Wrap_FailValue_Wrap_FailValue_">operator !=(FailValue, FailValue)</a></dt>
     <dd></dd>
   </dl>
 

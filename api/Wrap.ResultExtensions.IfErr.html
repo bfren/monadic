@@ -120,17 +120,17 @@
 
 <a id="Wrap_ResultExtensions_IfErr_" data-uid="Wrap.ResultExtensions.IfErr*"></a>
 
-<h3 id="Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_ErrValue__" data-uid="Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.ErrValue})">
-  IfErr&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;)
+<h3 id="Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_FailValue__" data-uid="Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.FailValue})">
+  IfErr&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; IfErr&lt;T&gt;(this Result&lt;T&gt; @this, Action&lt;ErrValue&gt; f)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; IfErr&lt;T&gt;(this Result&lt;T&gt; @this, Action&lt;FailValue&gt; f)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -138,8 +138,8 @@
   <dt><code>this</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
 </dl>
 

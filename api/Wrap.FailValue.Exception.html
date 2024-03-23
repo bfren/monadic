@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Operator implicit operator
+      <title>Property Exception
  | Wrap </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Operator implicit operator
+      <meta name="title" content="Property Exception
  | Wrap ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,14 +84,14 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Wrap.ErrValue.op_Implicit*">
+        <article data-uid="Wrap.FailValue.Exception*">
 
 
 
 
 
-<h1 id="Wrap_ErrValue_op_Implicit_" data-uid="Wrap.ErrValue.op_Implicit*" class="text-break">
-  Operator implicit operator
+<h1 id="Wrap_FailValue_Exception_" data-uid="Wrap.FailValue.Exception*" class="text-break">
+  Property Exception
   
 </h1>
 
@@ -118,74 +118,30 @@
 
 
 
-<a id="Wrap_ErrValue_op_Implicit_" data-uid="Wrap.ErrValue.op_Implicit*"></a>
+<a id="Wrap_FailValue_Exception_" data-uid="Wrap.FailValue.Exception*"></a>
 
-<h3 id="Wrap_ErrValue_op_Implicit_System_String__Wrap_ErrValue" data-uid="Wrap.ErrValue.op_Implicit(System.String)~Wrap.ErrValue">
-  implicit operator ErrValue(string)
+<h3 id="Wrap_FailValue_Exception" data-uid="Wrap.FailValue.Exception">
+  Exception
   
 </h3>
 
-<div class="markdown level1 summary"><p>Convert an error message to an <a class="xref" href="Wrap.ErrValue.html">ErrValue</a> object.</p>
+<div class="markdown level1 summary"><p>[Optional] Exception object.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static implicit operator ErrValue(string message)</code></pre>
+  <pre><code class="lang-csharp hljs">public Exception? Exception { get; init; }</code></pre>
 </div>
 
-<h4 class="section">Parameters</h4>
-<dl class="parameters">
-  <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-  <dd><p>Error message.</p>
-</dd>
-</dl>
 
-<h4 class="section">Returns</h4>
+
+
+
+<h4 class="section">Property Value</h4>
 <dl class="parameters">
-  <dt><a class="xref" href="Wrap.ErrValue.html">ErrValue</a></dt>
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
   <dd></dd>
 </dl>
-
-
-
-
-
-
-
-
-
-
-
-<a id="Wrap_ErrValue_op_Implicit_" data-uid="Wrap.ErrValue.op_Implicit*"></a>
-
-<h3 id="Wrap_ErrValue_op_Implicit_System_Exception__Wrap_ErrValue" data-uid="Wrap.ErrValue.op_Implicit(System.Exception)~Wrap.ErrValue">
-  implicit operator ErrValue(Exception)
-  
-</h3>
-
-<div class="markdown level1 summary"><p>Convert an exception to an <a class="xref" href="Wrap.ErrValue.html">ErrValue</a> opject.</p>
-</div>
-<div class="markdown level1 conceptual"></div>
-
-<div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static implicit operator ErrValue(Exception exception)</code></pre>
-</div>
-
-<h4 class="section">Parameters</h4>
-<dl class="parameters">
-  <dt><code>exception</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
-  <dd><p>Exception object.</p>
-</dd>
-</dl>
-
-<h4 class="section">Returns</h4>
-<dl class="parameters">
-  <dt><a class="xref" href="Wrap.ErrValue.html">ErrValue</a></dt>
-  <dd></dd>
-</dl>
-
-
-
 
 
 

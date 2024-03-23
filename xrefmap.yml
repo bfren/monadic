@@ -946,162 +946,6 @@ references:
   fullName.vb: Wrap.EnumerableExtensions.SingleOrNone(Of T)(System.Collections.Generic.IEnumerable(Of T))
   nameWithType: EnumerableExtensions.SingleOrNone<T>(IEnumerable<T>)
   nameWithType.vb: EnumerableExtensions.SingleOrNone(Of T)(IEnumerable(Of T))
-- uid: Wrap.Err
-  name: Err
-  href: api/Wrap.Err.html
-  commentId: T:Wrap.Err
-  fullName: Wrap.Err
-  nameWithType: Err
-- uid: Wrap.Err.Value
-  name: Value
-  href: api/Wrap.Err.Value.html#Wrap_Err_Value
-  commentId: P:Wrap.Err.Value
-  fullName: Wrap.Err.Value
-  nameWithType: Err.Value
-- uid: Wrap.Err.Value*
-  name: Value
-  href: api/Wrap.Err.Value.html
-  commentId: Overload:Wrap.Err.Value
-  fullName: Wrap.Err.Value
-  nameWithType: Err.Value
-- uid: Wrap.ErrValue
-  name: ErrValue
-  href: api/Wrap.ErrValue.html
-  commentId: T:Wrap.ErrValue
-  fullName: Wrap.ErrValue
-  nameWithType: ErrValue
-- uid: Wrap.ErrValue.Equals(System.Object)
-  name: Equals(object)
-  href: api/Wrap.ErrValue.Equals.html#Wrap_ErrValue_Equals_System_Object_
-  commentId: M:Wrap.ErrValue.Equals(System.Object)
-  name.vb: Equals(Object)
-  fullName: Wrap.ErrValue.Equals(object)
-  fullName.vb: Wrap.ErrValue.Equals(Object)
-  nameWithType: ErrValue.Equals(object)
-  nameWithType.vb: ErrValue.Equals(Object)
-- uid: Wrap.ErrValue.Equals(Wrap.ErrValue)
-  name: Equals(ErrValue)
-  href: api/Wrap.ErrValue.Equals.html#Wrap_ErrValue_Equals_Wrap_ErrValue_
-  commentId: M:Wrap.ErrValue.Equals(Wrap.ErrValue)
-  fullName: Wrap.ErrValue.Equals(Wrap.ErrValue)
-  nameWithType: ErrValue.Equals(ErrValue)
-- uid: Wrap.ErrValue.Equals*
-  name: Equals
-  href: api/Wrap.ErrValue.Equals.html
-  commentId: Overload:Wrap.ErrValue.Equals
-  fullName: Wrap.ErrValue.Equals
-  nameWithType: ErrValue.Equals
-- uid: Wrap.ErrValue.Exception
-  name: Exception
-  href: api/Wrap.ErrValue.Exception.html#Wrap_ErrValue_Exception
-  commentId: P:Wrap.ErrValue.Exception
-  fullName: Wrap.ErrValue.Exception
-  nameWithType: ErrValue.Exception
-- uid: Wrap.ErrValue.Exception*
-  name: Exception
-  href: api/Wrap.ErrValue.Exception.html
-  commentId: Overload:Wrap.ErrValue.Exception
-  fullName: Wrap.ErrValue.Exception
-  nameWithType: ErrValue.Exception
-- uid: Wrap.ErrValue.GetHashCode
-  name: GetHashCode()
-  href: api/Wrap.ErrValue.GetHashCode.html#Wrap_ErrValue_GetHashCode
-  commentId: M:Wrap.ErrValue.GetHashCode
-  fullName: Wrap.ErrValue.GetHashCode()
-  nameWithType: ErrValue.GetHashCode()
-- uid: Wrap.ErrValue.GetHashCode*
-  name: GetHashCode
-  href: api/Wrap.ErrValue.GetHashCode.html
-  commentId: Overload:Wrap.ErrValue.GetHashCode
-  fullName: Wrap.ErrValue.GetHashCode
-  nameWithType: ErrValue.GetHashCode
-- uid: Wrap.ErrValue.Message
-  name: Message
-  href: api/Wrap.ErrValue.Message.html#Wrap_ErrValue_Message
-  commentId: P:Wrap.ErrValue.Message
-  fullName: Wrap.ErrValue.Message
-  nameWithType: ErrValue.Message
-- uid: Wrap.ErrValue.Message*
-  name: Message
-  href: api/Wrap.ErrValue.Message.html
-  commentId: Overload:Wrap.ErrValue.Message
-  fullName: Wrap.ErrValue.Message
-  nameWithType: ErrValue.Message
-- uid: Wrap.ErrValue.ToString
-  name: ToString()
-  href: api/Wrap.ErrValue.ToString.html#Wrap_ErrValue_ToString
-  commentId: M:Wrap.ErrValue.ToString
-  fullName: Wrap.ErrValue.ToString()
-  nameWithType: ErrValue.ToString()
-- uid: Wrap.ErrValue.ToString*
-  name: ToString
-  href: api/Wrap.ErrValue.ToString.html
-  commentId: Overload:Wrap.ErrValue.ToString
-  fullName: Wrap.ErrValue.ToString
-  nameWithType: ErrValue.ToString
-- uid: Wrap.ErrValue.op_Equality(Wrap.ErrValue,Wrap.ErrValue)
-  name: operator ==(ErrValue, ErrValue)
-  href: api/Wrap.ErrValue.op_Equality.html#Wrap_ErrValue_op_Equality_Wrap_ErrValue_Wrap_ErrValue_
-  commentId: M:Wrap.ErrValue.op_Equality(Wrap.ErrValue,Wrap.ErrValue)
-  name.vb: =(ErrValue, ErrValue)
-  fullName: Wrap.ErrValue.operator ==(Wrap.ErrValue, Wrap.ErrValue)
-  fullName.vb: Wrap.ErrValue.=(Wrap.ErrValue, Wrap.ErrValue)
-  nameWithType: ErrValue.operator ==(ErrValue, ErrValue)
-  nameWithType.vb: ErrValue.=(ErrValue, ErrValue)
-- uid: Wrap.ErrValue.op_Equality*
-  name: operator ==
-  href: api/Wrap.ErrValue.op_Equality.html
-  commentId: Overload:Wrap.ErrValue.op_Equality
-  name.vb: =
-  fullName: Wrap.ErrValue.operator ==
-  fullName.vb: Wrap.ErrValue.=
-  nameWithType: ErrValue.operator ==
-  nameWithType.vb: ErrValue.=
-- uid: Wrap.ErrValue.op_Implicit(System.Exception)~Wrap.ErrValue
-  name: implicit operator ErrValue(Exception)
-  href: api/Wrap.ErrValue.op_Implicit.html#Wrap_ErrValue_op_Implicit_System_Exception__Wrap_ErrValue
-  commentId: M:Wrap.ErrValue.op_Implicit(System.Exception)~Wrap.ErrValue
-  name.vb: CType(Exception)
-  fullName: Wrap.ErrValue.implicit operator Wrap.ErrValue(System.Exception)
-  fullName.vb: Wrap.ErrValue.CType(System.Exception)
-  nameWithType: ErrValue.implicit operator ErrValue(Exception)
-  nameWithType.vb: ErrValue.CType(Exception)
-- uid: Wrap.ErrValue.op_Implicit(System.String)~Wrap.ErrValue
-  name: implicit operator ErrValue(string)
-  href: api/Wrap.ErrValue.op_Implicit.html#Wrap_ErrValue_op_Implicit_System_String__Wrap_ErrValue
-  commentId: M:Wrap.ErrValue.op_Implicit(System.String)~Wrap.ErrValue
-  name.vb: CType(String)
-  fullName: Wrap.ErrValue.implicit operator Wrap.ErrValue(string)
-  fullName.vb: Wrap.ErrValue.CType(String)
-  nameWithType: ErrValue.implicit operator ErrValue(string)
-  nameWithType.vb: ErrValue.CType(String)
-- uid: Wrap.ErrValue.op_Implicit*
-  name: implicit operator
-  href: api/Wrap.ErrValue.op_Implicit.html
-  commentId: Overload:Wrap.ErrValue.op_Implicit
-  name.vb: CType
-  fullName: Wrap.ErrValue.implicit operator
-  fullName.vb: Wrap.ErrValue.CType
-  nameWithType: ErrValue.implicit operator
-  nameWithType.vb: ErrValue.CType
-- uid: Wrap.ErrValue.op_Inequality(Wrap.ErrValue,Wrap.ErrValue)
-  name: operator !=(ErrValue, ErrValue)
-  href: api/Wrap.ErrValue.op_Inequality.html#Wrap_ErrValue_op_Inequality_Wrap_ErrValue_Wrap_ErrValue_
-  commentId: M:Wrap.ErrValue.op_Inequality(Wrap.ErrValue,Wrap.ErrValue)
-  name.vb: <>(ErrValue, ErrValue)
-  fullName: Wrap.ErrValue.operator !=(Wrap.ErrValue, Wrap.ErrValue)
-  fullName.vb: Wrap.ErrValue.<>(Wrap.ErrValue, Wrap.ErrValue)
-  nameWithType: ErrValue.operator !=(ErrValue, ErrValue)
-  nameWithType.vb: ErrValue.<>(ErrValue, ErrValue)
-- uid: Wrap.ErrValue.op_Inequality*
-  name: operator !=
-  href: api/Wrap.ErrValue.op_Inequality.html
-  commentId: Overload:Wrap.ErrValue.op_Inequality
-  name.vb: <>
-  fullName: Wrap.ErrValue.operator !=
-  fullName.vb: Wrap.ErrValue.<>
-  nameWithType: ErrValue.operator !=
-  nameWithType.vb: ErrValue.<>
 - uid: Wrap.Exceptions
   name: Wrap.Exceptions
   href: api/Wrap.Exceptions.html
@@ -1558,6 +1402,174 @@ references:
   fullName.vb: Wrap.F.Wrap(Of TUnion, TValue)(TValue)
   nameWithType: F.Wrap<TUnion, TValue>(TValue?)
   nameWithType.vb: F.Wrap(Of TUnion, TValue)(TValue)
+- uid: Wrap.Fail
+  name: Fail
+  href: api/Wrap.Fail.html
+  commentId: T:Wrap.Fail
+  fullName: Wrap.Fail
+  nameWithType: Fail
+- uid: Wrap.Fail.Value
+  name: Value
+  href: api/Wrap.Fail.Value.html#Wrap_Fail_Value
+  commentId: P:Wrap.Fail.Value
+  fullName: Wrap.Fail.Value
+  nameWithType: Fail.Value
+- uid: Wrap.Fail.Value*
+  name: Value
+  href: api/Wrap.Fail.Value.html
+  commentId: Overload:Wrap.Fail.Value
+  fullName: Wrap.Fail.Value
+  nameWithType: Fail.Value
+- uid: Wrap.FailValue
+  name: FailValue
+  href: api/Wrap.FailValue.html
+  commentId: T:Wrap.FailValue
+  fullName: Wrap.FailValue
+  nameWithType: FailValue
+- uid: Wrap.FailValue.Equals(System.Object)
+  name: Equals(object)
+  href: api/Wrap.FailValue.Equals.html#Wrap_FailValue_Equals_System_Object_
+  commentId: M:Wrap.FailValue.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Wrap.FailValue.Equals(object)
+  fullName.vb: Wrap.FailValue.Equals(Object)
+  nameWithType: FailValue.Equals(object)
+  nameWithType.vb: FailValue.Equals(Object)
+- uid: Wrap.FailValue.Equals(Wrap.FailValue)
+  name: Equals(FailValue)
+  href: api/Wrap.FailValue.Equals.html#Wrap_FailValue_Equals_Wrap_FailValue_
+  commentId: M:Wrap.FailValue.Equals(Wrap.FailValue)
+  fullName: Wrap.FailValue.Equals(Wrap.FailValue)
+  nameWithType: FailValue.Equals(FailValue)
+- uid: Wrap.FailValue.Equals*
+  name: Equals
+  href: api/Wrap.FailValue.Equals.html
+  commentId: Overload:Wrap.FailValue.Equals
+  fullName: Wrap.FailValue.Equals
+  nameWithType: FailValue.Equals
+- uid: Wrap.FailValue.Exception
+  name: Exception
+  href: api/Wrap.FailValue.Exception.html#Wrap_FailValue_Exception
+  commentId: P:Wrap.FailValue.Exception
+  fullName: Wrap.FailValue.Exception
+  nameWithType: FailValue.Exception
+- uid: Wrap.FailValue.Exception*
+  name: Exception
+  href: api/Wrap.FailValue.Exception.html
+  commentId: Overload:Wrap.FailValue.Exception
+  fullName: Wrap.FailValue.Exception
+  nameWithType: FailValue.Exception
+- uid: Wrap.FailValue.GetHashCode
+  name: GetHashCode()
+  href: api/Wrap.FailValue.GetHashCode.html#Wrap_FailValue_GetHashCode
+  commentId: M:Wrap.FailValue.GetHashCode
+  fullName: Wrap.FailValue.GetHashCode()
+  nameWithType: FailValue.GetHashCode()
+- uid: Wrap.FailValue.GetHashCode*
+  name: GetHashCode
+  href: api/Wrap.FailValue.GetHashCode.html
+  commentId: Overload:Wrap.FailValue.GetHashCode
+  fullName: Wrap.FailValue.GetHashCode
+  nameWithType: FailValue.GetHashCode
+- uid: Wrap.FailValue.Level
+  name: Level
+  href: api/Wrap.FailValue.Level.html#Wrap_FailValue_Level
+  commentId: P:Wrap.FailValue.Level
+  fullName: Wrap.FailValue.Level
+  nameWithType: FailValue.Level
+- uid: Wrap.FailValue.Level*
+  name: Level
+  href: api/Wrap.FailValue.Level.html
+  commentId: Overload:Wrap.FailValue.Level
+  fullName: Wrap.FailValue.Level
+  nameWithType: FailValue.Level
+- uid: Wrap.FailValue.Message
+  name: Message
+  href: api/Wrap.FailValue.Message.html#Wrap_FailValue_Message
+  commentId: P:Wrap.FailValue.Message
+  fullName: Wrap.FailValue.Message
+  nameWithType: FailValue.Message
+- uid: Wrap.FailValue.Message*
+  name: Message
+  href: api/Wrap.FailValue.Message.html
+  commentId: Overload:Wrap.FailValue.Message
+  fullName: Wrap.FailValue.Message
+  nameWithType: FailValue.Message
+- uid: Wrap.FailValue.ToString
+  name: ToString()
+  href: api/Wrap.FailValue.ToString.html#Wrap_FailValue_ToString
+  commentId: M:Wrap.FailValue.ToString
+  fullName: Wrap.FailValue.ToString()
+  nameWithType: FailValue.ToString()
+- uid: Wrap.FailValue.ToString*
+  name: ToString
+  href: api/Wrap.FailValue.ToString.html
+  commentId: Overload:Wrap.FailValue.ToString
+  fullName: Wrap.FailValue.ToString
+  nameWithType: FailValue.ToString
+- uid: Wrap.FailValue.op_Equality(Wrap.FailValue,Wrap.FailValue)
+  name: operator ==(FailValue, FailValue)
+  href: api/Wrap.FailValue.op_Equality.html#Wrap_FailValue_op_Equality_Wrap_FailValue_Wrap_FailValue_
+  commentId: M:Wrap.FailValue.op_Equality(Wrap.FailValue,Wrap.FailValue)
+  name.vb: =(FailValue, FailValue)
+  fullName: Wrap.FailValue.operator ==(Wrap.FailValue, Wrap.FailValue)
+  fullName.vb: Wrap.FailValue.=(Wrap.FailValue, Wrap.FailValue)
+  nameWithType: FailValue.operator ==(FailValue, FailValue)
+  nameWithType.vb: FailValue.=(FailValue, FailValue)
+- uid: Wrap.FailValue.op_Equality*
+  name: operator ==
+  href: api/Wrap.FailValue.op_Equality.html
+  commentId: Overload:Wrap.FailValue.op_Equality
+  name.vb: =
+  fullName: Wrap.FailValue.operator ==
+  fullName.vb: Wrap.FailValue.=
+  nameWithType: FailValue.operator ==
+  nameWithType.vb: FailValue.=
+- uid: Wrap.FailValue.op_Implicit(System.Exception)~Wrap.FailValue
+  name: implicit operator FailValue(Exception)
+  href: api/Wrap.FailValue.op_Implicit.html#Wrap_FailValue_op_Implicit_System_Exception__Wrap_FailValue
+  commentId: M:Wrap.FailValue.op_Implicit(System.Exception)~Wrap.FailValue
+  name.vb: CType(Exception)
+  fullName: Wrap.FailValue.implicit operator Wrap.FailValue(System.Exception)
+  fullName.vb: Wrap.FailValue.CType(System.Exception)
+  nameWithType: FailValue.implicit operator FailValue(Exception)
+  nameWithType.vb: FailValue.CType(Exception)
+- uid: Wrap.FailValue.op_Implicit(System.String)~Wrap.FailValue
+  name: implicit operator FailValue(string)
+  href: api/Wrap.FailValue.op_Implicit.html#Wrap_FailValue_op_Implicit_System_String__Wrap_FailValue
+  commentId: M:Wrap.FailValue.op_Implicit(System.String)~Wrap.FailValue
+  name.vb: CType(String)
+  fullName: Wrap.FailValue.implicit operator Wrap.FailValue(string)
+  fullName.vb: Wrap.FailValue.CType(String)
+  nameWithType: FailValue.implicit operator FailValue(string)
+  nameWithType.vb: FailValue.CType(String)
+- uid: Wrap.FailValue.op_Implicit*
+  name: implicit operator
+  href: api/Wrap.FailValue.op_Implicit.html
+  commentId: Overload:Wrap.FailValue.op_Implicit
+  name.vb: CType
+  fullName: Wrap.FailValue.implicit operator
+  fullName.vb: Wrap.FailValue.CType
+  nameWithType: FailValue.implicit operator
+  nameWithType.vb: FailValue.CType
+- uid: Wrap.FailValue.op_Inequality(Wrap.FailValue,Wrap.FailValue)
+  name: operator !=(FailValue, FailValue)
+  href: api/Wrap.FailValue.op_Inequality.html#Wrap_FailValue_op_Inequality_Wrap_FailValue_Wrap_FailValue_
+  commentId: M:Wrap.FailValue.op_Inequality(Wrap.FailValue,Wrap.FailValue)
+  name.vb: <>(FailValue, FailValue)
+  fullName: Wrap.FailValue.operator !=(Wrap.FailValue, Wrap.FailValue)
+  fullName.vb: Wrap.FailValue.<>(Wrap.FailValue, Wrap.FailValue)
+  nameWithType: FailValue.operator !=(FailValue, FailValue)
+  nameWithType.vb: FailValue.<>(FailValue, FailValue)
+- uid: Wrap.FailValue.op_Inequality*
+  name: operator !=
+  href: api/Wrap.FailValue.op_Inequality.html
+  commentId: Overload:Wrap.FailValue.op_Inequality
+  name.vb: <>
+  fullName: Wrap.FailValue.operator !=
+  fullName.vb: Wrap.FailValue.<>
+  nameWithType: FailValue.operator !=
+  nameWithType.vb: FailValue.<>
 - uid: Wrap.GuidExtensions
   name: GuidExtensions
   href: api/Wrap.GuidExtensions.html
@@ -2836,6 +2848,60 @@ references:
   fullName.vb: Wrap.Linq.ResultExtensions.Where(Of T)(Wrap.Result(Of T), System.Func(Of T, System.Threading.Tasks.Task(Of Boolean)))
   nameWithType: ResultExtensions.Where<T>(Result<T>, Func<T, Task<bool>>)
   nameWithType.vb: ResultExtensions.Where(Of T)(Result(Of T), Func(Of T, Task(Of Boolean)))
+- uid: Wrap.Logging
+  name: Wrap.Logging
+  href: api/Wrap.Logging.html
+  commentId: N:Wrap.Logging
+  fullName: Wrap.Logging
+  nameWithType: Wrap.Logging
+- uid: Wrap.Logging.LogLevel
+  name: LogLevel
+  href: api/Wrap.Logging.LogLevel.html
+  commentId: T:Wrap.Logging.LogLevel
+  fullName: Wrap.Logging.LogLevel
+  nameWithType: LogLevel
+- uid: Wrap.Logging.LogLevel.Debug
+  name: Debug
+  href: api/Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Debug
+  commentId: F:Wrap.Logging.LogLevel.Debug
+  fullName: Wrap.Logging.LogLevel.Debug
+  nameWithType: LogLevel.Debug
+- uid: Wrap.Logging.LogLevel.Error
+  name: Error
+  href: api/Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Error
+  commentId: F:Wrap.Logging.LogLevel.Error
+  fullName: Wrap.Logging.LogLevel.Error
+  nameWithType: LogLevel.Error
+- uid: Wrap.Logging.LogLevel.Fatal
+  name: Fatal
+  href: api/Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Fatal
+  commentId: F:Wrap.Logging.LogLevel.Fatal
+  fullName: Wrap.Logging.LogLevel.Fatal
+  nameWithType: LogLevel.Fatal
+- uid: Wrap.Logging.LogLevel.Information
+  name: Information
+  href: api/Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Information
+  commentId: F:Wrap.Logging.LogLevel.Information
+  fullName: Wrap.Logging.LogLevel.Information
+  nameWithType: LogLevel.Information
+- uid: Wrap.Logging.LogLevel.Unknown
+  name: Unknown
+  href: api/Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Unknown
+  commentId: F:Wrap.Logging.LogLevel.Unknown
+  fullName: Wrap.Logging.LogLevel.Unknown
+  nameWithType: LogLevel.Unknown
+- uid: Wrap.Logging.LogLevel.Verbose
+  name: Verbose
+  href: api/Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Verbose
+  commentId: F:Wrap.Logging.LogLevel.Verbose
+  fullName: Wrap.Logging.LogLevel.Verbose
+  nameWithType: LogLevel.Verbose
+- uid: Wrap.Logging.LogLevel.Warning
+  name: Warning
+  href: api/Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Warning
+  commentId: F:Wrap.Logging.LogLevel.Warning
+  fullName: Wrap.Logging.LogLevel.Warning
+  nameWithType: LogLevel.Warning
 - uid: Wrap.LongExtensions
   name: LongExtensions
   href: api/Wrap.LongExtensions.html
@@ -5157,12 +5223,12 @@ references:
   fullName.vb: Wrap.R.Err(String)
   nameWithType: R.Err(string)
   nameWithType.vb: R.Err(String)
-- uid: Wrap.R.Err(Wrap.ErrValue)
-  name: Err(ErrValue)
-  href: api/Wrap.R.Err.html#Wrap_R_Err_Wrap_ErrValue_
-  commentId: M:Wrap.R.Err(Wrap.ErrValue)
-  fullName: Wrap.R.Err(Wrap.ErrValue)
-  nameWithType: R.Err(ErrValue)
+- uid: Wrap.R.Err(Wrap.FailValue)
+  name: Err(FailValue)
+  href: api/Wrap.R.Err.html#Wrap_R_Err_Wrap_FailValue_
+  commentId: M:Wrap.R.Err(Wrap.FailValue)
+  fullName: Wrap.R.Err(Wrap.FailValue)
+  nameWithType: R.Err(FailValue)
 - uid: Wrap.R.Err*
   name: Err
   href: api/Wrap.R.Err.html
@@ -5196,15 +5262,15 @@ references:
   fullName.vb: Wrap.R.Err(Of T)(String)
   nameWithType: R.Err<T>(string)
   nameWithType.vb: R.Err(Of T)(String)
-- uid: Wrap.R.Err``1(Wrap.ErrValue)
-  name: Err<T>(ErrValue)
-  href: api/Wrap.R.Err.html#Wrap_R_Err__1_Wrap_ErrValue_
-  commentId: M:Wrap.R.Err``1(Wrap.ErrValue)
-  name.vb: Err(Of T)(ErrValue)
-  fullName: Wrap.R.Err<T>(Wrap.ErrValue)
-  fullName.vb: Wrap.R.Err(Of T)(Wrap.ErrValue)
-  nameWithType: R.Err<T>(ErrValue)
-  nameWithType.vb: R.Err(Of T)(ErrValue)
+- uid: Wrap.R.Err``1(Wrap.FailValue)
+  name: Err<T>(FailValue)
+  href: api/Wrap.R.Err.html#Wrap_R_Err__1_Wrap_FailValue_
+  commentId: M:Wrap.R.Err``1(Wrap.FailValue)
+  name.vb: Err(Of T)(FailValue)
+  fullName: Wrap.R.Err<T>(Wrap.FailValue)
+  fullName.vb: Wrap.R.Err(Of T)(Wrap.FailValue)
+  nameWithType: R.Err<T>(FailValue)
+  nameWithType.vb: R.Err(Of T)(FailValue)
 - uid: Wrap.R.Match*
   name: Match
   href: api/Wrap.R.Match.html
@@ -5217,123 +5283,123 @@ references:
   commentId: Overload:Wrap.R.MatchAsync
   fullName: Wrap.R.MatchAsync
   nameWithType: R.MatchAsync
-- uid: Wrap.R.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name: MatchAsync<T>(Task<Result<T>>, Func<ErrValue, Task>, Func<T, Task>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
-  commentId: M:Wrap.R.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name.vb: MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task), Func(Of T, Task))
-  fullName: Wrap.R.MatchAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.R.MatchAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
-  nameWithType: R.MatchAsync<T>(Task<Result<T>>, Func<ErrValue, Task>, Func<T, Task>)
-  nameWithType.vb: R.MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task), Func(Of T, Task))
-- uid: Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Func{``0,System.Threading.Tasks.Task})
-  name: MatchAsync<T>(Result<T>, Action<ErrValue>, Func<T, Task>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Func___0_System_Threading_Tasks_Task__
-  commentId: M:Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Func{``0,System.Threading.Tasks.Task})
-  name.vb: MatchAsync(Of T)(Result(Of T), Action(Of ErrValue), Func(Of T, Task))
-  fullName: Wrap.R.MatchAsync<T>(Wrap.Result<T>, System.Action<Wrap.ErrValue>, System.Func<T, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.R.MatchAsync(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.ErrValue), System.Func(Of T, System.Threading.Tasks.Task))
-  nameWithType: R.MatchAsync<T>(Result<T>, Action<ErrValue>, Func<T, Task>)
-  nameWithType.vb: R.MatchAsync(Of T)(Result(Of T), Action(Of ErrValue), Func(Of T, Task))
-- uid: Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Action{``0})
-  name: MatchAsync<T>(Result<T>, Func<ErrValue, Task>, Action<T>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Action___0__
-  commentId: M:Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Action{``0})
-  name.vb: MatchAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Action(Of T))
-  fullName: Wrap.R.MatchAsync<T>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>, System.Action<T>)
-  fullName.vb: Wrap.R.MatchAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task), System.Action(Of T))
-  nameWithType: R.MatchAsync<T>(Result<T>, Func<ErrValue, Task>, Action<T>)
-  nameWithType.vb: R.MatchAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Action(Of T))
-- uid: Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name: MatchAsync<T>(Result<T>, Func<ErrValue, Task>, Func<T, Task>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
-  commentId: M:Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name.vb: MatchAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Func(Of T, Task))
-  fullName: Wrap.R.MatchAsync<T>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.R.MatchAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
-  nameWithType: R.MatchAsync<T>(Result<T>, Func<ErrValue, Task>, Func<T, Task>)
-  nameWithType.vb: R.MatchAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Func(Of T, Task))
-- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__
-  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
-  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0___1__
-  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
-  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, TReturn))
-  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
-- uid: Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.R.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: R.MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name: MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__
-  commentId: M:Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-  fullName: Wrap.R.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
-  nameWithType: R.MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-- uid: Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.R.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: R.MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.R.Match``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Action{``0})
-  name: Match<T>(Result<T>, Action<ErrValue>, Action<T>)
-  href: api/Wrap.R.Match.html#Wrap_R_Match__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Action___0__
-  commentId: M:Wrap.R.Match``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Action{``0})
-  name.vb: Match(Of T)(Result(Of T), Action(Of ErrValue), Action(Of T))
-  fullName: Wrap.R.Match<T>(Wrap.Result<T>, System.Action<Wrap.ErrValue>, System.Action<T>)
-  fullName.vb: Wrap.R.Match(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.ErrValue), System.Action(Of T))
-  nameWithType: R.Match<T>(Result<T>, Action<ErrValue>, Action<T>)
-  nameWithType.vb: R.Match(Of T)(Result(Of T), Action(Of ErrValue), Action(Of T))
-- uid: Wrap.R.Match``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name: Match<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  href: api/Wrap.R.Match.html#Wrap_R_Match__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0___1__
-  commentId: M:Wrap.R.Match``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name.vb: Match(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
-  fullName: Wrap.R.Match<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.R.Match(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, TReturn))
-  nameWithType: R.Match<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  nameWithType.vb: R.Match(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
+- uid: Wrap.R.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name: MatchAsync<T>(Task<Result<T>>, Func<FailValue, Task>, Func<T, Task>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Wrap.R.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task), Func(Of T, Task))
+  fullName: Wrap.R.MatchAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.R.MatchAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: R.MatchAsync<T>(Task<Result<T>>, Func<FailValue, Task>, Func<T, Task>)
+  nameWithType.vb: R.MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task), Func(Of T, Task))
+- uid: Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Func{``0,System.Threading.Tasks.Task})
+  name: MatchAsync<T>(Result<T>, Action<FailValue>, Func<T, Task>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: MatchAsync(Of T)(Result(Of T), Action(Of FailValue), Func(Of T, Task))
+  fullName: Wrap.R.MatchAsync<T>(Wrap.Result<T>, System.Action<Wrap.FailValue>, System.Func<T, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.R.MatchAsync(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.FailValue), System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: R.MatchAsync<T>(Result<T>, Action<FailValue>, Func<T, Task>)
+  nameWithType.vb: R.MatchAsync(Of T)(Result(Of T), Action(Of FailValue), Func(Of T, Task))
+- uid: Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Action{``0})
+  name: MatchAsync<T>(Result<T>, Func<FailValue, Task>, Action<T>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Action___0__
+  commentId: M:Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Action{``0})
+  name.vb: MatchAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Action(Of T))
+  fullName: Wrap.R.MatchAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>, System.Action<T>)
+  fullName.vb: Wrap.R.MatchAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task), System.Action(Of T))
+  nameWithType: R.MatchAsync<T>(Result<T>, Func<FailValue, Task>, Action<T>)
+  nameWithType.vb: R.MatchAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Action(Of T))
+- uid: Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name: MatchAsync<T>(Result<T>, Func<FailValue, Task>, Func<T, Task>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Wrap.R.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: MatchAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Func(Of T, Task))
+  fullName: Wrap.R.MatchAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.R.MatchAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: R.MatchAsync<T>(Result<T>, Func<FailValue, Task>, Func<T, Task>)
+  nameWithType.vb: R.MatchAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Func(Of T, Task))
+- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__
+  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
+  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0___1__
+  commentId: M:Wrap.R.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, TReturn))
+  fullName: Wrap.R.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, TReturn))
+  nameWithType: R.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, TReturn))
+- uid: Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.R.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: R.MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name: MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__
+  commentId: M:Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+  fullName: Wrap.R.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
+  nameWithType: R.MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+- uid: Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  href: api/Wrap.R.MatchAsync.html#Wrap_R_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.R.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.R.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.R.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: R.MatchAsync<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  nameWithType.vb: R.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.R.Match``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Action{``0})
+  name: Match<T>(Result<T>, Action<FailValue>, Action<T>)
+  href: api/Wrap.R.Match.html#Wrap_R_Match__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Action___0__
+  commentId: M:Wrap.R.Match``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Action{``0})
+  name.vb: Match(Of T)(Result(Of T), Action(Of FailValue), Action(Of T))
+  fullName: Wrap.R.Match<T>(Wrap.Result<T>, System.Action<Wrap.FailValue>, System.Action<T>)
+  fullName.vb: Wrap.R.Match(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.FailValue), System.Action(Of T))
+  nameWithType: R.Match<T>(Result<T>, Action<FailValue>, Action<T>)
+  nameWithType.vb: R.Match(Of T)(Result(Of T), Action(Of FailValue), Action(Of T))
+- uid: Wrap.R.Match``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name: Match<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  href: api/Wrap.R.Match.html#Wrap_R_Match__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0___1__
+  commentId: M:Wrap.R.Match``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name.vb: Match(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, TReturn))
+  fullName: Wrap.R.Match<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.R.Match(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, TReturn))
+  nameWithType: R.Match<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  nameWithType.vb: R.Match(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, TReturn))
 - uid: Wrap.R.Ok
   name: Ok()
   href: api/Wrap.R.Ok.html#Wrap_R_Ok
@@ -5409,15 +5475,15 @@ references:
   commentId: Overload:Wrap.ResultExtensions.AuditAsync
   fullName: Wrap.ResultExtensions.AuditAsync
   nameWithType: ResultExtensions.AuditAsync
-- uid: Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.ErrValue},System.Action{``0})
-  name: AuditAsync<T>(Task<Result<T>>, Action<ErrValue>?, Action<T>?)
-  href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_ErrValue__System_Action___0__
-  commentId: M:Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.ErrValue},System.Action{``0})
-  name.vb: AuditAsync(Of T)(Task(Of Result(Of T)), Action(Of ErrValue), Action(Of T))
-  fullName: Wrap.ResultExtensions.AuditAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Action<Wrap.ErrValue>?, System.Action<T>?)
-  fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Action(Of Wrap.ErrValue), System.Action(Of T))
-  nameWithType: ResultExtensions.AuditAsync<T>(Task<Result<T>>, Action<ErrValue>?, Action<T>?)
-  nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Task(Of Result(Of T)), Action(Of ErrValue), Action(Of T))
+- uid: Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue},System.Action{``0})
+  name: AuditAsync<T>(Task<Result<T>>, Action<FailValue>?, Action<T>?)
+  href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__System_Action___0__
+  commentId: M:Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue},System.Action{``0})
+  name.vb: AuditAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue), Action(Of T))
+  fullName: Wrap.ResultExtensions.AuditAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Action<Wrap.FailValue>?, System.Action<T>?)
+  fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Action(Of Wrap.FailValue), System.Action(Of T))
+  nameWithType: ResultExtensions.AuditAsync<T>(Task<Result<T>>, Action<FailValue>?, Action<T>?)
+  nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue), Action(Of T))
 - uid: Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.Result{``0}})
   name: AuditAsync<T>(Task<Result<T>>, Action<Result<T>>)
   href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_Result___0___
@@ -5427,15 +5493,15 @@ references:
   fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Action(Of Wrap.Result(Of T)))
   nameWithType: ResultExtensions.AuditAsync<T>(Task<Result<T>>, Action<Result<T>>)
   nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Task(Of Result(Of T)), Action(Of Result(Of T)))
-- uid: Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name: AuditAsync<T>(Task<Result<T>>, Func<ErrValue, Task>?, Func<T, Task>?)
-  href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name.vb: AuditAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task), Func(Of T, Task))
-  fullName: Wrap.ResultExtensions.AuditAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>?, System.Func<T, System.Threading.Tasks.Task>?)
-  fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.AuditAsync<T>(Task<Result<T>>, Func<ErrValue, Task>?, Func<T, Task>?)
-  nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task), Func(Of T, Task))
+- uid: Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name: AuditAsync<T>(Task<Result<T>>, Func<FailValue, Task>?, Func<T, Task>?)
+  href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: AuditAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task), Func(Of T, Task))
+  fullName: Wrap.ResultExtensions.AuditAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>?, System.Func<T, System.Threading.Tasks.Task>?)
+  fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.AuditAsync<T>(Task<Result<T>>, Func<FailValue, Task>?, Func<T, Task>?)
+  nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task), Func(Of T, Task))
 - uid: Wrap.ResultExtensions.AuditAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.Result{``0},System.Threading.Tasks.Task})
   name: AuditAsync<T>(Task<Result<T>>, Func<Result<T>, Task>)
   href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_Result___0__System_Threading_Tasks_Task__
@@ -5445,15 +5511,15 @@ references:
   fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.Result(Of T), System.Threading.Tasks.Task))
   nameWithType: ResultExtensions.AuditAsync<T>(Task<Result<T>>, Func<Result<T>, Task>)
   nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Task(Of Result(Of T)), Func(Of Result(Of T), Task))
-- uid: Wrap.ResultExtensions.AuditAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name: AuditAsync<T>(Result<T>, Func<ErrValue, Task>?, Func<T, Task>?)
-  href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.AuditAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name.vb: AuditAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Func(Of T, Task))
-  fullName: Wrap.ResultExtensions.AuditAsync<T>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>?, System.Func<T, System.Threading.Tasks.Task>?)
-  fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.AuditAsync<T>(Result<T>, Func<ErrValue, Task>?, Func<T, Task>?)
-  nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Func(Of T, Task))
+- uid: Wrap.ResultExtensions.AuditAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name: AuditAsync<T>(Result<T>, Func<FailValue, Task>?, Func<T, Task>?)
+  href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.AuditAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: AuditAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Func(Of T, Task))
+  fullName: Wrap.ResultExtensions.AuditAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>?, System.Func<T, System.Threading.Tasks.Task>?)
+  fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.AuditAsync<T>(Result<T>, Func<FailValue, Task>?, Func<T, Task>?)
+  nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Func(Of T, Task))
 - uid: Wrap.ResultExtensions.AuditAsync``1(Wrap.Result{``0},System.Func{Wrap.Result{``0},System.Threading.Tasks.Task})
   name: AuditAsync<T>(Result<T>, Func<Result<T>, Task>)
   href: api/Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_Result___0__System_Threading_Tasks_Task__
@@ -5463,15 +5529,15 @@ references:
   fullName.vb: Wrap.ResultExtensions.AuditAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.Result(Of T), System.Threading.Tasks.Task))
   nameWithType: ResultExtensions.AuditAsync<T>(Result<T>, Func<Result<T>, Task>)
   nameWithType.vb: ResultExtensions.AuditAsync(Of T)(Result(Of T), Func(Of Result(Of T), Task))
-- uid: Wrap.ResultExtensions.Audit``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Action{``0})
-  name: Audit<T>(Result<T>, Action<ErrValue>?, Action<T>?)
-  href: api/Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Action___0__
-  commentId: M:Wrap.ResultExtensions.Audit``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Action{``0})
-  name.vb: Audit(Of T)(Result(Of T), Action(Of ErrValue), Action(Of T))
-  fullName: Wrap.ResultExtensions.Audit<T>(Wrap.Result<T>, System.Action<Wrap.ErrValue>?, System.Action<T>?)
-  fullName.vb: Wrap.ResultExtensions.Audit(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.ErrValue), System.Action(Of T))
-  nameWithType: ResultExtensions.Audit<T>(Result<T>, Action<ErrValue>?, Action<T>?)
-  nameWithType.vb: ResultExtensions.Audit(Of T)(Result(Of T), Action(Of ErrValue), Action(Of T))
+- uid: Wrap.ResultExtensions.Audit``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Action{``0})
+  name: Audit<T>(Result<T>, Action<FailValue>?, Action<T>?)
+  href: api/Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Action___0__
+  commentId: M:Wrap.ResultExtensions.Audit``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Action{``0})
+  name.vb: Audit(Of T)(Result(Of T), Action(Of FailValue), Action(Of T))
+  fullName: Wrap.ResultExtensions.Audit<T>(Wrap.Result<T>, System.Action<Wrap.FailValue>?, System.Action<T>?)
+  fullName.vb: Wrap.ResultExtensions.Audit(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.FailValue), System.Action(Of T))
+  nameWithType: ResultExtensions.Audit<T>(Result<T>, Action<FailValue>?, Action<T>?)
+  nameWithType.vb: ResultExtensions.Audit(Of T)(Result(Of T), Action(Of FailValue), Action(Of T))
 - uid: Wrap.ResultExtensions.Audit``1(Wrap.Result{``0},System.Action{Wrap.Result{``0}})
   name: Audit<T>(Result<T>, Action<Result<T>>)
   href: api/Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_Result___0___
@@ -5589,42 +5655,42 @@ references:
   commentId: Overload:Wrap.ResultExtensions.IfErrAsync
   fullName: Wrap.ResultExtensions.IfErrAsync
   nameWithType: ResultExtensions.IfErrAsync
-- uid: Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.ErrValue})
-  name: IfErrAsync<T>(Task<Result<T>>, Action<ErrValue>)
-  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_ErrValue__
-  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.ErrValue})
-  name.vb: IfErrAsync(Of T)(Task(Of Result(Of T)), Action(Of ErrValue))
-  fullName: Wrap.ResultExtensions.IfErrAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Action<Wrap.ErrValue>)
-  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Action(Of Wrap.ErrValue))
-  nameWithType: ResultExtensions.IfErrAsync<T>(Task<Result<T>>, Action<ErrValue>)
-  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Task(Of Result(Of T)), Action(Of ErrValue))
-- uid: Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task})
-  name: IfErrAsync<T>(Task<Result<T>>, Func<ErrValue, Task>)
-  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task})
-  name.vb: IfErrAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task))
-  fullName: Wrap.ResultExtensions.IfErrAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.IfErrAsync<T>(Task<Result<T>>, Func<ErrValue, Task>)
-  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task))
-- uid: Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task})
-  name: IfErrAsync<T>(Result<T>, Func<ErrValue, Task>)
-  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task})
-  name.vb: IfErrAsync(Of T)(Result(Of T), Func(Of ErrValue, Task))
-  fullName: Wrap.ResultExtensions.IfErrAsync<T>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.IfErrAsync<T>(Result<T>, Func<ErrValue, Task>)
-  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Result(Of T), Func(Of ErrValue, Task))
-- uid: Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.ErrValue})
-  name: IfErr<T>(Result<T>, Action<ErrValue>)
-  href: api/Wrap.ResultExtensions.IfErr.html#Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_ErrValue__
-  commentId: M:Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.ErrValue})
-  name.vb: IfErr(Of T)(Result(Of T), Action(Of ErrValue))
-  fullName: Wrap.ResultExtensions.IfErr<T>(Wrap.Result<T>, System.Action<Wrap.ErrValue>)
-  fullName.vb: Wrap.ResultExtensions.IfErr(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.ErrValue))
-  nameWithType: ResultExtensions.IfErr<T>(Result<T>, Action<ErrValue>)
-  nameWithType.vb: ResultExtensions.IfErr(Of T)(Result(Of T), Action(Of ErrValue))
+- uid: Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})
+  name: IfErrAsync<T>(Task<Result<T>>, Action<FailValue>)
+  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__
+  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})
+  name.vb: IfErrAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue))
+  fullName: Wrap.ResultExtensions.IfErrAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Action<Wrap.FailValue>)
+  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Action(Of Wrap.FailValue))
+  nameWithType: ResultExtensions.IfErrAsync<T>(Task<Result<T>>, Action<FailValue>)
+  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Task(Of Result(Of T)), Action(Of FailValue))
+- uid: Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name: IfErrAsync<T>(Task<Result<T>>, Func<FailValue, Task>)
+  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name.vb: IfErrAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task))
+  fullName: Wrap.ResultExtensions.IfErrAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.IfErrAsync<T>(Task<Result<T>>, Func<FailValue, Task>)
+  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task))
+- uid: Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name: IfErrAsync<T>(Result<T>, Func<FailValue, Task>)
+  href: api/Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})
+  name.vb: IfErrAsync(Of T)(Result(Of T), Func(Of FailValue, Task))
+  fullName: Wrap.ResultExtensions.IfErrAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.ResultExtensions.IfErrAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.IfErrAsync<T>(Result<T>, Func<FailValue, Task>)
+  nameWithType.vb: ResultExtensions.IfErrAsync(Of T)(Result(Of T), Func(Of FailValue, Task))
+- uid: Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.FailValue})
+  name: IfErr<T>(Result<T>, Action<FailValue>)
+  href: api/Wrap.ResultExtensions.IfErr.html#Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_FailValue__
+  commentId: M:Wrap.ResultExtensions.IfErr``1(Wrap.Result{``0},System.Action{Wrap.FailValue})
+  name.vb: IfErr(Of T)(Result(Of T), Action(Of FailValue))
+  fullName: Wrap.ResultExtensions.IfErr<T>(Wrap.Result<T>, System.Action<Wrap.FailValue>)
+  fullName.vb: Wrap.ResultExtensions.IfErr(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.FailValue))
+  nameWithType: ResultExtensions.IfErr<T>(Result<T>, Action<FailValue>)
+  nameWithType.vb: ResultExtensions.IfErr(Of T)(Result(Of T), Action(Of FailValue))
 - uid: Wrap.ResultExtensions.IfOk*
   name: IfOk
   href: api/Wrap.ResultExtensions.IfOk.html
@@ -5733,105 +5799,105 @@ references:
   commentId: Overload:Wrap.ResultExtensions.MatchAsync
   fullName: Wrap.ResultExtensions.MatchAsync
   nameWithType: ResultExtensions.MatchAsync
-- uid: Wrap.ResultExtensions.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name: MatchAsync<T>(Task<Result<T>>, Func<ErrValue, Task>, Func<T, Task>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name.vb: MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task), Func(Of T, Task))
-  fullName: Wrap.ResultExtensions.MatchAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.MatchAsync<T>(Task<Result<T>>, Func<ErrValue, Task>, Func<T, Task>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task), Func(Of T, Task))
-- uid: Wrap.ResultExtensions.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name: MatchAsync<T>(Result<T>, Func<ErrValue, Task>, Func<T, Task>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
-  commentId: M:Wrap.ResultExtensions.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
-  name.vb: MatchAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Func(Of T, Task))
-  fullName: Wrap.ResultExtensions.MatchAsync<T>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
-  nameWithType: ResultExtensions.MatchAsync<T>(Result<T>, Func<ErrValue, Task>, Func<T, Task>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T)(Result(Of T), Func(Of ErrValue, Task), Func(Of T, Task))
-- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__
-  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
-  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___1__System_Func___0___1__
-  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
-  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, TReturn))
-  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
-- uid: Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, Task<TReturn>>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name: MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__
-  commentId: M:Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
-  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
-  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, Task<TReturn>>, Func<T, TReturn>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, Task(Of TReturn)), Func(Of T, TReturn))
-- uid: Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name: MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___
-  commentId: M:Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
-  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
-  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
-  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, Task<TReturn>>)
-  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, Task(Of TReturn)))
-- uid: Wrap.ResultExtensions.Match``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Action{``0})
-  name: Match<T>(Result<T>, Action<ErrValue>, Action<T>)
-  href: api/Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Action___0__
-  commentId: M:Wrap.ResultExtensions.Match``1(Wrap.Result{``0},System.Action{Wrap.ErrValue},System.Action{``0})
-  name.vb: Match(Of T)(Result(Of T), Action(Of ErrValue), Action(Of T))
-  fullName: Wrap.ResultExtensions.Match<T>(Wrap.Result<T>, System.Action<Wrap.ErrValue>, System.Action<T>)
-  fullName.vb: Wrap.ResultExtensions.Match(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.ErrValue), System.Action(Of T))
-  nameWithType: ResultExtensions.Match<T>(Result<T>, Action<ErrValue>, Action<T>)
-  nameWithType.vb: ResultExtensions.Match(Of T)(Result(Of T), Action(Of ErrValue), Action(Of T))
-- uid: Wrap.ResultExtensions.Match``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name: Match<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  href: api/Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0___1__
-  commentId: M:Wrap.ResultExtensions.Match``2(Wrap.Result{``0},System.Func{Wrap.ErrValue,``1},System.Func{``0,``1})
-  name.vb: Match(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
-  fullName: Wrap.ResultExtensions.Match<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.ErrValue, TReturn>, System.Func<T, TReturn>)
-  fullName.vb: Wrap.ResultExtensions.Match(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, TReturn), System.Func(Of T, TReturn))
-  nameWithType: ResultExtensions.Match<T, TReturn>(Result<T>, Func<ErrValue, TReturn>, Func<T, TReturn>)
-  nameWithType.vb: ResultExtensions.Match(Of T, TReturn)(Result(Of T), Func(Of ErrValue, TReturn), Func(Of T, TReturn))
+- uid: Wrap.ResultExtensions.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name: MatchAsync<T>(Task<Result<T>>, Func<FailValue, Task>, Func<T, Task>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.MatchAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task), Func(Of T, Task))
+  fullName: Wrap.ResultExtensions.MatchAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.MatchAsync<T>(Task<Result<T>>, Func<FailValue, Task>, Func<T, Task>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task), Func(Of T, Task))
+- uid: Wrap.ResultExtensions.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name: MatchAsync<T>(Result<T>, Func<FailValue, Task>, Func<T, Task>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__
+  commentId: M:Wrap.ResultExtensions.MatchAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task},System.Func{``0,System.Threading.Tasks.Task})
+  name.vb: MatchAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Func(Of T, Task))
+  fullName: Wrap.ResultExtensions.MatchAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task>, System.Func<T, System.Threading.Tasks.Task>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task), System.Func(Of T, System.Threading.Tasks.Task))
+  nameWithType: ResultExtensions.MatchAsync<T>(Result<T>, Func<FailValue, Task>, Func<T, Task>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T)(Result(Of T), Func(Of FailValue, Task), Func(Of T, Task))
+- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__
+  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
+  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name: MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___1__System_Func___0___1__
+  commentId: M:Wrap.ResultExtensions.MatchAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name.vb: MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, TReturn))
+  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, TReturn))
+  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Task<Result<T>>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of FailValue, TReturn), Func(Of T, TReturn))
+- uid: Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, Task<TReturn>>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name: MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__
+  commentId: M:Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``1}},System.Func{``0,``1})
+  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<TReturn>>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of TReturn)), System.Func(Of T, TReturn))
+  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Result<T>, Func<FailValue, Task<TReturn>>, Func<T, TReturn>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, Task(Of TReturn)), Func(Of T, TReturn))
+- uid: Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name: MatchAsync<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  href: api/Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___
+  commentId: M:Wrap.ResultExtensions.MatchAsync``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,System.Threading.Tasks.Task{``1}})
+  name.vb: MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+  fullName: Wrap.ResultExtensions.MatchAsync<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, System.Threading.Tasks.Task<TReturn>>)
+  fullName.vb: Wrap.ResultExtensions.MatchAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
+  nameWithType: ResultExtensions.MatchAsync<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, Task<TReturn>>)
+  nameWithType.vb: ResultExtensions.MatchAsync(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.ResultExtensions.Match``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Action{``0})
+  name: Match<T>(Result<T>, Action<FailValue>, Action<T>)
+  href: api/Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Action___0__
+  commentId: M:Wrap.ResultExtensions.Match``1(Wrap.Result{``0},System.Action{Wrap.FailValue},System.Action{``0})
+  name.vb: Match(Of T)(Result(Of T), Action(Of FailValue), Action(Of T))
+  fullName: Wrap.ResultExtensions.Match<T>(Wrap.Result<T>, System.Action<Wrap.FailValue>, System.Action<T>)
+  fullName.vb: Wrap.ResultExtensions.Match(Of T)(Wrap.Result(Of T), System.Action(Of Wrap.FailValue), System.Action(Of T))
+  nameWithType: ResultExtensions.Match<T>(Result<T>, Action<FailValue>, Action<T>)
+  nameWithType.vb: ResultExtensions.Match(Of T)(Result(Of T), Action(Of FailValue), Action(Of T))
+- uid: Wrap.ResultExtensions.Match``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name: Match<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  href: api/Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0___1__
+  commentId: M:Wrap.ResultExtensions.Match``2(Wrap.Result{``0},System.Func{Wrap.FailValue,``1},System.Func{``0,``1})
+  name.vb: Match(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, TReturn))
+  fullName: Wrap.ResultExtensions.Match<T, TReturn>(Wrap.Result<T>, System.Func<Wrap.FailValue, TReturn>, System.Func<T, TReturn>)
+  fullName.vb: Wrap.ResultExtensions.Match(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, TReturn))
+  nameWithType: ResultExtensions.Match<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, TReturn>)
+  nameWithType.vb: ResultExtensions.Match(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, TReturn))
 - uid: Wrap.ResultExtensions.Unwrap*
   name: Unwrap
   href: api/Wrap.ResultExtensions.Unwrap.html
@@ -5844,42 +5910,42 @@ references:
   commentId: Overload:Wrap.ResultExtensions.UnwrapAsync
   fullName: Wrap.ResultExtensions.UnwrapAsync
   nameWithType: ResultExtensions.UnwrapAsync
-- uid: Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``0}})
-  name: UnwrapAsync<T>(Task<Result<T>>, Func<ErrValue, Task<T>>)
-  href: api/Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___0___
-  commentId: M:Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``0}})
-  name.vb: UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of T)))
-  fullName: Wrap.ResultExtensions.UnwrapAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<T>>)
-  fullName.vb: Wrap.ResultExtensions.UnwrapAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of T)))
-  nameWithType: ResultExtensions.UnwrapAsync<T>(Task<Result<T>>, Func<ErrValue, Task<T>>)
-  nameWithType.vb: ResultExtensions.UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, Task(Of T)))
-- uid: Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``0})
-  name: UnwrapAsync<T>(Task<Result<T>>, Func<ErrValue, T>)
-  href: api/Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue___0__
-  commentId: M:Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,``0})
-  name.vb: UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, T))
-  fullName: Wrap.ResultExtensions.UnwrapAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.ErrValue, T>)
-  fullName.vb: Wrap.ResultExtensions.UnwrapAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.ErrValue, T))
-  nameWithType: ResultExtensions.UnwrapAsync<T>(Task<Result<T>>, Func<ErrValue, T>)
-  nameWithType.vb: ResultExtensions.UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of ErrValue, T))
-- uid: Wrap.ResultExtensions.UnwrapAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``0}})
-  name: UnwrapAsync<T>(Result<T>, Func<ErrValue, Task<T>>)
-  href: api/Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___0___
-  commentId: M:Wrap.ResultExtensions.UnwrapAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task{``0}})
-  name.vb: UnwrapAsync(Of T)(Result(Of T), Func(Of ErrValue, Task(Of T)))
-  fullName: Wrap.ResultExtensions.UnwrapAsync<T>(Wrap.Result<T>, System.Func<Wrap.ErrValue, System.Threading.Tasks.Task<T>>)
-  fullName.vb: Wrap.ResultExtensions.UnwrapAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, System.Threading.Tasks.Task(Of T)))
-  nameWithType: ResultExtensions.UnwrapAsync<T>(Result<T>, Func<ErrValue, Task<T>>)
-  nameWithType.vb: ResultExtensions.UnwrapAsync(Of T)(Result(Of T), Func(Of ErrValue, Task(Of T)))
-- uid: Wrap.ResultExtensions.Unwrap``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,``0})
-  name: Unwrap<T>(Result<T>, Func<ErrValue, T>)
-  href: api/Wrap.ResultExtensions.Unwrap.html#Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_ErrValue___0__
-  commentId: M:Wrap.ResultExtensions.Unwrap``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,``0})
-  name.vb: Unwrap(Of T)(Result(Of T), Func(Of ErrValue, T))
-  fullName: Wrap.ResultExtensions.Unwrap<T>(Wrap.Result<T>, System.Func<Wrap.ErrValue, T>)
-  fullName.vb: Wrap.ResultExtensions.Unwrap(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.ErrValue, T))
-  nameWithType: ResultExtensions.Unwrap<T>(Result<T>, Func<ErrValue, T>)
-  nameWithType.vb: ResultExtensions.Unwrap(Of T)(Result(Of T), Func(Of ErrValue, T))
+- uid: Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``0}})
+  name: UnwrapAsync<T>(Task<Result<T>>, Func<FailValue, Task<T>>)
+  href: api/Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task___0___
+  commentId: M:Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``0}})
+  name.vb: UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of T)))
+  fullName: Wrap.ResultExtensions.UnwrapAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<T>>)
+  fullName.vb: Wrap.ResultExtensions.UnwrapAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of T)))
+  nameWithType: ResultExtensions.UnwrapAsync<T>(Task<Result<T>>, Func<FailValue, Task<T>>)
+  nameWithType.vb: ResultExtensions.UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, Task(Of T)))
+- uid: Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``0})
+  name: UnwrapAsync<T>(Task<Result<T>>, Func<FailValue, T>)
+  href: api/Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue___0__
+  commentId: M:Wrap.ResultExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,``0})
+  name.vb: UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, T))
+  fullName: Wrap.ResultExtensions.UnwrapAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<Wrap.FailValue, T>)
+  fullName.vb: Wrap.ResultExtensions.UnwrapAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of Wrap.FailValue, T))
+  nameWithType: ResultExtensions.UnwrapAsync<T>(Task<Result<T>>, Func<FailValue, T>)
+  nameWithType.vb: ResultExtensions.UnwrapAsync(Of T)(Task(Of Result(Of T)), Func(Of FailValue, T))
+- uid: Wrap.ResultExtensions.UnwrapAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``0}})
+  name: UnwrapAsync<T>(Result<T>, Func<FailValue, Task<T>>)
+  href: api/Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___0___
+  commentId: M:Wrap.ResultExtensions.UnwrapAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task{``0}})
+  name.vb: UnwrapAsync(Of T)(Result(Of T), Func(Of FailValue, Task(Of T)))
+  fullName: Wrap.ResultExtensions.UnwrapAsync<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, System.Threading.Tasks.Task<T>>)
+  fullName.vb: Wrap.ResultExtensions.UnwrapAsync(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, System.Threading.Tasks.Task(Of T)))
+  nameWithType: ResultExtensions.UnwrapAsync<T>(Result<T>, Func<FailValue, Task<T>>)
+  nameWithType.vb: ResultExtensions.UnwrapAsync(Of T)(Result(Of T), Func(Of FailValue, Task(Of T)))
+- uid: Wrap.ResultExtensions.Unwrap``1(Wrap.Result{``0},System.Func{Wrap.FailValue,``0})
+  name: Unwrap<T>(Result<T>, Func<FailValue, T>)
+  href: api/Wrap.ResultExtensions.Unwrap.html#Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_FailValue___0__
+  commentId: M:Wrap.ResultExtensions.Unwrap``1(Wrap.Result{``0},System.Func{Wrap.FailValue,``0})
+  name.vb: Unwrap(Of T)(Result(Of T), Func(Of FailValue, T))
+  fullName: Wrap.ResultExtensions.Unwrap<T>(Wrap.Result<T>, System.Func<Wrap.FailValue, T>)
+  fullName.vb: Wrap.ResultExtensions.Unwrap(Of T)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, T))
+  nameWithType: ResultExtensions.Unwrap<T>(Result<T>, Func<FailValue, T>)
+  nameWithType.vb: ResultExtensions.Unwrap(Of T)(Result(Of T), Func(Of FailValue, T))
 - uid: Wrap.Result`1
   name: Result<T>
   href: api/Wrap.Result-1.html
@@ -6056,15 +6122,15 @@ references:
   fullName.vb: Wrap.Result(Of T).=
   nameWithType: Result<T>.operator ==
   nameWithType.vb: Result(Of T).=
-- uid: Wrap.Result`1.op_Implicit(Wrap.Err)~Wrap.Result{`0}
-  name: implicit operator Result<T>(Err)
-  href: api/Wrap.Result-1.op_Implicit.html#Wrap_Result_1_op_Implicit_Wrap_Err__Wrap_Result__0_
-  commentId: M:Wrap.Result`1.op_Implicit(Wrap.Err)~Wrap.Result{`0}
-  name.vb: CType(Err)
-  fullName: Wrap.Result<T>.implicit operator Wrap.Result<T>(Wrap.Err)
-  fullName.vb: Wrap.Result(Of T).CType(Wrap.Err)
-  nameWithType: Result<T>.implicit operator Result<T>(Err)
-  nameWithType.vb: Result(Of T).CType(Err)
+- uid: Wrap.Result`1.op_Implicit(Wrap.Fail)~Wrap.Result{`0}
+  name: implicit operator Result<T>(Fail)
+  href: api/Wrap.Result-1.op_Implicit.html#Wrap_Result_1_op_Implicit_Wrap_Fail__Wrap_Result__0_
+  commentId: M:Wrap.Result`1.op_Implicit(Wrap.Fail)~Wrap.Result{`0}
+  name.vb: CType(Fail)
+  fullName: Wrap.Result<T>.implicit operator Wrap.Result<T>(Wrap.Fail)
+  fullName.vb: Wrap.Result(Of T).CType(Wrap.Fail)
+  nameWithType: Result<T>.implicit operator Result<T>(Fail)
+  nameWithType.vb: Result(Of T).CType(Fail)
 - uid: Wrap.Result`1.op_Implicit(`0)~Wrap.Result{`0}
   name: implicit operator Result<T>(T)
   href: api/Wrap.Result-1.op_Implicit.html#Wrap_Result_1_op_Implicit__0__Wrap_Result__0_

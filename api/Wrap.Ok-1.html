@@ -98,12 +98,12 @@
   <dl><dt>Assembly</dt><dd>Result.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>'OK' Result - wraps value to enable safe non-null returns (see <a class="xref" href="Wrap.Err.html">Err</a>)</p>
+  <div class="markdown summary"><p>'OK' Result - wraps value to enable safe non-null returns (see <a class="xref" href="Wrap.Fail.html">Fail</a>)</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed record Ok&lt;T&gt; : Result&lt;T&gt;, IEither&lt;Result&lt;T&gt;, ErrValue, T&gt;, IEquatable&lt;Result&lt;T&gt;&gt;, IRight&lt;ErrValue, T&gt;, IEither&lt;ErrValue, T&gt;, IUnion&lt;T&gt;, IUnion, IEquatable&lt;Ok&lt;T&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed record Ok&lt;T&gt; : Result&lt;T&gt;, IEither&lt;Result&lt;T&gt;, FailValue, T&gt;, IEquatable&lt;Result&lt;T&gt;&gt;, IRight&lt;FailValue, T&gt;, IEither&lt;FailValue, T&gt;, IUnion&lt;T&gt;, IUnion, IEquatable&lt;Ok&lt;T&gt;&gt;</code></pre>
   </div>
 
 
@@ -127,10 +127,10 @@
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="Wrap.IEither-3.html">IEither</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;, <a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, T&gt;</div>
+      <div><a class="xref" href="Wrap.IEither-3.html">IEither</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;, <a class="xref" href="Wrap.FailValue.html">FailValue</a>, T&gt;</div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</div>
-      <div><a class="xref" href="Wrap.IRight-2.html">IRight</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, T&gt;</div>
-      <div><a class="xref" href="Wrap.IEither-2.html">IEither</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, T&gt;</div>
+      <div><a class="xref" href="Wrap.IRight-2.html">IRight</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, T&gt;</div>
+      <div><a class="xref" href="Wrap.IEither-2.html">IEither</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, T&gt;</div>
       <div><a class="xref" href="Wrap.IUnion-1.html">IUnion</a>&lt;T&gt;</div>
       <div><a class="xref" href="Wrap.IUnion.html">IUnion</a></div>
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Wrap.Ok-1.html">Ok</a>&lt;T&gt;&gt;</div>
@@ -195,13 +195,13 @@
       <a class="xref" href="Wrap.Linq.ResultExtensions.Where.html#Wrap_Linq_ResultExtensions_Where__1_Wrap_Result___0__System_Func___0_System_Threading_Tasks_Task_System_Boolean___">ResultExtensions.Where&lt;T&gt;(Result&lt;T&gt;, Func&lt;T, Task&lt;bool&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">ResultExtensions.AuditAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;?, Func&lt;T, Task&gt;?)</a>
+      <a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">ResultExtensions.AuditAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;?, Func&lt;T, Task&gt;?)</a>
   </div>
   <div>
       <a class="xref" href="Wrap.ResultExtensions.AuditAsync.html#Wrap_ResultExtensions_AuditAsync__1_Wrap_Result___0__System_Func_Wrap_Result___0__System_Threading_Tasks_Task__">ResultExtensions.AuditAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;Result&lt;T&gt;, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Action___0__">ResultExtensions.Audit&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;?, Action&lt;T&gt;?)</a>
+      <a class="xref" href="Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Action___0__">ResultExtensions.Audit&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;?, Action&lt;T&gt;?)</a>
   </div>
   <div>
       <a class="xref" href="Wrap.ResultExtensions.Audit.html#Wrap_ResultExtensions_Audit__1_Wrap_Result___0__System_Action_Wrap_Result___0___">ResultExtensions.Audit&lt;T&gt;(Result&lt;T&gt;, Action&lt;Result&lt;T&gt;&gt;)</a>
@@ -219,10 +219,10 @@
       <a class="xref" href="Wrap.ResultExtensions.Filter.html#Wrap_ResultExtensions_Filter__1_Wrap_Result___0__System_Func___0_System_Boolean__">ResultExtensions.Filter&lt;T&gt;(Result&lt;T&gt;, Func&lt;T, bool&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__">ResultExtensions.IfErrAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.IfErrAsync.html#Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__">ResultExtensions.IfErrAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.IfErr.html#Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_ErrValue__">ResultExtensions.IfErr&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.IfErr.html#Wrap_ResultExtensions_IfErr__1_Wrap_Result___0__System_Action_Wrap_FailValue__">ResultExtensions.IfErr&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;)</a>
   </div>
   <div>
       <a class="xref" href="Wrap.ResultExtensions.IfOkAsync.html#Wrap_ResultExtensions_IfOkAsync__1_Wrap_Result___0__System_Func___0_System_Threading_Tasks_Task__">ResultExtensions.IfOkAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;T, Task&gt;)</a>
@@ -237,28 +237,28 @@
       <a class="xref" href="Wrap.ResultExtensions.Map.html#Wrap_ResultExtensions_Map__2_Wrap_Result___0__System_Func___0___1__">ResultExtensions.Map&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;T, TReturn&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">ResultExtensions.MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;, Func&lt;T, Task&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__System_Func___0_System_Threading_Tasks_Task__">ResultExtensions.MatchAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;, Func&lt;T, Task&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">ResultExtensions.MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0_System_Threading_Tasks_Task___1___">ResultExtensions.MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___1___System_Func___0___1__">ResultExtensions.MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___1___System_Func___0___1__">ResultExtensions.MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;TReturn&gt;&gt;, Func&lt;T, TReturn&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0_System_Threading_Tasks_Task___1___">ResultExtensions.MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.MatchAsync.html#Wrap_ResultExtensions_MatchAsync__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0_System_Threading_Tasks_Task___1___">ResultExtensions.MatchAsync&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, Task&lt;TReturn&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__1_Wrap_Result___0__System_Action_Wrap_ErrValue__System_Action___0__">ResultExtensions.Match&lt;T&gt;(Result&lt;T&gt;, Action&lt;ErrValue&gt;, Action&lt;T&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__1_Wrap_Result___0__System_Action_Wrap_FailValue__System_Action___0__">ResultExtensions.Match&lt;T&gt;(Result&lt;T&gt;, Action&lt;FailValue&gt;, Action&lt;T&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__2_Wrap_Result___0__System_Func_Wrap_ErrValue___1__System_Func___0___1__">ResultExtensions.Match&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;ErrValue, TReturn&gt;, Func&lt;T, TReturn&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.Match.html#Wrap_ResultExtensions_Match__2_Wrap_Result___0__System_Func_Wrap_FailValue___1__System_Func___0___1__">ResultExtensions.Match&lt;T, TReturn&gt;(Result&lt;T&gt;, Func&lt;FailValue, TReturn&gt;, Func&lt;T, TReturn&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task___0___">ResultExtensions.UnwrapAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&lt;T&gt;&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.UnwrapAsync.html#Wrap_ResultExtensions_UnwrapAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task___0___">ResultExtensions.UnwrapAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&lt;T&gt;&gt;)</a>
   </div>
   <div>
-      <a class="xref" href="Wrap.ResultExtensions.Unwrap.html#Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_ErrValue___0__">ResultExtensions.Unwrap&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, T&gt;)</a>
+      <a class="xref" href="Wrap.ResultExtensions.Unwrap.html#Wrap_ResultExtensions_Unwrap__1_Wrap_Result___0__System_Func_Wrap_FailValue___0__">ResultExtensions.Unwrap&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, T&gt;)</a>
   </div>
   </dd></dl>
 

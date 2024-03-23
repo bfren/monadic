@@ -120,17 +120,17 @@
 
 <a id="Wrap_ResultExtensions_IfErrAsync_" data-uid="Wrap.ResultExtensions.IfErrAsync*"></a>
 
-<h3 id="Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task})">
-  IfErrAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;ErrValue, Task&gt;)
+<h3 id="Wrap_ResultExtensions_IfErrAsync__1_Wrap_Result___0__System_Func_Wrap_FailValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(Wrap.Result{``0},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})">
+  IfErrAsync&lt;T&gt;(Result&lt;T&gt;, Func&lt;FailValue, Task&gt;)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Result&lt;T&gt; @this, Func&lt;ErrValue, Task&gt; f)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Result&lt;T&gt; @this, Func&lt;FailValue, Task&gt; f)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -138,8 +138,8 @@
   <dt><code>this</code> <a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
 </dl>
 
@@ -168,17 +168,17 @@
 
 <a id="Wrap_ResultExtensions_IfErrAsync_" data-uid="Wrap.ResultExtensions.IfErrAsync*"></a>
 
-<h3 id="Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_ErrValue__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.ErrValue})">
-  IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;ErrValue&gt;)
+<h3 id="Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Action_Wrap_FailValue__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Action{Wrap.FailValue})">
+  IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Action&lt;FailValue&gt;)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Action&lt;ErrValue&gt; f)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Action&lt;FailValue&gt; f)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -186,8 +186,8 @@
   <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
 </dl>
 
@@ -216,17 +216,17 @@
 
 <a id="Wrap_ResultExtensions_IfErrAsync_" data-uid="Wrap.ResultExtensions.IfErrAsync*"></a>
 
-<h3 id="Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_ErrValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.ErrValue,System.Threading.Tasks.Task})">
-  IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;ErrValue, Task&gt;)
+<h3 id="Wrap_ResultExtensions_IfErrAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___System_Func_Wrap_FailValue_System_Threading_Tasks_Task__" data-uid="Wrap.ResultExtensions.IfErrAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{Wrap.FailValue,System.Threading.Tasks.Task})">
+  IfErrAsync&lt;T&gt;(Task&lt;Result&lt;T&gt;&gt;, Func&lt;FailValue, Task&gt;)
   
 </h3>
 
-<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+<div class="markdown level1 summary"><p>Run <code class="paramref">f</code> is <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Func&lt;ErrValue, Task&gt; f)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Task&lt;Result&lt;T&gt;&gt; IfErrAsync&lt;T&gt;(this Task&lt;Result&lt;T&gt;&gt; @this, Func&lt;FailValue, Task&gt; f)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -234,8 +234,8 @@
   <dt><code>this</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;&gt;</dt>
   <dd><p>Result object.</p>
 </dd>
-  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.ErrValue.html">ErrValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
-  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Err.html">Err</a>.</p>
+  <dt><code>f</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a>&gt;</dt>
+  <dd><p>Function to run when <code class="paramref">this</code> is <a class="xref" href="Wrap.Fail.html">Fail</a>.</p>
 </dd>
 </dl>
 

@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Operator operator !=
+      <title>Operator implicit operator
  | Wrap </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Operator operator !=
+      <meta name="title" content="Operator implicit operator
  | Wrap ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,14 +84,14 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Wrap.ErrValue.op_Inequality*">
+        <article data-uid="Wrap.FailValue.op_Implicit*">
 
 
 
 
 
-<h1 id="Wrap_ErrValue_op_Inequality_" data-uid="Wrap.ErrValue.op_Inequality*" class="text-break">
-  Operator operator !=
+<h1 id="Wrap_FailValue_op_Implicit_" data-uid="Wrap.FailValue.op_Implicit*" class="text-break">
+  Operator implicit operator
   
 </h1>
 
@@ -118,31 +118,71 @@
 
 
 
-<a id="Wrap_ErrValue_op_Inequality_" data-uid="Wrap.ErrValue.op_Inequality*"></a>
+<a id="Wrap_FailValue_op_Implicit_" data-uid="Wrap.FailValue.op_Implicit*"></a>
 
-<h3 id="Wrap_ErrValue_op_Inequality_Wrap_ErrValue_Wrap_ErrValue_" data-uid="Wrap.ErrValue.op_Inequality(Wrap.ErrValue,Wrap.ErrValue)">
-  operator !=(ErrValue, ErrValue)
+<h3 id="Wrap_FailValue_op_Implicit_System_String__Wrap_FailValue" data-uid="Wrap.FailValue.op_Implicit(System.String)~Wrap.FailValue">
+  implicit operator FailValue(string)
   
 </h3>
 
-<div class="markdown level1 summary"></div>
+<div class="markdown level1 summary"><p>Convert an error message to an <a class="xref" href="Wrap.FailValue.html">FailValue</a> object,
+setting <a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a> to <a class="xref" href="Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Unknown">Unknown</a>.</p>
+</div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static bool operator !=(ErrValue left, ErrValue right)</code></pre>
+  <pre><code class="lang-csharp hljs">public static implicit operator FailValue(string message)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
-  <dt><code>left</code> <a class="xref" href="Wrap.ErrValue.html">ErrValue</a></dt>
-  <dd></dd>
-  <dt><code>right</code> <a class="xref" href="Wrap.ErrValue.html">ErrValue</a></dt>
-  <dd></dd>
+  <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd><p>Error message.</p>
+</dd>
 </dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
-  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+  <dt><a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
+  <dd></dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+<a id="Wrap_FailValue_op_Implicit_" data-uid="Wrap.FailValue.op_Implicit*"></a>
+
+<h3 id="Wrap_FailValue_op_Implicit_System_Exception__Wrap_FailValue" data-uid="Wrap.FailValue.op_Implicit(System.Exception)~Wrap.FailValue">
+  implicit operator FailValue(Exception)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Convert an exception to an <a class="xref" href="Wrap.FailValue.html">FailValue</a> object
+setting <a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a> to <a class="xref" href="Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Error">Error</a>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static implicit operator FailValue(Exception exception)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>exception</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
+  <dd><p>Exception object.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
   <dd></dd>
 </dl>
 
