@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Operator implicit operator
+      <title>Class UnsafeExtensions
  | Wrap </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Operator implicit operator
+      <meta name="title" content="Class UnsafeExtensions
  | Wrap ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,115 +84,90 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Wrap.FailValue.op_Implicit*">
+        <article data-uid="Wrap.UnsafeExtensions">
 
 
 
-
-
-<h1 id="Wrap_FailValue_op_Implicit_" data-uid="Wrap.FailValue.op_Implicit*" class="text-break">
-  Operator implicit operator
+  <h1 id="Wrap_UnsafeExtensions" data-uid="Wrap.UnsafeExtensions" class="text-break">
+    Class UnsafeExtensions
   
-</h1>
+  </h1>
 
-<div class="facts text-secondary">
-  <dl><dt>Namespace</dt><dd><a class="xref" href="Wrap.html">Wrap</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Result.dll</dd></dl>
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="Wrap.html">Wrap</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Maybe.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Extension methods for <a class="xref" href="Wrap.Unsafe-1.html">Unsafe&lt;T&gt;</a> objects.</p>
 </div>
+  <div class="markdown conceptual"></div>
 
-<div class="markdown summary"></div>
-<div class="markdown conceptual"></div>
-
-
-
-
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class UnsafeExtensions</code></pre>
+  </div>
 
 
 
 
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">UnsafeExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist derived">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
 
 
 
 
 
+  <h2 class="section" id="methods">Methods
+</h2>
 
-
-
-<a id="Wrap_FailValue_op_Implicit_" data-uid="Wrap.FailValue.op_Implicit*"></a>
-
-<h3 id="Wrap_FailValue_op_Implicit_System_String__Wrap_FailValue" data-uid="Wrap.FailValue.op_Implicit(System.String)~Wrap.FailValue">
-  implicit operator FailValue(string)
-  
-</h3>
-
-<div class="markdown level1 summary"><p>Convert a failure message to an <a class="xref" href="Wrap.FailValue.html">FailValue</a> object,
-setting <a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a> to <a class="xref" href="Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Unknown">Unknown</a>.</p>
-</div>
-<div class="markdown level1 conceptual"></div>
-
-<div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static implicit operator FailValue(string message)</code></pre>
-</div>
-
-<h4 class="section">Parameters</h4>
-<dl class="parameters">
-  <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-  <dd><p>Failure message.</p>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.UnsafeExtensions.IsSome.html#Wrap_UnsafeExtensions_IsSome__1_Wrap_Unsafe___0____0__">IsSome&lt;T&gt;(Unsafe&lt;T&gt;, out T)</a></dt>
+    <dd><p>If <code class="paramref">this</code> contains a <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a>, set <code class="paramref">value</code>
+to be <a class="xref" href="Wrap.Some-1.Value.html#Wrap_Some_1_Value">Value</a>.</p>
 </dd>
-</dl>
-
-<h4 class="section">Returns</h4>
-<dl class="parameters">
-  <dt><a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
-  <dd></dd>
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-<a id="Wrap_FailValue_op_Implicit_" data-uid="Wrap.FailValue.op_Implicit*"></a>
-
-<h3 id="Wrap_FailValue_op_Implicit_System_Exception__Wrap_FailValue" data-uid="Wrap.FailValue.op_Implicit(System.Exception)~Wrap.FailValue">
-  implicit operator FailValue(Exception)
-  
-</h3>
-
-<div class="markdown level1 summary"><p>Convert an exception to an <a class="xref" href="Wrap.FailValue.html">FailValue</a> object
-setting <a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a> to <a class="xref" href="Wrap.Logging.LogLevel.html#Wrap_Logging_LogLevel_Error">Error</a>.</p>
-</div>
-<div class="markdown level1 conceptual"></div>
-
-<div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static implicit operator FailValue(Exception exception)</code></pre>
-</div>
-
-<h4 class="section">Parameters</h4>
-<dl class="parameters">
-  <dt><code>exception</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></dt>
-  <dd><p>Exception object.</p>
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.UnsafeExtensions.UnwrapAsync.html#Wrap_UnsafeExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Unsafe___0___">UnwrapAsync&lt;T&gt;(Task&lt;Unsafe&lt;T&gt;&gt;)</a></dt>
+    <dd><p>Assume <code class="paramref">this</code> is a <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and get the value.</p>
 </dd>
-</dl>
-
-<h4 class="section">Returns</h4>
-<dl class="parameters">
-  <dt><a class="xref" href="Wrap.FailValue.html">FailValue</a></dt>
-  <dd></dd>
-</dl>
-
-
-
-
-
-
-
-
+  </dl>
+  <dl class="jumplist">
+    <dt><a class="xref" href="Wrap.UnsafeExtensions.Unwrap.html#Wrap_UnsafeExtensions_Unwrap__1_Wrap_Unsafe___0__">Unwrap&lt;T&gt;(Unsafe&lt;T&gt;)</a></dt>
+    <dd><p>Assume <code class="paramref">this</code> is a <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and get the value.</p>
+</dd>
+  </dl>
 
 
 

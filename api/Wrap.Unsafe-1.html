@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Struct FailValue
+      <title>Struct Unsafe&lt;T&gt;
  | Wrap </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Struct FailValue
+      <meta name="title" content="Struct Unsafe&lt;T&gt;
  | Wrap ">
       
       <link rel="icon" href="../favicon.ico">
@@ -84,36 +84,42 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="Wrap.FailValue">
+        <article data-uid="Wrap.Unsafe`1">
 
 
 
-  <h1 id="Wrap_FailValue" data-uid="Wrap.FailValue" class="text-break">
-    Struct FailValue
+  <h1 id="Wrap_Unsafe_1" data-uid="Wrap.Unsafe`1" class="text-break">
+    Struct Unsafe&lt;T&gt;
   
   </h1>
 
   <div class="facts text-secondary">
     <dl><dt>Namespace</dt><dd><a class="xref" href="Wrap.html">Wrap</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>Result.dll</dd></dl>
+  <dl><dt>Assembly</dt><dd>Maybe.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>Holds information about a failure.</p>
+  <div class="markdown summary"><p>Unsafe wrapper to enable unsafe (i.e. may result in null values) functions.</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly struct FailValue : IEquatable&lt;FailValue&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly struct Unsafe&lt;T&gt; : IEquatable&lt;Unsafe&lt;T&gt;&gt;</code></pre>
   </div>
 
 
 
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd><p>Ok value type.</p>
+</dd>
+  </dl>
 
 
   <dl class="typelist implements">
     <dt>Implements</dt>
     <dd>
-      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Wrap.FailValue.html">FailValue</a>&gt;</div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Wrap.Unsafe-1.html">Unsafe</a>&lt;T&gt;&gt;</div>
     </dd>
   </dl>
 
@@ -147,87 +153,34 @@
   <div>
       <a class="xref" href="Wrap.ObjectExtensions.WrapRight.html#Wrap_ObjectExtensions_WrapRight__2___1_">ObjectExtensions.WrapRight&lt;TLeft, TRight&gt;(TRight)</a>
   </div>
+  <div>
+      <a class="xref" href="Wrap.UnsafeExtensions.IsSome.html#Wrap_UnsafeExtensions_IsSome__1_Wrap_Unsafe___0____0__">UnsafeExtensions.IsSome&lt;T&gt;(Unsafe&lt;T&gt;, out T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Wrap.UnsafeExtensions.Unwrap.html#Wrap_UnsafeExtensions_Unwrap__1_Wrap_Unsafe___0__">UnsafeExtensions.Unwrap&lt;T&gt;(Unsafe&lt;T&gt;)</a>
+  </div>
   </dd></dl>
 
 
 
 
-  <h2 class="section" id="properties">Properties
-</h2>
-
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Args.html#Wrap_FailValue_Args">Args</a></dt>
-    <dd><p>[Optional] Arguments to use as values where <a class="xref" href="Wrap.FailValue.Message.html#Wrap_FailValue_Message">Message</a> contains format placeholders.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Context.html#Wrap_FailValue_Context">Context</a></dt>
-    <dd><p>[Optional] Context (usually full type name) of the failure.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Exception.html#Wrap_FailValue_Exception">Exception</a></dt>
-    <dd><p>[Optional] Exception object.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Level.html#Wrap_FailValue_Level">Level</a></dt>
-    <dd><p>Log level.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Message.html#Wrap_FailValue_Message">Message</a></dt>
-    <dd><p>Failure message.</p>
-</dd>
-  </dl>
-
   <h2 class="section" id="methods">Methods
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_Exception_">Create(Exception)</a></dt>
-    <dd><p>Create a <a class="xref" href="Wrap.FailValue.html">FailValue</a> object from an <code class="paramref">exception</code>.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_Object___">Create(string, params object[])</a></dt>
-    <dd><p>Create a <a class="xref" href="Wrap.FailValue.html">FailValue</a> object from a simple <code class="paramref">message</code>.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_String_System_Exception_">Create(string, string, Exception)</a></dt>
-    <dd><p>Create a <a class="xref" href="Wrap.FailValue.html">FailValue</a> object from an <code class="paramref">exception</code>.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_String_System_String_System_Object___">Create(string, string, string, params object[])</a></dt>
-    <dd><p>Create a <a class="xref" href="Wrap.FailValue.html">FailValue</a> object from a simple <code class="paramref">message</code>.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Create.html#Wrap_FailValue_Create__1_System_Exception_">Create&lt;T&gt;(Exception)</a></dt>
-    <dd><p>Create a <a class="xref" href="Wrap.FailValue.html">FailValue</a> object from an <code class="paramref">exception</code>.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Create.html#Wrap_FailValue_Create__1_System_String_System_Object___">Create&lt;T&gt;(string, params object[])</a></dt>
-    <dd><p>Create a <a class="xref" href="Wrap.FailValue.html">FailValue</a> object from a simple <code class="paramref">message</code>.</p>
-</dd>
-  </dl>
-  <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Equals.html#Wrap_FailValue_Equals_System_Object_">Equals(object)</a></dt>
+    <dt><a class="xref" href="Wrap.Unsafe-1.Equals.html#Wrap_Unsafe_1_Equals_System_Object_">Equals(object)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.Equals.html#Wrap_FailValue_Equals_Wrap_FailValue_">Equals(FailValue)</a></dt>
+    <dt><a class="xref" href="Wrap.Unsafe-1.Equals.html#Wrap_Unsafe_1_Equals_Wrap_Unsafe__0__">Equals(Unsafe&lt;T&gt;)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.GetHashCode.html#Wrap_FailValue_GetHashCode">GetHashCode()</a></dt>
+    <dt><a class="xref" href="Wrap.Unsafe-1.GetHashCode.html#Wrap_Unsafe_1_GetHashCode">GetHashCode()</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.ToString.html#Wrap_FailValue_ToString">ToString()</a></dt>
+    <dt><a class="xref" href="Wrap.Unsafe-1.ToString.html#Wrap_Unsafe_1_ToString">ToString()</a></dt>
     <dd></dd>
   </dl>
 
@@ -235,11 +188,11 @@
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.op_Equality.html#Wrap_FailValue_op_Equality_Wrap_FailValue_Wrap_FailValue_">operator ==(FailValue, FailValue)</a></dt>
+    <dt><a class="xref" href="Wrap.Unsafe-1.op_Equality.html#Wrap_Unsafe_1_op_Equality_Wrap_Unsafe__0__Wrap_Unsafe__0__">operator ==(Unsafe&lt;T&gt;, Unsafe&lt;T&gt;)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.FailValue.op_Inequality.html#Wrap_FailValue_op_Inequality_Wrap_FailValue_Wrap_FailValue_">operator !=(FailValue, FailValue)</a></dt>
+    <dt><a class="xref" href="Wrap.Unsafe-1.op_Inequality.html#Wrap_Unsafe_1_op_Inequality_Wrap_Unsafe__0__Wrap_Unsafe__0__">operator !=(Unsafe&lt;T&gt;, Unsafe&lt;T&gt;)</a></dt>
     <dd></dd>
   </dl>
 

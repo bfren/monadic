@@ -125,7 +125,7 @@
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a <a class="xref" href="Wrap.FailValue.html">FailValue</a>.</p>
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> from a <a class="xref" href="Wrap.FailValue.html">FailValue</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
@@ -169,7 +169,7 @@
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a <a class="xref" href="Wrap.FailValue.html">FailValue</a>.</p>
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> from a <a class="xref" href="Wrap.FailValue.html">FailValue</a>.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
@@ -214,23 +214,26 @@ Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_
 
 <a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Fail_System_String_" data-uid="Wrap.R.Fail(System.String)">
-  Fail(string)
+<h3 id="Wrap_R_Fail_System_String_System_Object___" data-uid="Wrap.R.Fail(System.String,System.Object[])">
+  Fail(string, params object[])
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple failure message.</p>
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple failure message.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Fail Fail(string message)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail(string message, params object[] args)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
 <dl class="parameters">
   <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
   <dd><p>Failure message.</p>
+</dd>
+  <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+  <dd><p>[Optional] Arguments to use when <code class="paramref">message</code> contains placeholders.</p>
 </dd>
 </dl>
 
@@ -247,9 +250,9 @@ Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_
 
 
 
-<h4 class="section" id="Wrap_R_Fail_System_String__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail_System_String_System_Object____remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
-            Also logs the exception using <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
+            Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> or <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
             </p>
 </div>
 
@@ -258,37 +261,31 @@ Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_
 
 <a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Fail__1_System_String_" data-uid="Wrap.R.Fail``1(System.String)">
-  Fail&lt;T&gt;(string)
+<h3 id="Wrap_R_Fail__1" data-uid="Wrap.R.Fail``1">
+  Fail&lt;TException&gt;()
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple failure message.</p>
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception type.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Fail&lt;T&gt;(string message)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail&lt;TException&gt;() where TException : Exception, new()</code></pre>
 </div>
 
-<h4 class="section">Parameters</h4>
-<dl class="parameters">
-  <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-  <dd><p>Failure message.</p>
-</dd>
-</dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
-  <dt><a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
+  <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
   <dd><p>Failure result.</p>
 </dd>
 </dl>
 
 <h4 class="section">Type Parameters</h4>
 <dl class="parameters">
-  <dt><code>T</code></dt>
-  <dd><p>Ok value type.</p>
+  <dt><code>TException</code></dt>
+  <dd><p>Exception type.</p>
 </dd>
 </dl>
 
@@ -297,10 +294,10 @@ Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_
 
 
 
-<h4 class="section" id="Wrap_R_Fail__1_System_String__remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail__1_remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
-Also logs the exception using <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
-</p>
+            Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> first.
+            </p>
 </div>
 
 
@@ -313,7 +310,7 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogFailure.html#Wrap_
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception.</p>
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
@@ -352,19 +349,134 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogFailure.html#Wrap_
 
 <a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
 
-<h3 id="Wrap_R_Fail__1" data-uid="Wrap.R.Fail``1">
-  Fail&lt;TException&gt;()
+<h3 id="Wrap_R_Fail_System_String_System_String_System_String_System_Object___" data-uid="Wrap.R.Fail(System.String,System.String,System.String,System.Object[])">
+  Fail(string, string, string, params object[])
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception type.</p>
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple failure message.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Fail Fail&lt;TException&gt;() where TException : Exception, new()</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail(string @class, string function, string message, params object[] args)</code></pre>
 </div>
 
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>class</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd><p>Context class.</p>
+</dd>
+  <dt><code>function</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd><p>Context function.</p>
+</dd>
+  <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd><p>Failure message.</p>
+</dd>
+  <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+  <dd><p>[Optional] Arguments to use when <code class="paramref">message</code> contains placeholders.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
+  <dd><p>Failure result.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+<h4 class="section" id="Wrap_R_Fail_System_String_System_String_System_String_System_Object____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> or <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
+</p>
+</div>
+
+
+
+
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
+
+<h3 id="Wrap_R_Fail__1_System_String_System_Object___" data-uid="Wrap.R.Fail``1(System.String,System.Object[])">
+  Fail&lt;T&gt;(string, params object[])
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> from a simple failure message.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Fail Fail&lt;T&gt;(string message, params object[] args)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd><p>Failure message.</p>
+</dd>
+  <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+  <dd><p>[Optional] Arguments to use when <code class="paramref">message</code> contains placeholders.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
+  <dd><p>Failure result.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>T</code></dt>
+  <dd><p>Failure context.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_R_Fail__1_System_String_System_Object____remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+Also logs the failure using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> or <a class="xref" href="Wrap.F.LogFailure.html#Wrap_F_LogFailure">LogFailure</a> first.
+</p>
+</div>
+
+
+
+
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
+
+<h3 id="Wrap_R_Fail__1_System_String_System_String_" data-uid="Wrap.R.Fail``1(System.String,System.String)">
+  Fail&lt;TException&gt;(string, string)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception type.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Fail Fail&lt;TException&gt;(string @class, string function) where TException : Exception, new()</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>class</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd><p>Context class.</p>
+</dd>
+  <dt><code>function</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+  <dd><p>Context function.</p>
+</dd>
+</dl>
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
@@ -385,7 +497,54 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogFailure.html#Wrap_
 
 
 
-<h4 class="section" id="Wrap_R_Fail__1_remarks">Remarks</h4>
+<h4 class="section" id="Wrap_R_Fail__1_System_String_System_String__remarks">Remarks</h4>
+<div class="markdown level1 remarks"><p>
+Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> first.
+</p>
+</div>
+
+
+
+
+<a id="Wrap_R_Fail_" data-uid="Wrap.R.Fail*"></a>
+
+<h3 id="Wrap_R_Fail__2" data-uid="Wrap.R.Fail``2">
+  Fail&lt;TContext, TException&gt;()
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception type.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static Fail Fail&lt;TContext, TException&gt;() where TException : Exception, new()</code></pre>
+</div>
+
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
+  <dd><p>Failure result.</p>
+</dd>
+</dl>
+
+<h4 class="section">Type Parameters</h4>
+<dl class="parameters">
+  <dt><code>TContext</code></dt>
+  <dd><p>Failure context.</p>
+</dd>
+  <dt><code>TException</code></dt>
+  <dd><p>Exception type.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+<h4 class="section" id="Wrap_R_Fail__2_remarks">Remarks</h4>
 <div class="markdown level1 remarks"><p>
 Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wrap_F_LogException">LogException</a> first.
 </p>
@@ -401,12 +560,12 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wra
   
 </h3>
 
-<div class="markdown level1 summary"><p>Create an <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception.</p>
+<div class="markdown level1 summary"><p>Create a <a class="xref" href="Wrap.Fail.html">Fail</a> object from an exception.</p>
 </div>
 <div class="markdown level1 conceptual"></div>
 
 <div class="codewrapper">
-  <pre><code class="lang-csharp hljs">public static Result&lt;T&gt; Fail&lt;T&gt;(Exception ex)</code></pre>
+  <pre><code class="lang-csharp hljs">public static Fail Fail&lt;T&gt;(Exception ex)</code></pre>
 </div>
 
 <h4 class="section">Parameters</h4>
@@ -418,7 +577,7 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wra
 
 <h4 class="section">Returns</h4>
 <dl class="parameters">
-  <dt><a class="xref" href="Wrap.Result-1.html">Result</a>&lt;T&gt;</dt>
+  <dt><a class="xref" href="Wrap.Fail.html">Fail</a></dt>
   <dd><p>Failure result.</p>
 </dd>
 </dl>
@@ -426,7 +585,7 @@ Also logs the exception using <a class="xref" href="Wrap.F.LogException.html#Wra
 <h4 class="section">Type Parameters</h4>
 <dl class="parameters">
   <dt><code>T</code></dt>
-  <dd><p>Ok value type.</p>
+  <dd><p>Failure context.</p>
 </dd>
 </dl>
 

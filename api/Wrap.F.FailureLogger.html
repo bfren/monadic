@@ -103,13 +103,16 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void F.FailureLogger(string failure)</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate void F.FailureLogger(string failure, params object[] args)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>failure</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
     <dd><p>Failure message.</p>
+</dd>
+    <dt><code>args</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>[]</dt>
+    <dd><p>[Optional] Arguments to use when <code class="paramref">failure</code> contains placeholders.</p>
 </dd>
   </dl>
 
@@ -151,7 +154,7 @@
 </h2>
 
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.F.FailureLogger.BeginInvoke.html#Wrap_F_FailureLogger_BeginInvoke_System_String_System_AsyncCallback_System_Object_">BeginInvoke(string, AsyncCallback, object)</a></dt>
+    <dt><a class="xref" href="Wrap.F.FailureLogger.BeginInvoke.html#Wrap_F_FailureLogger_BeginInvoke_System_String_System_Object___System_AsyncCallback_System_Object_">BeginInvoke(string, object[], AsyncCallback, object)</a></dt>
     <dd></dd>
   </dl>
   <dl class="jumplist">
@@ -159,7 +162,7 @@
     <dd></dd>
   </dl>
   <dl class="jumplist">
-    <dt><a class="xref" href="Wrap.F.FailureLogger.Invoke.html#Wrap_F_FailureLogger_Invoke_System_String_">Invoke(string)</a></dt>
+    <dt><a class="xref" href="Wrap.F.FailureLogger.Invoke.html#Wrap_F_FailureLogger_Invoke_System_String_System_Object___">Invoke(string, params object[])</a></dt>
     <dd></dd>
   </dl>
 

@@ -1171,6 +1171,30 @@ references:
   fullName.vb: Wrap.Exceptions.PredicateFalseException.New
   nameWithType: PredicateFalseException.PredicateFalseException
   nameWithType.vb: PredicateFalseException.New
+- uid: Wrap.Exceptions.UnsafeUnwrapException
+  name: UnsafeUnwrapException
+  href: api/Wrap.Exceptions.UnsafeUnwrapException.html
+  commentId: T:Wrap.Exceptions.UnsafeUnwrapException
+  fullName: Wrap.Exceptions.UnsafeUnwrapException
+  nameWithType: UnsafeUnwrapException
+- uid: Wrap.Exceptions.UnsafeUnwrapException.#ctor
+  name: UnsafeUnwrapException()
+  href: api/Wrap.Exceptions.UnsafeUnwrapException.-ctor.html#Wrap_Exceptions_UnsafeUnwrapException__ctor
+  commentId: M:Wrap.Exceptions.UnsafeUnwrapException.#ctor
+  name.vb: New()
+  fullName: Wrap.Exceptions.UnsafeUnwrapException.UnsafeUnwrapException()
+  fullName.vb: Wrap.Exceptions.UnsafeUnwrapException.New()
+  nameWithType: UnsafeUnwrapException.UnsafeUnwrapException()
+  nameWithType.vb: UnsafeUnwrapException.New()
+- uid: Wrap.Exceptions.UnsafeUnwrapException.#ctor*
+  name: UnsafeUnwrapException
+  href: api/Wrap.Exceptions.UnsafeUnwrapException.-ctor.html
+  commentId: Overload:Wrap.Exceptions.UnsafeUnwrapException.#ctor
+  name.vb: New
+  fullName: Wrap.Exceptions.UnsafeUnwrapException.UnsafeUnwrapException
+  fullName.vb: Wrap.Exceptions.UnsafeUnwrapException.New
+  nameWithType: UnsafeUnwrapException.UnsafeUnwrapException
+  nameWithType.vb: UnsafeUnwrapException.New
 - uid: Wrap.Exceptions.WrapException
   name: WrapException
   href: api/Wrap.Exceptions.WrapException.html
@@ -1306,15 +1330,15 @@ references:
   fullName.vb: Wrap.F.FailureLogger.New
   nameWithType: F.FailureLogger.FailureLogger
   nameWithType.vb: F.FailureLogger.New
-- uid: Wrap.F.FailureLogger.BeginInvoke(System.String,System.AsyncCallback,System.Object)
-  name: BeginInvoke(string, AsyncCallback, object)
-  href: api/Wrap.F.FailureLogger.BeginInvoke.html#Wrap_F_FailureLogger_BeginInvoke_System_String_System_AsyncCallback_System_Object_
-  commentId: M:Wrap.F.FailureLogger.BeginInvoke(System.String,System.AsyncCallback,System.Object)
-  name.vb: BeginInvoke(String, AsyncCallback, Object)
-  fullName: Wrap.F.FailureLogger.BeginInvoke(string, System.AsyncCallback, object)
-  fullName.vb: Wrap.F.FailureLogger.BeginInvoke(String, System.AsyncCallback, Object)
-  nameWithType: F.FailureLogger.BeginInvoke(string, AsyncCallback, object)
-  nameWithType.vb: F.FailureLogger.BeginInvoke(String, AsyncCallback, Object)
+- uid: Wrap.F.FailureLogger.BeginInvoke(System.String,System.Object[],System.AsyncCallback,System.Object)
+  name: BeginInvoke(string, object[], AsyncCallback, object)
+  href: api/Wrap.F.FailureLogger.BeginInvoke.html#Wrap_F_FailureLogger_BeginInvoke_System_String_System_Object___System_AsyncCallback_System_Object_
+  commentId: M:Wrap.F.FailureLogger.BeginInvoke(System.String,System.Object[],System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(String, Object(), AsyncCallback, Object)
+  fullName: Wrap.F.FailureLogger.BeginInvoke(string, object[], System.AsyncCallback, object)
+  fullName.vb: Wrap.F.FailureLogger.BeginInvoke(String, Object(), System.AsyncCallback, Object)
+  nameWithType: F.FailureLogger.BeginInvoke(string, object[], AsyncCallback, object)
+  nameWithType.vb: F.FailureLogger.BeginInvoke(String, Object(), AsyncCallback, Object)
 - uid: Wrap.F.FailureLogger.BeginInvoke*
   name: BeginInvoke
   href: api/Wrap.F.FailureLogger.BeginInvoke.html
@@ -1333,15 +1357,15 @@ references:
   commentId: Overload:Wrap.F.FailureLogger.EndInvoke
   fullName: Wrap.F.FailureLogger.EndInvoke
   nameWithType: F.FailureLogger.EndInvoke
-- uid: Wrap.F.FailureLogger.Invoke(System.String)
-  name: Invoke(string)
-  href: api/Wrap.F.FailureLogger.Invoke.html#Wrap_F_FailureLogger_Invoke_System_String_
-  commentId: M:Wrap.F.FailureLogger.Invoke(System.String)
-  name.vb: Invoke(String)
-  fullName: Wrap.F.FailureLogger.Invoke(string)
-  fullName.vb: Wrap.F.FailureLogger.Invoke(String)
-  nameWithType: F.FailureLogger.Invoke(string)
-  nameWithType.vb: F.FailureLogger.Invoke(String)
+- uid: Wrap.F.FailureLogger.Invoke(System.String,System.Object[])
+  name: Invoke(string, params object[])
+  href: api/Wrap.F.FailureLogger.Invoke.html#Wrap_F_FailureLogger_Invoke_System_String_System_Object___
+  commentId: M:Wrap.F.FailureLogger.Invoke(System.String,System.Object[])
+  name.vb: Invoke(String, ParamArray Object())
+  fullName: Wrap.F.FailureLogger.Invoke(string, params object[])
+  fullName.vb: Wrap.F.FailureLogger.Invoke(String, ParamArray Object())
+  nameWithType: F.FailureLogger.Invoke(string, params object[])
+  nameWithType.vb: F.FailureLogger.Invoke(String, ParamArray Object())
 - uid: Wrap.F.FailureLogger.Invoke*
   name: Invoke
   href: api/Wrap.F.FailureLogger.Invoke.html
@@ -1426,6 +1450,87 @@ references:
   commentId: T:Wrap.FailValue
   fullName: Wrap.FailValue
   nameWithType: FailValue
+- uid: Wrap.FailValue.Args
+  name: Args
+  href: api/Wrap.FailValue.Args.html#Wrap_FailValue_Args
+  commentId: P:Wrap.FailValue.Args
+  fullName: Wrap.FailValue.Args
+  nameWithType: FailValue.Args
+- uid: Wrap.FailValue.Args*
+  name: Args
+  href: api/Wrap.FailValue.Args.html
+  commentId: Overload:Wrap.FailValue.Args
+  fullName: Wrap.FailValue.Args
+  nameWithType: FailValue.Args
+- uid: Wrap.FailValue.Context
+  name: Context
+  href: api/Wrap.FailValue.Context.html#Wrap_FailValue_Context
+  commentId: P:Wrap.FailValue.Context
+  fullName: Wrap.FailValue.Context
+  nameWithType: FailValue.Context
+- uid: Wrap.FailValue.Context*
+  name: Context
+  href: api/Wrap.FailValue.Context.html
+  commentId: Overload:Wrap.FailValue.Context
+  fullName: Wrap.FailValue.Context
+  nameWithType: FailValue.Context
+- uid: Wrap.FailValue.Create(System.Exception)
+  name: Create(Exception)
+  href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_Exception_
+  commentId: M:Wrap.FailValue.Create(System.Exception)
+  fullName: Wrap.FailValue.Create(System.Exception)
+  nameWithType: FailValue.Create(Exception)
+- uid: Wrap.FailValue.Create(System.String,System.Object[])
+  name: Create(string, params object[])
+  href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_Object___
+  commentId: M:Wrap.FailValue.Create(System.String,System.Object[])
+  name.vb: Create(String, ParamArray Object())
+  fullName: Wrap.FailValue.Create(string, params object[])
+  fullName.vb: Wrap.FailValue.Create(String, ParamArray Object())
+  nameWithType: FailValue.Create(string, params object[])
+  nameWithType.vb: FailValue.Create(String, ParamArray Object())
+- uid: Wrap.FailValue.Create(System.String,System.String,System.Exception)
+  name: Create(string, string, Exception)
+  href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_String_System_Exception_
+  commentId: M:Wrap.FailValue.Create(System.String,System.String,System.Exception)
+  name.vb: Create(String, String, Exception)
+  fullName: Wrap.FailValue.Create(string, string, System.Exception)
+  fullName.vb: Wrap.FailValue.Create(String, String, System.Exception)
+  nameWithType: FailValue.Create(string, string, Exception)
+  nameWithType.vb: FailValue.Create(String, String, Exception)
+- uid: Wrap.FailValue.Create(System.String,System.String,System.String,System.Object[])
+  name: Create(string, string, string, params object[])
+  href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_String_System_String_System_Object___
+  commentId: M:Wrap.FailValue.Create(System.String,System.String,System.String,System.Object[])
+  name.vb: Create(String, String, String, ParamArray Object())
+  fullName: Wrap.FailValue.Create(string, string, string, params object[])
+  fullName.vb: Wrap.FailValue.Create(String, String, String, ParamArray Object())
+  nameWithType: FailValue.Create(string, string, string, params object[])
+  nameWithType.vb: FailValue.Create(String, String, String, ParamArray Object())
+- uid: Wrap.FailValue.Create*
+  name: Create
+  href: api/Wrap.FailValue.Create.html
+  commentId: Overload:Wrap.FailValue.Create
+  fullName: Wrap.FailValue.Create
+  nameWithType: FailValue.Create
+- uid: Wrap.FailValue.Create``1(System.Exception)
+  name: Create<T>(Exception)
+  href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create__1_System_Exception_
+  commentId: M:Wrap.FailValue.Create``1(System.Exception)
+  name.vb: Create(Of T)(Exception)
+  fullName: Wrap.FailValue.Create<T>(System.Exception)
+  fullName.vb: Wrap.FailValue.Create(Of T)(System.Exception)
+  nameWithType: FailValue.Create<T>(Exception)
+  nameWithType.vb: FailValue.Create(Of T)(Exception)
+- uid: Wrap.FailValue.Create``1(System.String,System.Object[])
+  name: Create<T>(string, params object[])
+  href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create__1_System_String_System_Object___
+  commentId: M:Wrap.FailValue.Create``1(System.String,System.Object[])
+  name.vb: Create(Of T)(String, ParamArray Object())
+  fullName: Wrap.FailValue.Create<T>(string, params object[])
+  fullName.vb: Wrap.FailValue.Create(Of T)(String, ParamArray Object())
+  nameWithType: FailValue.Create<T>(string, params object[])
+  nameWithType.vb: FailValue.Create(Of T)(String, ParamArray Object())
 - uid: Wrap.FailValue.Equals(System.Object)
   name: Equals(object)
   href: api/Wrap.FailValue.Equals.html#Wrap_FailValue_Equals_System_Object_
@@ -1525,33 +1630,6 @@ references:
   fullName.vb: Wrap.FailValue.=
   nameWithType: FailValue.operator ==
   nameWithType.vb: FailValue.=
-- uid: Wrap.FailValue.op_Implicit(System.Exception)~Wrap.FailValue
-  name: implicit operator FailValue(Exception)
-  href: api/Wrap.FailValue.op_Implicit.html#Wrap_FailValue_op_Implicit_System_Exception__Wrap_FailValue
-  commentId: M:Wrap.FailValue.op_Implicit(System.Exception)~Wrap.FailValue
-  name.vb: CType(Exception)
-  fullName: Wrap.FailValue.implicit operator Wrap.FailValue(System.Exception)
-  fullName.vb: Wrap.FailValue.CType(System.Exception)
-  nameWithType: FailValue.implicit operator FailValue(Exception)
-  nameWithType.vb: FailValue.CType(Exception)
-- uid: Wrap.FailValue.op_Implicit(System.String)~Wrap.FailValue
-  name: implicit operator FailValue(string)
-  href: api/Wrap.FailValue.op_Implicit.html#Wrap_FailValue_op_Implicit_System_String__Wrap_FailValue
-  commentId: M:Wrap.FailValue.op_Implicit(System.String)~Wrap.FailValue
-  name.vb: CType(String)
-  fullName: Wrap.FailValue.implicit operator Wrap.FailValue(string)
-  fullName.vb: Wrap.FailValue.CType(String)
-  nameWithType: FailValue.implicit operator FailValue(string)
-  nameWithType.vb: FailValue.CType(String)
-- uid: Wrap.FailValue.op_Implicit*
-  name: implicit operator
-  href: api/Wrap.FailValue.op_Implicit.html
-  commentId: Overload:Wrap.FailValue.op_Implicit
-  name.vb: CType
-  fullName: Wrap.FailValue.implicit operator
-  fullName.vb: Wrap.FailValue.CType
-  nameWithType: FailValue.implicit operator
-  nameWithType.vb: FailValue.CType
 - uid: Wrap.FailValue.op_Inequality(Wrap.FailValue,Wrap.FailValue)
   name: operator !=(FailValue, FailValue)
   href: api/Wrap.FailValue.op_Inequality.html#Wrap_FailValue_op_Inequality_Wrap_FailValue_Wrap_FailValue_
@@ -4637,6 +4715,30 @@ references:
   fullName.vb: Wrap.MaybeExtensions.Match(Of T, TReturn)(Wrap.Maybe(Of T), TReturn, System.Func(Of T, TReturn))
   nameWithType: MaybeExtensions.Match<T, TReturn>(Maybe<T>, TReturn, Func<T, TReturn>)
   nameWithType.vb: MaybeExtensions.Match(Of T, TReturn)(Maybe(Of T), TReturn, Func(Of T, TReturn))
+- uid: Wrap.MaybeExtensions.Unsafe*
+  name: Unsafe
+  href: api/Wrap.MaybeExtensions.Unsafe.html
+  commentId: Overload:Wrap.MaybeExtensions.Unsafe
+  fullName: Wrap.MaybeExtensions.Unsafe
+  nameWithType: MaybeExtensions.Unsafe
+- uid: Wrap.MaybeExtensions.Unsafe``1(System.Threading.Tasks.Task{Wrap.Maybe{``0}})
+  name: Unsafe<T>(Task<Maybe<T>>)
+  href: api/Wrap.MaybeExtensions.Unsafe.html#Wrap_MaybeExtensions_Unsafe__1_System_Threading_Tasks_Task_Wrap_Maybe___0___
+  commentId: M:Wrap.MaybeExtensions.Unsafe``1(System.Threading.Tasks.Task{Wrap.Maybe{``0}})
+  name.vb: Unsafe(Of T)(Task(Of Maybe(Of T)))
+  fullName: Wrap.MaybeExtensions.Unsafe<T>(System.Threading.Tasks.Task<Wrap.Maybe<T>>)
+  fullName.vb: Wrap.MaybeExtensions.Unsafe(Of T)(System.Threading.Tasks.Task(Of Wrap.Maybe(Of T)))
+  nameWithType: MaybeExtensions.Unsafe<T>(Task<Maybe<T>>)
+  nameWithType.vb: MaybeExtensions.Unsafe(Of T)(Task(Of Maybe(Of T)))
+- uid: Wrap.MaybeExtensions.Unsafe``1(Wrap.Maybe{``0})
+  name: Unsafe<T>(Maybe<T>)
+  href: api/Wrap.MaybeExtensions.Unsafe.html#Wrap_MaybeExtensions_Unsafe__1_Wrap_Maybe___0__
+  commentId: M:Wrap.MaybeExtensions.Unsafe``1(Wrap.Maybe{``0})
+  name.vb: Unsafe(Of T)(Maybe(Of T))
+  fullName: Wrap.MaybeExtensions.Unsafe<T>(Wrap.Maybe<T>)
+  fullName.vb: Wrap.MaybeExtensions.Unsafe(Of T)(Wrap.Maybe(Of T))
+  nameWithType: MaybeExtensions.Unsafe<T>(Maybe<T>)
+  nameWithType.vb: MaybeExtensions.Unsafe(Of T)(Maybe(Of T))
 - uid: Wrap.MaybeExtensions.Unwrap*
   name: Unwrap
   href: api/Wrap.MaybeExtensions.Unwrap.html
@@ -4859,6 +4961,38 @@ references:
   fullName.vb: Wrap.Maybe(Of T).GetHashCode
   nameWithType: Maybe<T>.GetHashCode
   nameWithType.vb: Maybe(Of T).GetHashCode
+- uid: Wrap.Maybe`1.IsNone
+  name: IsNone
+  href: api/Wrap.Maybe-1.IsNone.html#Wrap_Maybe_1_IsNone
+  commentId: P:Wrap.Maybe`1.IsNone
+  fullName: Wrap.Maybe<T>.IsNone
+  fullName.vb: Wrap.Maybe(Of T).IsNone
+  nameWithType: Maybe<T>.IsNone
+  nameWithType.vb: Maybe(Of T).IsNone
+- uid: Wrap.Maybe`1.IsNone*
+  name: IsNone
+  href: api/Wrap.Maybe-1.IsNone.html
+  commentId: Overload:Wrap.Maybe`1.IsNone
+  fullName: Wrap.Maybe<T>.IsNone
+  fullName.vb: Wrap.Maybe(Of T).IsNone
+  nameWithType: Maybe<T>.IsNone
+  nameWithType.vb: Maybe(Of T).IsNone
+- uid: Wrap.Maybe`1.IsSome
+  name: IsSome
+  href: api/Wrap.Maybe-1.IsSome.html#Wrap_Maybe_1_IsSome
+  commentId: P:Wrap.Maybe`1.IsSome
+  fullName: Wrap.Maybe<T>.IsSome
+  fullName.vb: Wrap.Maybe(Of T).IsSome
+  nameWithType: Maybe<T>.IsSome
+  nameWithType.vb: Maybe(Of T).IsSome
+- uid: Wrap.Maybe`1.IsSome*
+  name: IsSome
+  href: api/Wrap.Maybe-1.IsSome.html
+  commentId: Overload:Wrap.Maybe`1.IsSome
+  fullName: Wrap.Maybe<T>.IsSome
+  fullName.vb: Wrap.Maybe(Of T).IsSome
+  nameWithType: Maybe<T>.IsSome
+  nameWithType.vb: Maybe(Of T).IsSome
 - uid: Wrap.Maybe`1.PrintMembers(System.Text.StringBuilder)
   name: PrintMembers(StringBuilder)
   href: api/Wrap.Maybe-1.PrintMembers.html#Wrap_Maybe_1_PrintMembers_System_Text_StringBuilder_
@@ -5214,15 +5348,24 @@ references:
   commentId: M:Wrap.R.Fail(System.Exception)
   fullName: Wrap.R.Fail(System.Exception)
   nameWithType: R.Fail(Exception)
-- uid: Wrap.R.Fail(System.String)
-  name: Fail(string)
-  href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_
-  commentId: M:Wrap.R.Fail(System.String)
-  name.vb: Fail(String)
-  fullName: Wrap.R.Fail(string)
-  fullName.vb: Wrap.R.Fail(String)
-  nameWithType: R.Fail(string)
-  nameWithType.vb: R.Fail(String)
+- uid: Wrap.R.Fail(System.String,System.Object[])
+  name: Fail(string, params object[])
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_System_Object___
+  commentId: M:Wrap.R.Fail(System.String,System.Object[])
+  name.vb: Fail(String, ParamArray Object())
+  fullName: Wrap.R.Fail(string, params object[])
+  fullName.vb: Wrap.R.Fail(String, ParamArray Object())
+  nameWithType: R.Fail(string, params object[])
+  nameWithType.vb: R.Fail(String, ParamArray Object())
+- uid: Wrap.R.Fail(System.String,System.String,System.String,System.Object[])
+  name: Fail(string, string, string, params object[])
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_System_String_System_String_System_Object___
+  commentId: M:Wrap.R.Fail(System.String,System.String,System.String,System.Object[])
+  name.vb: Fail(String, String, String, ParamArray Object())
+  fullName: Wrap.R.Fail(string, string, string, params object[])
+  fullName.vb: Wrap.R.Fail(String, String, String, ParamArray Object())
+  nameWithType: R.Fail(string, string, string, params object[])
+  nameWithType.vb: R.Fail(String, String, String, ParamArray Object())
 - uid: Wrap.R.Fail(Wrap.FailValue)
   name: Fail(FailValue)
   href: api/Wrap.R.Fail.html#Wrap_R_Fail_Wrap_FailValue_
@@ -5253,15 +5396,24 @@ references:
   fullName.vb: Wrap.R.Fail(Of T)(System.Exception)
   nameWithType: R.Fail<T>(Exception)
   nameWithType.vb: R.Fail(Of T)(Exception)
-- uid: Wrap.R.Fail``1(System.String)
-  name: Fail<T>(string)
-  href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_System_String_
-  commentId: M:Wrap.R.Fail``1(System.String)
-  name.vb: Fail(Of T)(String)
-  fullName: Wrap.R.Fail<T>(string)
-  fullName.vb: Wrap.R.Fail(Of T)(String)
-  nameWithType: R.Fail<T>(string)
-  nameWithType.vb: R.Fail(Of T)(String)
+- uid: Wrap.R.Fail``1(System.String,System.Object[])
+  name: Fail<T>(string, params object[])
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_System_String_System_Object___
+  commentId: M:Wrap.R.Fail``1(System.String,System.Object[])
+  name.vb: Fail(Of T)(String, ParamArray Object())
+  fullName: Wrap.R.Fail<T>(string, params object[])
+  fullName.vb: Wrap.R.Fail(Of T)(String, ParamArray Object())
+  nameWithType: R.Fail<T>(string, params object[])
+  nameWithType.vb: R.Fail(Of T)(String, ParamArray Object())
+- uid: Wrap.R.Fail``1(System.String,System.String)
+  name: Fail<TException>(string, string)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_System_String_System_String_
+  commentId: M:Wrap.R.Fail``1(System.String,System.String)
+  name.vb: Fail(Of TException)(String, String)
+  fullName: Wrap.R.Fail<TException>(string, string)
+  fullName.vb: Wrap.R.Fail(Of TException)(String, String)
+  nameWithType: R.Fail<TException>(string, string)
+  nameWithType.vb: R.Fail(Of TException)(String, String)
 - uid: Wrap.R.Fail``1(Wrap.FailValue)
   name: Fail<T>(FailValue)
   href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_Wrap_FailValue_
@@ -5271,6 +5423,15 @@ references:
   fullName.vb: Wrap.R.Fail(Of T)(Wrap.FailValue)
   nameWithType: R.Fail<T>(FailValue)
   nameWithType.vb: R.Fail(Of T)(FailValue)
+- uid: Wrap.R.Fail``2
+  name: Fail<TContext, TException>()
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail__2
+  commentId: M:Wrap.R.Fail``2
+  name.vb: Fail(Of TContext, TException)()
+  fullName: Wrap.R.Fail<TContext, TException>()
+  fullName.vb: Wrap.R.Fail(Of TContext, TException)()
+  nameWithType: R.Fail<TContext, TException>()
+  nameWithType.vb: R.Fail(Of TContext, TException)()
 - uid: Wrap.R.Match*
   name: Match
   href: api/Wrap.R.Match.html
@@ -7154,6 +7315,160 @@ references:
   fullName.vb: Wrap.Union(Of TUnion, TValue).<Clone>$
   nameWithType: Union<TUnion, TValue>.<Clone>$
   nameWithType.vb: Union(Of TUnion, TValue).<Clone>$
+- uid: Wrap.UnsafeExtensions
+  name: UnsafeExtensions
+  href: api/Wrap.UnsafeExtensions.html
+  commentId: T:Wrap.UnsafeExtensions
+  fullName: Wrap.UnsafeExtensions
+  nameWithType: UnsafeExtensions
+- uid: Wrap.UnsafeExtensions.IsSome*
+  name: IsSome
+  href: api/Wrap.UnsafeExtensions.IsSome.html
+  commentId: Overload:Wrap.UnsafeExtensions.IsSome
+  fullName: Wrap.UnsafeExtensions.IsSome
+  nameWithType: UnsafeExtensions.IsSome
+- uid: Wrap.UnsafeExtensions.IsSome``1(Wrap.Unsafe{``0},``0@)
+  name: IsSome<T>(Unsafe<T>, out T)
+  href: api/Wrap.UnsafeExtensions.IsSome.html#Wrap_UnsafeExtensions_IsSome__1_Wrap_Unsafe___0____0__
+  commentId: M:Wrap.UnsafeExtensions.IsSome``1(Wrap.Unsafe{``0},``0@)
+  name.vb: IsSome(Of T)(Unsafe(Of T), T)
+  fullName: Wrap.UnsafeExtensions.IsSome<T>(Wrap.Unsafe<T>, out T)
+  fullName.vb: Wrap.UnsafeExtensions.IsSome(Of T)(Wrap.Unsafe(Of T), T)
+  nameWithType: UnsafeExtensions.IsSome<T>(Unsafe<T>, out T)
+  nameWithType.vb: UnsafeExtensions.IsSome(Of T)(Unsafe(Of T), T)
+- uid: Wrap.UnsafeExtensions.Unwrap*
+  name: Unwrap
+  href: api/Wrap.UnsafeExtensions.Unwrap.html
+  commentId: Overload:Wrap.UnsafeExtensions.Unwrap
+  fullName: Wrap.UnsafeExtensions.Unwrap
+  nameWithType: UnsafeExtensions.Unwrap
+- uid: Wrap.UnsafeExtensions.UnwrapAsync*
+  name: UnwrapAsync
+  href: api/Wrap.UnsafeExtensions.UnwrapAsync.html
+  commentId: Overload:Wrap.UnsafeExtensions.UnwrapAsync
+  fullName: Wrap.UnsafeExtensions.UnwrapAsync
+  nameWithType: UnsafeExtensions.UnwrapAsync
+- uid: Wrap.UnsafeExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Unsafe{``0}})
+  name: UnwrapAsync<T>(Task<Unsafe<T>>)
+  href: api/Wrap.UnsafeExtensions.UnwrapAsync.html#Wrap_UnsafeExtensions_UnwrapAsync__1_System_Threading_Tasks_Task_Wrap_Unsafe___0___
+  commentId: M:Wrap.UnsafeExtensions.UnwrapAsync``1(System.Threading.Tasks.Task{Wrap.Unsafe{``0}})
+  name.vb: UnwrapAsync(Of T)(Task(Of Unsafe(Of T)))
+  fullName: Wrap.UnsafeExtensions.UnwrapAsync<T>(System.Threading.Tasks.Task<Wrap.Unsafe<T>>)
+  fullName.vb: Wrap.UnsafeExtensions.UnwrapAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Unsafe(Of T)))
+  nameWithType: UnsafeExtensions.UnwrapAsync<T>(Task<Unsafe<T>>)
+  nameWithType.vb: UnsafeExtensions.UnwrapAsync(Of T)(Task(Of Unsafe(Of T)))
+- uid: Wrap.UnsafeExtensions.Unwrap``1(Wrap.Unsafe{``0})
+  name: Unwrap<T>(Unsafe<T>)
+  href: api/Wrap.UnsafeExtensions.Unwrap.html#Wrap_UnsafeExtensions_Unwrap__1_Wrap_Unsafe___0__
+  commentId: M:Wrap.UnsafeExtensions.Unwrap``1(Wrap.Unsafe{``0})
+  name.vb: Unwrap(Of T)(Unsafe(Of T))
+  fullName: Wrap.UnsafeExtensions.Unwrap<T>(Wrap.Unsafe<T>)
+  fullName.vb: Wrap.UnsafeExtensions.Unwrap(Of T)(Wrap.Unsafe(Of T))
+  nameWithType: UnsafeExtensions.Unwrap<T>(Unsafe<T>)
+  nameWithType.vb: UnsafeExtensions.Unwrap(Of T)(Unsafe(Of T))
+- uid: Wrap.Unsafe`1
+  name: Unsafe<T>
+  href: api/Wrap.Unsafe-1.html
+  commentId: T:Wrap.Unsafe`1
+  name.vb: Unsafe(Of T)
+  fullName: Wrap.Unsafe<T>
+  fullName.vb: Wrap.Unsafe(Of T)
+  nameWithType: Unsafe<T>
+  nameWithType.vb: Unsafe(Of T)
+- uid: Wrap.Unsafe`1.Equals(System.Object)
+  name: Equals(object)
+  href: api/Wrap.Unsafe-1.Equals.html#Wrap_Unsafe_1_Equals_System_Object_
+  commentId: M:Wrap.Unsafe`1.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Wrap.Unsafe<T>.Equals(object)
+  fullName.vb: Wrap.Unsafe(Of T).Equals(Object)
+  nameWithType: Unsafe<T>.Equals(object)
+  nameWithType.vb: Unsafe(Of T).Equals(Object)
+- uid: Wrap.Unsafe`1.Equals(Wrap.Unsafe{`0})
+  name: Equals(Unsafe<T>)
+  href: api/Wrap.Unsafe-1.Equals.html#Wrap_Unsafe_1_Equals_Wrap_Unsafe__0__
+  commentId: M:Wrap.Unsafe`1.Equals(Wrap.Unsafe{`0})
+  name.vb: Equals(Unsafe(Of T))
+  fullName: Wrap.Unsafe<T>.Equals(Wrap.Unsafe<T>)
+  fullName.vb: Wrap.Unsafe(Of T).Equals(Wrap.Unsafe(Of T))
+  nameWithType: Unsafe<T>.Equals(Unsafe<T>)
+  nameWithType.vb: Unsafe(Of T).Equals(Unsafe(Of T))
+- uid: Wrap.Unsafe`1.Equals*
+  name: Equals
+  href: api/Wrap.Unsafe-1.Equals.html
+  commentId: Overload:Wrap.Unsafe`1.Equals
+  fullName: Wrap.Unsafe<T>.Equals
+  fullName.vb: Wrap.Unsafe(Of T).Equals
+  nameWithType: Unsafe<T>.Equals
+  nameWithType.vb: Unsafe(Of T).Equals
+- uid: Wrap.Unsafe`1.GetHashCode
+  name: GetHashCode()
+  href: api/Wrap.Unsafe-1.GetHashCode.html#Wrap_Unsafe_1_GetHashCode
+  commentId: M:Wrap.Unsafe`1.GetHashCode
+  fullName: Wrap.Unsafe<T>.GetHashCode()
+  fullName.vb: Wrap.Unsafe(Of T).GetHashCode()
+  nameWithType: Unsafe<T>.GetHashCode()
+  nameWithType.vb: Unsafe(Of T).GetHashCode()
+- uid: Wrap.Unsafe`1.GetHashCode*
+  name: GetHashCode
+  href: api/Wrap.Unsafe-1.GetHashCode.html
+  commentId: Overload:Wrap.Unsafe`1.GetHashCode
+  fullName: Wrap.Unsafe<T>.GetHashCode
+  fullName.vb: Wrap.Unsafe(Of T).GetHashCode
+  nameWithType: Unsafe<T>.GetHashCode
+  nameWithType.vb: Unsafe(Of T).GetHashCode
+- uid: Wrap.Unsafe`1.ToString
+  name: ToString()
+  href: api/Wrap.Unsafe-1.ToString.html#Wrap_Unsafe_1_ToString
+  commentId: M:Wrap.Unsafe`1.ToString
+  fullName: Wrap.Unsafe<T>.ToString()
+  fullName.vb: Wrap.Unsafe(Of T).ToString()
+  nameWithType: Unsafe<T>.ToString()
+  nameWithType.vb: Unsafe(Of T).ToString()
+- uid: Wrap.Unsafe`1.ToString*
+  name: ToString
+  href: api/Wrap.Unsafe-1.ToString.html
+  commentId: Overload:Wrap.Unsafe`1.ToString
+  fullName: Wrap.Unsafe<T>.ToString
+  fullName.vb: Wrap.Unsafe(Of T).ToString
+  nameWithType: Unsafe<T>.ToString
+  nameWithType.vb: Unsafe(Of T).ToString
+- uid: Wrap.Unsafe`1.op_Equality(Wrap.Unsafe{`0},Wrap.Unsafe{`0})
+  name: operator ==(Unsafe<T>, Unsafe<T>)
+  href: api/Wrap.Unsafe-1.op_Equality.html#Wrap_Unsafe_1_op_Equality_Wrap_Unsafe__0__Wrap_Unsafe__0__
+  commentId: M:Wrap.Unsafe`1.op_Equality(Wrap.Unsafe{`0},Wrap.Unsafe{`0})
+  name.vb: =(Unsafe(Of T), Unsafe(Of T))
+  fullName: Wrap.Unsafe<T>.operator ==(Wrap.Unsafe<T>, Wrap.Unsafe<T>)
+  fullName.vb: Wrap.Unsafe(Of T).=(Wrap.Unsafe(Of T), Wrap.Unsafe(Of T))
+  nameWithType: Unsafe<T>.operator ==(Unsafe<T>, Unsafe<T>)
+  nameWithType.vb: Unsafe(Of T).=(Unsafe(Of T), Unsafe(Of T))
+- uid: Wrap.Unsafe`1.op_Equality*
+  name: operator ==
+  href: api/Wrap.Unsafe-1.op_Equality.html
+  commentId: Overload:Wrap.Unsafe`1.op_Equality
+  name.vb: =
+  fullName: Wrap.Unsafe<T>.operator ==
+  fullName.vb: Wrap.Unsafe(Of T).=
+  nameWithType: Unsafe<T>.operator ==
+  nameWithType.vb: Unsafe(Of T).=
+- uid: Wrap.Unsafe`1.op_Inequality(Wrap.Unsafe{`0},Wrap.Unsafe{`0})
+  name: operator !=(Unsafe<T>, Unsafe<T>)
+  href: api/Wrap.Unsafe-1.op_Inequality.html#Wrap_Unsafe_1_op_Inequality_Wrap_Unsafe__0__Wrap_Unsafe__0__
+  commentId: M:Wrap.Unsafe`1.op_Inequality(Wrap.Unsafe{`0},Wrap.Unsafe{`0})
+  name.vb: <>(Unsafe(Of T), Unsafe(Of T))
+  fullName: Wrap.Unsafe<T>.operator !=(Wrap.Unsafe<T>, Wrap.Unsafe<T>)
+  fullName.vb: Wrap.Unsafe(Of T).<>(Wrap.Unsafe(Of T), Wrap.Unsafe(Of T))
+  nameWithType: Unsafe<T>.operator !=(Unsafe<T>, Unsafe<T>)
+  nameWithType.vb: Unsafe(Of T).<>(Unsafe(Of T), Unsafe(Of T))
+- uid: Wrap.Unsafe`1.op_Inequality*
+  name: operator !=
+  href: api/Wrap.Unsafe-1.op_Inequality.html
+  commentId: Overload:Wrap.Unsafe`1.op_Inequality
+  name.vb: <>
+  fullName: Wrap.Unsafe<T>.operator !=
+  fullName.vb: Wrap.Unsafe(Of T).<>
+  nameWithType: Unsafe<T>.operator !=
+  nameWithType.vb: Unsafe(Of T).<>
 - uid: Wrap.WithId`2
   name: WithId<TId, TValue>
   href: api/Wrap.WithId-2.html
