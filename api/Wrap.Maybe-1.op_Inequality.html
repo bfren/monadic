@@ -120,6 +120,92 @@
 
 <a id="Wrap_Maybe_1_op_Inequality_" data-uid="Wrap.Maybe`1.op_Inequality*"></a>
 
+<h3 id="Wrap_Maybe_1_op_Inequality_Wrap_Maybe__0___0_" data-uid="Wrap.Maybe`1.op_Inequality(Wrap.Maybe{`0},`0)">
+  operator !=(Maybe&lt;T&gt;, T)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Compare a Maybe type with a value type.</p>
+<p>If <code class="paramref">l</code> is a <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> the <a class="xref" href="Wrap.Some-1.Value.html#Wrap_Some_1_Value">Value</a> will be compared to <code class="paramref">r</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static bool operator !=(Maybe&lt;T&gt; l, T r)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>l</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe.</p>
+</dd>
+  <dt><code>r</code> <span class="xref">T</span></dt>
+  <dd><p>Value.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+  <dd><p>True if <code class="paramref">l</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and its value does not equal <code class="paramref">r</code>.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+<a id="Wrap_Maybe_1_op_Inequality_" data-uid="Wrap.Maybe`1.op_Inequality*"></a>
+
+<h3 id="Wrap_Maybe_1_op_Inequality__0_Wrap_Maybe__0__" data-uid="Wrap.Maybe`1.op_Inequality(`0,Wrap.Maybe{`0})">
+  operator !=(T, Maybe&lt;T&gt;)
+  
+</h3>
+
+<div class="markdown level1 summary"><p>Compare a Maybe type with a value type.</p>
+<p>If <code class="paramref">l</code> is a <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> the <a class="xref" href="Wrap.Some-1.Value.html#Wrap_Some_1_Value">Value</a> will be compared to <code class="paramref">r</code>.</p>
+</div>
+<div class="markdown level1 conceptual"></div>
+
+<div class="codewrapper">
+  <pre><code class="lang-csharp hljs">public static bool operator !=(T l, Maybe&lt;T&gt; r)</code></pre>
+</div>
+
+<h4 class="section">Parameters</h4>
+<dl class="parameters">
+  <dt><code>l</code> <span class="xref">T</span></dt>
+  <dd><p>Value.</p>
+</dd>
+  <dt><code>r</code> <a class="xref" href="Wrap.Maybe-1.html">Maybe</a>&lt;T&gt;</dt>
+  <dd><p>Maybe.</p>
+</dd>
+</dl>
+
+<h4 class="section">Returns</h4>
+<dl class="parameters">
+  <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
+  <dd><p>True if <code class="paramref">r</code> is <a class="xref" href="Wrap.Some-1.html">Some&lt;T&gt;</a> and its value does not equal <code class="paramref">l</code>.</p>
+</dd>
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+<a id="Wrap_Maybe_1_op_Inequality_" data-uid="Wrap.Maybe`1.op_Inequality*"></a>
+
 <h3 id="Wrap_Maybe_1_op_Inequality_Wrap_Maybe__0__Wrap_Maybe__0__" data-uid="Wrap.Maybe`1.op_Inequality(Wrap.Maybe{`0},Wrap.Maybe{`0})">
   operator !=(Maybe&lt;T&gt;?, Maybe&lt;T&gt;?)
   

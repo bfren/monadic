@@ -140,7 +140,7 @@ to be <a class="xref" href="Wrap.Some-1.Value.html#Wrap_Some_1_Value">Value</a>.
   <dd><p>Unsafe object.</p>
 </dd>
   <dt><code>value</code> <span class="xref">T</span></dt>
-  <dd><p>Value (null if <code class="paramref">this</code> contans <a class="xref" href="Wrap.None.html">None</a>).</p>
+  <dd><p>Value (default of <code class="typeparamref">T</code> or null if <code class="paramref">this</code> contains <a class="xref" href="Wrap.None.html">None</a>).</p>
 </dd>
 </dl>
 
@@ -164,8 +164,8 @@ to be <a class="xref" href="Wrap.Some-1.Value.html#Wrap_Some_1_Value">Value</a>.
 
 
 <h4 class="section" id="Wrap_UnsafeExtensions_IsSome__1_Wrap_Unsafe___0____0___remarks">Remarks</h4>
-<div class="markdown level1 remarks"><p>Warning: <code class="paramref">value</code> will be <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a> if <code class="paramref">this</code>
-contains a <a class="xref" href="Wrap.None.html">None</a>.</p>
+<div class="markdown level1 remarks"><p>Warning: if <code class="paramref">this</code> contains a <a class="xref" href="Wrap.None.html">None</a> <code class="paramref">value</code>
+will be the default value of <code class="typeparamref">T</code> or null.</p>
 </div>
 
 

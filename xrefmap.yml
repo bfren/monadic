@@ -1444,6 +1444,27 @@ references:
   commentId: Overload:Wrap.Fail.Value
   fullName: Wrap.Fail.Value
   nameWithType: Fail.Value
+- uid: Wrap.FailExtensions
+  name: FailExtensions
+  href: api/Wrap.FailExtensions.html
+  commentId: T:Wrap.FailExtensions
+  fullName: Wrap.FailExtensions
+  nameWithType: FailExtensions
+- uid: Wrap.FailExtensions.AsTask*
+  name: AsTask
+  href: api/Wrap.FailExtensions.AsTask.html
+  commentId: Overload:Wrap.FailExtensions.AsTask
+  fullName: Wrap.FailExtensions.AsTask
+  nameWithType: FailExtensions.AsTask
+- uid: Wrap.FailExtensions.AsTask``1(Wrap.Fail)
+  name: AsTask<T>(Fail)
+  href: api/Wrap.FailExtensions.AsTask.html#Wrap_FailExtensions_AsTask__1_Wrap_Fail_
+  commentId: M:Wrap.FailExtensions.AsTask``1(Wrap.Fail)
+  name.vb: AsTask(Of T)(Fail)
+  fullName: Wrap.FailExtensions.AsTask<T>(Wrap.Fail)
+  fullName.vb: Wrap.FailExtensions.AsTask(Of T)(Wrap.Fail)
+  nameWithType: FailExtensions.AsTask<T>(Fail)
+  nameWithType.vb: FailExtensions.AsTask(Of T)(Fail)
 - uid: Wrap.FailValue
   name: FailValue
   href: api/Wrap.FailValue.html
@@ -1481,13 +1502,13 @@ references:
   fullName: Wrap.FailValue.Create(System.Exception)
   nameWithType: FailValue.Create(Exception)
 - uid: Wrap.FailValue.Create(System.String,System.Object[])
-  name: Create(string, params object[])
+  name: Create(string, params object?[])
   href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_Object___
   commentId: M:Wrap.FailValue.Create(System.String,System.Object[])
   name.vb: Create(String, ParamArray Object())
-  fullName: Wrap.FailValue.Create(string, params object[])
+  fullName: Wrap.FailValue.Create(string, params object?[])
   fullName.vb: Wrap.FailValue.Create(String, ParamArray Object())
-  nameWithType: FailValue.Create(string, params object[])
+  nameWithType: FailValue.Create(string, params object?[])
   nameWithType.vb: FailValue.Create(String, ParamArray Object())
 - uid: Wrap.FailValue.Create(System.String,System.String,System.Exception)
   name: Create(string, string, Exception)
@@ -1499,13 +1520,13 @@ references:
   nameWithType: FailValue.Create(string, string, Exception)
   nameWithType.vb: FailValue.Create(String, String, Exception)
 - uid: Wrap.FailValue.Create(System.String,System.String,System.String,System.Object[])
-  name: Create(string, string, string, params object[])
+  name: Create(string, string, string, params object?[])
   href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create_System_String_System_String_System_String_System_Object___
   commentId: M:Wrap.FailValue.Create(System.String,System.String,System.String,System.Object[])
   name.vb: Create(String, String, String, ParamArray Object())
-  fullName: Wrap.FailValue.Create(string, string, string, params object[])
+  fullName: Wrap.FailValue.Create(string, string, string, params object?[])
   fullName.vb: Wrap.FailValue.Create(String, String, String, ParamArray Object())
-  nameWithType: FailValue.Create(string, string, string, params object[])
+  nameWithType: FailValue.Create(string, string, string, params object?[])
   nameWithType.vb: FailValue.Create(String, String, String, ParamArray Object())
 - uid: Wrap.FailValue.Create*
   name: Create
@@ -1523,13 +1544,13 @@ references:
   nameWithType: FailValue.Create<T>(Exception)
   nameWithType.vb: FailValue.Create(Of T)(Exception)
 - uid: Wrap.FailValue.Create``1(System.String,System.Object[])
-  name: Create<T>(string, params object[])
+  name: Create<T>(string, params object?[])
   href: api/Wrap.FailValue.Create.html#Wrap_FailValue_Create__1_System_String_System_Object___
   commentId: M:Wrap.FailValue.Create``1(System.String,System.Object[])
   name.vb: Create(Of T)(String, ParamArray Object())
-  fullName: Wrap.FailValue.Create<T>(string, params object[])
+  fullName: Wrap.FailValue.Create<T>(string, params object?[])
   fullName.vb: Wrap.FailValue.Create(Of T)(String, ParamArray Object())
-  nameWithType: FailValue.Create<T>(string, params object[])
+  nameWithType: FailValue.Create<T>(string, params object?[])
   nameWithType.vb: FailValue.Create(Of T)(String, ParamArray Object())
 - uid: Wrap.FailValue.Equals(System.Object)
   name: Equals(object)
@@ -4715,6 +4736,30 @@ references:
   fullName.vb: Wrap.MaybeExtensions.Match(Of T, TReturn)(Wrap.Maybe(Of T), TReturn, System.Func(Of T, TReturn))
   nameWithType: MaybeExtensions.Match<T, TReturn>(Maybe<T>, TReturn, Func<T, TReturn>)
   nameWithType.vb: MaybeExtensions.Match(Of T, TReturn)(Maybe(Of T), TReturn, Func(Of T, TReturn))
+- uid: Wrap.MaybeExtensions.ToResult*
+  name: ToResult
+  href: api/Wrap.MaybeExtensions.ToResult.html
+  commentId: Overload:Wrap.MaybeExtensions.ToResult
+  fullName: Wrap.MaybeExtensions.ToResult
+  nameWithType: MaybeExtensions.ToResult
+- uid: Wrap.MaybeExtensions.ToResult``1(Wrap.Maybe{``0})
+  name: ToResult<T>(Maybe<T>)
+  href: api/Wrap.MaybeExtensions.ToResult.html#Wrap_MaybeExtensions_ToResult__1_Wrap_Maybe___0__
+  commentId: M:Wrap.MaybeExtensions.ToResult``1(Wrap.Maybe{``0})
+  name.vb: ToResult(Of T)(Maybe(Of T))
+  fullName: Wrap.MaybeExtensions.ToResult<T>(Wrap.Maybe<T>)
+  fullName.vb: Wrap.MaybeExtensions.ToResult(Of T)(Wrap.Maybe(Of T))
+  nameWithType: MaybeExtensions.ToResult<T>(Maybe<T>)
+  nameWithType.vb: MaybeExtensions.ToResult(Of T)(Maybe(Of T))
+- uid: Wrap.MaybeExtensions.ToResult``1(Wrap.Maybe{``0},System.String,System.String)
+  name: ToResult<T>(Maybe<T>, string, string)
+  href: api/Wrap.MaybeExtensions.ToResult.html#Wrap_MaybeExtensions_ToResult__1_Wrap_Maybe___0__System_String_System_String_
+  commentId: M:Wrap.MaybeExtensions.ToResult``1(Wrap.Maybe{``0},System.String,System.String)
+  name.vb: ToResult(Of T)(Maybe(Of T), String, String)
+  fullName: Wrap.MaybeExtensions.ToResult<T>(Wrap.Maybe<T>, string, string)
+  fullName.vb: Wrap.MaybeExtensions.ToResult(Of T)(Wrap.Maybe(Of T), String, String)
+  nameWithType: MaybeExtensions.ToResult<T>(Maybe<T>, string, string)
+  nameWithType.vb: MaybeExtensions.ToResult(Of T)(Maybe(Of T), String, String)
 - uid: Wrap.MaybeExtensions.Unsafe*
   name: Unsafe
   href: api/Wrap.MaybeExtensions.Unsafe.html
@@ -5034,6 +5079,24 @@ references:
   fullName.vb: Wrap.Maybe(Of T).=(Wrap.Maybe(Of T), Wrap.Maybe(Of T))
   nameWithType: Maybe<T>.operator ==(Maybe<T>?, Maybe<T>?)
   nameWithType.vb: Maybe(Of T).=(Maybe(Of T), Maybe(Of T))
+- uid: Wrap.Maybe`1.op_Equality(Wrap.Maybe{`0},`0)
+  name: operator ==(Maybe<T>, T)
+  href: api/Wrap.Maybe-1.op_Equality.html#Wrap_Maybe_1_op_Equality_Wrap_Maybe__0___0_
+  commentId: M:Wrap.Maybe`1.op_Equality(Wrap.Maybe{`0},`0)
+  name.vb: =(Maybe(Of T), T)
+  fullName: Wrap.Maybe<T>.operator ==(Wrap.Maybe<T>, T)
+  fullName.vb: Wrap.Maybe(Of T).=(Wrap.Maybe(Of T), T)
+  nameWithType: Maybe<T>.operator ==(Maybe<T>, T)
+  nameWithType.vb: Maybe(Of T).=(Maybe(Of T), T)
+- uid: Wrap.Maybe`1.op_Equality(`0,Wrap.Maybe{`0})
+  name: operator ==(T, Maybe<T>)
+  href: api/Wrap.Maybe-1.op_Equality.html#Wrap_Maybe_1_op_Equality__0_Wrap_Maybe__0__
+  commentId: M:Wrap.Maybe`1.op_Equality(`0,Wrap.Maybe{`0})
+  name.vb: =(T, Maybe(Of T))
+  fullName: Wrap.Maybe<T>.operator ==(T, Wrap.Maybe<T>)
+  fullName.vb: Wrap.Maybe(Of T).=(T, Wrap.Maybe(Of T))
+  nameWithType: Maybe<T>.operator ==(T, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).=(T, Maybe(Of T))
 - uid: Wrap.Maybe`1.op_Equality*
   name: operator ==
   href: api/Wrap.Maybe-1.op_Equality.html
@@ -5079,6 +5142,24 @@ references:
   fullName.vb: Wrap.Maybe(Of T).<>(Wrap.Maybe(Of T), Wrap.Maybe(Of T))
   nameWithType: Maybe<T>.operator !=(Maybe<T>?, Maybe<T>?)
   nameWithType.vb: Maybe(Of T).<>(Maybe(Of T), Maybe(Of T))
+- uid: Wrap.Maybe`1.op_Inequality(Wrap.Maybe{`0},`0)
+  name: operator !=(Maybe<T>, T)
+  href: api/Wrap.Maybe-1.op_Inequality.html#Wrap_Maybe_1_op_Inequality_Wrap_Maybe__0___0_
+  commentId: M:Wrap.Maybe`1.op_Inequality(Wrap.Maybe{`0},`0)
+  name.vb: <>(Maybe(Of T), T)
+  fullName: Wrap.Maybe<T>.operator !=(Wrap.Maybe<T>, T)
+  fullName.vb: Wrap.Maybe(Of T).<>(Wrap.Maybe(Of T), T)
+  nameWithType: Maybe<T>.operator !=(Maybe<T>, T)
+  nameWithType.vb: Maybe(Of T).<>(Maybe(Of T), T)
+- uid: Wrap.Maybe`1.op_Inequality(`0,Wrap.Maybe{`0})
+  name: operator !=(T, Maybe<T>)
+  href: api/Wrap.Maybe-1.op_Inequality.html#Wrap_Maybe_1_op_Inequality__0_Wrap_Maybe__0__
+  commentId: M:Wrap.Maybe`1.op_Inequality(`0,Wrap.Maybe{`0})
+  name.vb: <>(T, Maybe(Of T))
+  fullName: Wrap.Maybe<T>.operator !=(T, Wrap.Maybe<T>)
+  fullName.vb: Wrap.Maybe(Of T).<>(T, Wrap.Maybe(Of T))
+  nameWithType: Maybe<T>.operator !=(T, Maybe<T>)
+  nameWithType.vb: Maybe(Of T).<>(T, Maybe(Of T))
 - uid: Wrap.Maybe`1.op_Inequality*
   name: operator !=
   href: api/Wrap.Maybe-1.op_Inequality.html
@@ -5349,22 +5430,22 @@ references:
   fullName: Wrap.R.Fail(System.Exception)
   nameWithType: R.Fail(Exception)
 - uid: Wrap.R.Fail(System.String,System.Object[])
-  name: Fail(string, params object[])
+  name: Fail(string, params object?[])
   href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_System_Object___
   commentId: M:Wrap.R.Fail(System.String,System.Object[])
   name.vb: Fail(String, ParamArray Object())
-  fullName: Wrap.R.Fail(string, params object[])
+  fullName: Wrap.R.Fail(string, params object?[])
   fullName.vb: Wrap.R.Fail(String, ParamArray Object())
-  nameWithType: R.Fail(string, params object[])
+  nameWithType: R.Fail(string, params object?[])
   nameWithType.vb: R.Fail(String, ParamArray Object())
 - uid: Wrap.R.Fail(System.String,System.String,System.String,System.Object[])
-  name: Fail(string, string, string, params object[])
+  name: Fail(string, string, string, params object?[])
   href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_System_String_System_String_System_Object___
   commentId: M:Wrap.R.Fail(System.String,System.String,System.String,System.Object[])
   name.vb: Fail(String, String, String, ParamArray Object())
-  fullName: Wrap.R.Fail(string, string, string, params object[])
+  fullName: Wrap.R.Fail(string, string, string, params object?[])
   fullName.vb: Wrap.R.Fail(String, String, String, ParamArray Object())
-  nameWithType: R.Fail(string, string, string, params object[])
+  nameWithType: R.Fail(string, string, string, params object?[])
   nameWithType.vb: R.Fail(String, String, String, ParamArray Object())
 - uid: Wrap.R.Fail(Wrap.FailValue)
   name: Fail(FailValue)
@@ -5397,13 +5478,13 @@ references:
   nameWithType: R.Fail<T>(Exception)
   nameWithType.vb: R.Fail(Of T)(Exception)
 - uid: Wrap.R.Fail``1(System.String,System.Object[])
-  name: Fail<T>(string, params object[])
+  name: Fail<T>(string, params object?[])
   href: api/Wrap.R.Fail.html#Wrap_R_Fail__1_System_String_System_Object___
   commentId: M:Wrap.R.Fail``1(System.String,System.Object[])
   name.vb: Fail(Of T)(String, ParamArray Object())
-  fullName: Wrap.R.Fail<T>(string, params object[])
+  fullName: Wrap.R.Fail<T>(string, params object?[])
   fullName.vb: Wrap.R.Fail(Of T)(String, ParamArray Object())
-  nameWithType: R.Fail<T>(string, params object[])
+  nameWithType: R.Fail<T>(string, params object?[])
   nameWithType.vb: R.Fail(Of T)(String, ParamArray Object())
 - uid: Wrap.R.Fail``1(System.String,System.String)
   name: Fail<TException>(string, string)
@@ -6059,6 +6140,30 @@ references:
   fullName.vb: Wrap.ResultExtensions.Match(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of Wrap.FailValue, TReturn), System.Func(Of T, TReturn))
   nameWithType: ResultExtensions.Match<T, TReturn>(Result<T>, Func<FailValue, TReturn>, Func<T, TReturn>)
   nameWithType.vb: ResultExtensions.Match(Of T, TReturn)(Result(Of T), Func(Of FailValue, TReturn), Func(Of T, TReturn))
+- uid: Wrap.ResultExtensions.Unsafe*
+  name: Unsafe
+  href: api/Wrap.ResultExtensions.Unsafe.html
+  commentId: Overload:Wrap.ResultExtensions.Unsafe
+  fullName: Wrap.ResultExtensions.Unsafe
+  nameWithType: ResultExtensions.Unsafe
+- uid: Wrap.ResultExtensions.Unsafe``1(System.Threading.Tasks.Task{Wrap.Result{``0}})
+  name: Unsafe<T>(Task<Result<T>>)
+  href: api/Wrap.ResultExtensions.Unsafe.html#Wrap_ResultExtensions_Unsafe__1_System_Threading_Tasks_Task_Wrap_Result___0___
+  commentId: M:Wrap.ResultExtensions.Unsafe``1(System.Threading.Tasks.Task{Wrap.Result{``0}})
+  name.vb: Unsafe(Of T)(Task(Of Result(Of T)))
+  fullName: Wrap.ResultExtensions.Unsafe<T>(System.Threading.Tasks.Task<Wrap.Result<T>>)
+  fullName.vb: Wrap.ResultExtensions.Unsafe(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)))
+  nameWithType: ResultExtensions.Unsafe<T>(Task<Result<T>>)
+  nameWithType.vb: ResultExtensions.Unsafe(Of T)(Task(Of Result(Of T)))
+- uid: Wrap.ResultExtensions.Unsafe``1(Wrap.Result{``0})
+  name: Unsafe<T>(Result<T>)
+  href: api/Wrap.ResultExtensions.Unsafe.html#Wrap_ResultExtensions_Unsafe__1_Wrap_Result___0__
+  commentId: M:Wrap.ResultExtensions.Unsafe``1(Wrap.Result{``0})
+  name.vb: Unsafe(Of T)(Result(Of T))
+  fullName: Wrap.ResultExtensions.Unsafe<T>(Wrap.Result<T>)
+  fullName.vb: Wrap.ResultExtensions.Unsafe(Of T)(Wrap.Result(Of T))
+  nameWithType: ResultExtensions.Unsafe<T>(Result<T>)
+  nameWithType.vb: ResultExtensions.Unsafe(Of T)(Result(Of T))
 - uid: Wrap.ResultExtensions.Unwrap*
   name: Unwrap
   href: api/Wrap.ResultExtensions.Unwrap.html
@@ -6233,6 +6338,38 @@ references:
   fullName.vb: Wrap.Result(Of T).GetHashCode
   nameWithType: Result<T>.GetHashCode
   nameWithType.vb: Result(Of T).GetHashCode
+- uid: Wrap.Result`1.IsFail
+  name: IsFail
+  href: api/Wrap.Result-1.IsFail.html#Wrap_Result_1_IsFail
+  commentId: P:Wrap.Result`1.IsFail
+  fullName: Wrap.Result<T>.IsFail
+  fullName.vb: Wrap.Result(Of T).IsFail
+  nameWithType: Result<T>.IsFail
+  nameWithType.vb: Result(Of T).IsFail
+- uid: Wrap.Result`1.IsFail*
+  name: IsFail
+  href: api/Wrap.Result-1.IsFail.html
+  commentId: Overload:Wrap.Result`1.IsFail
+  fullName: Wrap.Result<T>.IsFail
+  fullName.vb: Wrap.Result(Of T).IsFail
+  nameWithType: Result<T>.IsFail
+  nameWithType.vb: Result(Of T).IsFail
+- uid: Wrap.Result`1.IsOk
+  name: IsOk
+  href: api/Wrap.Result-1.IsOk.html#Wrap_Result_1_IsOk
+  commentId: P:Wrap.Result`1.IsOk
+  fullName: Wrap.Result<T>.IsOk
+  fullName.vb: Wrap.Result(Of T).IsOk
+  nameWithType: Result<T>.IsOk
+  nameWithType.vb: Result(Of T).IsOk
+- uid: Wrap.Result`1.IsOk*
+  name: IsOk
+  href: api/Wrap.Result-1.IsOk.html
+  commentId: Overload:Wrap.Result`1.IsOk
+  fullName: Wrap.Result<T>.IsOk
+  fullName.vb: Wrap.Result(Of T).IsOk
+  nameWithType: Result<T>.IsOk
+  nameWithType.vb: Result(Of T).IsOk
 - uid: Wrap.Result`1.PrintMembers(System.Text.StringBuilder)
   name: PrintMembers(StringBuilder)
   href: api/Wrap.Result-1.PrintMembers.html#Wrap_Result_1_PrintMembers_System_Text_StringBuilder_
@@ -7321,6 +7458,21 @@ references:
   commentId: T:Wrap.UnsafeExtensions
   fullName: Wrap.UnsafeExtensions
   nameWithType: UnsafeExtensions
+- uid: Wrap.UnsafeExtensions.IsOk*
+  name: IsOk
+  href: api/Wrap.UnsafeExtensions.IsOk.html
+  commentId: Overload:Wrap.UnsafeExtensions.IsOk
+  fullName: Wrap.UnsafeExtensions.IsOk
+  nameWithType: UnsafeExtensions.IsOk
+- uid: Wrap.UnsafeExtensions.IsOk``1(Wrap.Unsafe{``0},``0@)
+  name: IsOk<T>(Unsafe<T>, out T)
+  href: api/Wrap.UnsafeExtensions.IsOk.html#Wrap_UnsafeExtensions_IsOk__1_Wrap_Unsafe___0____0__
+  commentId: M:Wrap.UnsafeExtensions.IsOk``1(Wrap.Unsafe{``0},``0@)
+  name.vb: IsOk(Of T)(Unsafe(Of T), T)
+  fullName: Wrap.UnsafeExtensions.IsOk<T>(Wrap.Unsafe<T>, out T)
+  fullName.vb: Wrap.UnsafeExtensions.IsOk(Of T)(Wrap.Unsafe(Of T), T)
+  nameWithType: UnsafeExtensions.IsOk<T>(Unsafe<T>, out T)
+  nameWithType.vb: UnsafeExtensions.IsOk(Of T)(Unsafe(Of T), T)
 - uid: Wrap.UnsafeExtensions.IsSome*
   name: IsSome
   href: api/Wrap.UnsafeExtensions.IsSome.html
