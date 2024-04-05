@@ -5423,6 +5423,81 @@ references:
   commentId: T:Wrap.R
   fullName: Wrap.R
   nameWithType: R
+- uid: Wrap.R.DefaultHandler
+  name: DefaultHandler
+  href: api/Wrap.R.DefaultHandler.html#Wrap_R_DefaultHandler
+  commentId: P:Wrap.R.DefaultHandler
+  fullName: Wrap.R.DefaultHandler
+  nameWithType: R.DefaultHandler
+- uid: Wrap.R.DefaultHandler*
+  name: DefaultHandler
+  href: api/Wrap.R.DefaultHandler.html
+  commentId: Overload:Wrap.R.DefaultHandler
+  fullName: Wrap.R.DefaultHandler
+  nameWithType: R.DefaultHandler
+- uid: Wrap.R.ExceptionHandler
+  name: R.ExceptionHandler
+  href: api/Wrap.R.ExceptionHandler.html
+  commentId: T:Wrap.R.ExceptionHandler
+  fullName: Wrap.R.ExceptionHandler
+  nameWithType: R.ExceptionHandler
+- uid: Wrap.R.ExceptionHandler.#ctor(System.Object,System.IntPtr)
+  name: ExceptionHandler(object, nint)
+  href: api/Wrap.R.ExceptionHandler.-ctor.html#Wrap_R_ExceptionHandler__ctor_System_Object_System_IntPtr_
+  commentId: M:Wrap.R.ExceptionHandler.#ctor(System.Object,System.IntPtr)
+  name.vb: New(Object, IntPtr)
+  fullName: Wrap.R.ExceptionHandler.ExceptionHandler(object, nint)
+  fullName.vb: Wrap.R.ExceptionHandler.New(Object, System.IntPtr)
+  nameWithType: R.ExceptionHandler.ExceptionHandler(object, nint)
+  nameWithType.vb: R.ExceptionHandler.New(Object, IntPtr)
+- uid: Wrap.R.ExceptionHandler.#ctor*
+  name: ExceptionHandler
+  href: api/Wrap.R.ExceptionHandler.-ctor.html
+  commentId: Overload:Wrap.R.ExceptionHandler.#ctor
+  name.vb: New
+  fullName: Wrap.R.ExceptionHandler.ExceptionHandler
+  fullName.vb: Wrap.R.ExceptionHandler.New
+  nameWithType: R.ExceptionHandler.ExceptionHandler
+  nameWithType.vb: R.ExceptionHandler.New
+- uid: Wrap.R.ExceptionHandler.BeginInvoke(System.Exception,System.AsyncCallback,System.Object)
+  name: BeginInvoke(Exception, AsyncCallback, object)
+  href: api/Wrap.R.ExceptionHandler.BeginInvoke.html#Wrap_R_ExceptionHandler_BeginInvoke_System_Exception_System_AsyncCallback_System_Object_
+  commentId: M:Wrap.R.ExceptionHandler.BeginInvoke(System.Exception,System.AsyncCallback,System.Object)
+  name.vb: BeginInvoke(Exception, AsyncCallback, Object)
+  fullName: Wrap.R.ExceptionHandler.BeginInvoke(System.Exception, System.AsyncCallback, object)
+  fullName.vb: Wrap.R.ExceptionHandler.BeginInvoke(System.Exception, System.AsyncCallback, Object)
+  nameWithType: R.ExceptionHandler.BeginInvoke(Exception, AsyncCallback, object)
+  nameWithType.vb: R.ExceptionHandler.BeginInvoke(Exception, AsyncCallback, Object)
+- uid: Wrap.R.ExceptionHandler.BeginInvoke*
+  name: BeginInvoke
+  href: api/Wrap.R.ExceptionHandler.BeginInvoke.html
+  commentId: Overload:Wrap.R.ExceptionHandler.BeginInvoke
+  fullName: Wrap.R.ExceptionHandler.BeginInvoke
+  nameWithType: R.ExceptionHandler.BeginInvoke
+- uid: Wrap.R.ExceptionHandler.EndInvoke(System.IAsyncResult)
+  name: EndInvoke(IAsyncResult)
+  href: api/Wrap.R.ExceptionHandler.EndInvoke.html#Wrap_R_ExceptionHandler_EndInvoke_System_IAsyncResult_
+  commentId: M:Wrap.R.ExceptionHandler.EndInvoke(System.IAsyncResult)
+  fullName: Wrap.R.ExceptionHandler.EndInvoke(System.IAsyncResult)
+  nameWithType: R.ExceptionHandler.EndInvoke(IAsyncResult)
+- uid: Wrap.R.ExceptionHandler.EndInvoke*
+  name: EndInvoke
+  href: api/Wrap.R.ExceptionHandler.EndInvoke.html
+  commentId: Overload:Wrap.R.ExceptionHandler.EndInvoke
+  fullName: Wrap.R.ExceptionHandler.EndInvoke
+  nameWithType: R.ExceptionHandler.EndInvoke
+- uid: Wrap.R.ExceptionHandler.Invoke(System.Exception)
+  name: Invoke(Exception)
+  href: api/Wrap.R.ExceptionHandler.Invoke.html#Wrap_R_ExceptionHandler_Invoke_System_Exception_
+  commentId: M:Wrap.R.ExceptionHandler.Invoke(System.Exception)
+  fullName: Wrap.R.ExceptionHandler.Invoke(System.Exception)
+  nameWithType: R.ExceptionHandler.Invoke(Exception)
+- uid: Wrap.R.ExceptionHandler.Invoke*
+  name: Invoke
+  href: api/Wrap.R.ExceptionHandler.Invoke.html
+  commentId: Overload:Wrap.R.ExceptionHandler.Invoke
+  fullName: Wrap.R.ExceptionHandler.Invoke
+  nameWithType: R.ExceptionHandler.Invoke
 - uid: Wrap.R.Fail(System.Exception)
   name: Fail(Exception)
   href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_Exception_
@@ -5438,6 +5513,15 @@ references:
   fullName.vb: Wrap.R.Fail(String, ParamArray Object())
   nameWithType: R.Fail(string, params object?[])
   nameWithType.vb: R.Fail(String, ParamArray Object())
+- uid: Wrap.R.Fail(System.String,System.String,System.Exception)
+  name: Fail(string, string, Exception)
+  href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_System_String_System_Exception_
+  commentId: M:Wrap.R.Fail(System.String,System.String,System.Exception)
+  name.vb: Fail(String, String, Exception)
+  fullName: Wrap.R.Fail(string, string, System.Exception)
+  fullName.vb: Wrap.R.Fail(String, String, System.Exception)
+  nameWithType: R.Fail(string, string, Exception)
+  nameWithType.vb: R.Fail(String, String, Exception)
 - uid: Wrap.R.Fail(System.String,System.String,System.String,System.Object[])
   name: Fail(string, string, string, params object?[])
   href: api/Wrap.R.Fail.html#Wrap_R_Fail_System_String_System_String_System_String_System_Object___
@@ -5675,6 +5759,15 @@ references:
   fullName.vb: Wrap.R.TryAsync(Of T)(System.Func(Of System.Threading.Tasks.Task(Of T)))
   nameWithType: R.TryAsync<T>(Func<Task<T>>)
   nameWithType.vb: R.TryAsync(Of T)(Func(Of Task(Of T)))
+- uid: Wrap.R.TryAsync``1(System.Func{System.Threading.Tasks.Task{``0}},Wrap.R.ExceptionHandler)
+  name: TryAsync<T>(Func<Task<T>>, ExceptionHandler)
+  href: api/Wrap.R.TryAsync.html#Wrap_R_TryAsync__1_System_Func_System_Threading_Tasks_Task___0___Wrap_R_ExceptionHandler_
+  commentId: M:Wrap.R.TryAsync``1(System.Func{System.Threading.Tasks.Task{``0}},Wrap.R.ExceptionHandler)
+  name.vb: TryAsync(Of T)(Func(Of Task(Of T)), ExceptionHandler)
+  fullName: Wrap.R.TryAsync<T>(System.Func<System.Threading.Tasks.Task<T>>, Wrap.R.ExceptionHandler)
+  fullName.vb: Wrap.R.TryAsync(Of T)(System.Func(Of System.Threading.Tasks.Task(Of T)), Wrap.R.ExceptionHandler)
+  nameWithType: R.TryAsync<T>(Func<Task<T>>, R.ExceptionHandler)
+  nameWithType.vb: R.TryAsync(Of T)(Func(Of Task(Of T)), R.ExceptionHandler)
 - uid: Wrap.R.Try``1(System.Func{``0})
   name: Try<T>(Func<T>)
   href: api/Wrap.R.Try.html#Wrap_R_Try__1_System_Func___0__
@@ -5684,6 +5777,15 @@ references:
   fullName.vb: Wrap.R.Try(Of T)(System.Func(Of T))
   nameWithType: R.Try<T>(Func<T>)
   nameWithType.vb: R.Try(Of T)(Func(Of T))
+- uid: Wrap.R.Try``1(System.Func{``0},Wrap.R.ExceptionHandler)
+  name: Try<T>(Func<T>, ExceptionHandler)
+  href: api/Wrap.R.Try.html#Wrap_R_Try__1_System_Func___0__Wrap_R_ExceptionHandler_
+  commentId: M:Wrap.R.Try``1(System.Func{``0},Wrap.R.ExceptionHandler)
+  name.vb: Try(Of T)(Func(Of T), ExceptionHandler)
+  fullName: Wrap.R.Try<T>(System.Func<T>, Wrap.R.ExceptionHandler)
+  fullName.vb: Wrap.R.Try(Of T)(System.Func(Of T), Wrap.R.ExceptionHandler)
+  nameWithType: R.Try<T>(Func<T>, R.ExceptionHandler)
+  nameWithType.vb: R.Try(Of T)(Func(Of T), R.ExceptionHandler)
 - uid: Wrap.R.Wrap*
   name: Wrap
   href: api/Wrap.R.Wrap.html
@@ -5837,6 +5939,36 @@ references:
   fullName.vb: Wrap.ResultExtensions.Bind(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of T, Wrap.Result(Of TReturn)))
   nameWithType: ResultExtensions.Bind<T, TReturn>(Result<T>, Func<T, Result<TReturn>>)
   nameWithType.vb: ResultExtensions.Bind(Of T, TReturn)(Result(Of T), Func(Of T, Result(Of TReturn)))
+- uid: Wrap.ResultExtensions.Discard*
+  name: Discard
+  href: api/Wrap.ResultExtensions.Discard.html
+  commentId: Overload:Wrap.ResultExtensions.Discard
+  fullName: Wrap.ResultExtensions.Discard
+  nameWithType: ResultExtensions.Discard
+- uid: Wrap.ResultExtensions.DiscardAsync*
+  name: DiscardAsync
+  href: api/Wrap.ResultExtensions.DiscardAsync.html
+  commentId: Overload:Wrap.ResultExtensions.DiscardAsync
+  fullName: Wrap.ResultExtensions.DiscardAsync
+  nameWithType: ResultExtensions.DiscardAsync
+- uid: Wrap.ResultExtensions.DiscardAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}})
+  name: DiscardAsync<T>(Task<Result<T>>)
+  href: api/Wrap.ResultExtensions.DiscardAsync.html#Wrap_ResultExtensions_DiscardAsync__1_System_Threading_Tasks_Task_Wrap_Result___0___
+  commentId: M:Wrap.ResultExtensions.DiscardAsync``1(System.Threading.Tasks.Task{Wrap.Result{``0}})
+  name.vb: DiscardAsync(Of T)(Task(Of Result(Of T)))
+  fullName: Wrap.ResultExtensions.DiscardAsync<T>(System.Threading.Tasks.Task<Wrap.Result<T>>)
+  fullName.vb: Wrap.ResultExtensions.DiscardAsync(Of T)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)))
+  nameWithType: ResultExtensions.DiscardAsync<T>(Task<Result<T>>)
+  nameWithType.vb: ResultExtensions.DiscardAsync(Of T)(Task(Of Result(Of T)))
+- uid: Wrap.ResultExtensions.Discard``1(Wrap.Result{``0})
+  name: Discard<T>(Result<T>)
+  href: api/Wrap.ResultExtensions.Discard.html#Wrap_ResultExtensions_Discard__1_Wrap_Result___0__
+  commentId: M:Wrap.ResultExtensions.Discard``1(Wrap.Result{``0})
+  name.vb: Discard(Of T)(Result(Of T))
+  fullName: Wrap.ResultExtensions.Discard<T>(Wrap.Result<T>)
+  fullName.vb: Wrap.ResultExtensions.Discard(Of T)(Wrap.Result(Of T))
+  nameWithType: ResultExtensions.Discard<T>(Result<T>)
+  nameWithType.vb: ResultExtensions.Discard(Of T)(Result(Of T))
 - uid: Wrap.ResultExtensions.Filter*
   name: Filter
   href: api/Wrap.ResultExtensions.Filter.html
@@ -6002,6 +6134,15 @@ references:
   fullName.vb: Wrap.ResultExtensions.MapAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
   nameWithType: ResultExtensions.MapAsync<T, TReturn>(Task<Result<T>>, Func<T, Task<TReturn>>)
   nameWithType.vb: ResultExtensions.MapAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.ResultExtensions.MapAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{``0,System.Threading.Tasks.Task{``1}},Wrap.R.ExceptionHandler)
+  name: MapAsync<T, TReturn>(Task<Result<T>>, Func<T, Task<TReturn>>, ExceptionHandler)
+  href: api/Wrap.ResultExtensions.MapAsync.html#Wrap_ResultExtensions_MapAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func___0_System_Threading_Tasks_Task___1___Wrap_R_ExceptionHandler_
+  commentId: M:Wrap.ResultExtensions.MapAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{``0,System.Threading.Tasks.Task{``1}},Wrap.R.ExceptionHandler)
+  name.vb: MapAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of T, Task(Of TReturn)), ExceptionHandler)
+  fullName: Wrap.ResultExtensions.MapAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<T, System.Threading.Tasks.Task<TReturn>>, Wrap.R.ExceptionHandler)
+  fullName.vb: Wrap.ResultExtensions.MapAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)), Wrap.R.ExceptionHandler)
+  nameWithType: ResultExtensions.MapAsync<T, TReturn>(Task<Result<T>>, Func<T, Task<TReturn>>, R.ExceptionHandler)
+  nameWithType.vb: ResultExtensions.MapAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of T, Task(Of TReturn)), R.ExceptionHandler)
 - uid: Wrap.ResultExtensions.MapAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{``0,``1})
   name: MapAsync<T, TReturn>(Task<Result<T>>, Func<T, TReturn>)
   href: api/Wrap.ResultExtensions.MapAsync.html#Wrap_ResultExtensions_MapAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func___0___1__
@@ -6011,6 +6152,15 @@ references:
   fullName.vb: Wrap.ResultExtensions.MapAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of T, TReturn))
   nameWithType: ResultExtensions.MapAsync<T, TReturn>(Task<Result<T>>, Func<T, TReturn>)
   nameWithType.vb: ResultExtensions.MapAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of T, TReturn))
+- uid: Wrap.ResultExtensions.MapAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{``0,``1},Wrap.R.ExceptionHandler)
+  name: MapAsync<T, TReturn>(Task<Result<T>>, Func<T, TReturn>, ExceptionHandler)
+  href: api/Wrap.ResultExtensions.MapAsync.html#Wrap_ResultExtensions_MapAsync__2_System_Threading_Tasks_Task_Wrap_Result___0___System_Func___0___1__Wrap_R_ExceptionHandler_
+  commentId: M:Wrap.ResultExtensions.MapAsync``2(System.Threading.Tasks.Task{Wrap.Result{``0}},System.Func{``0,``1},Wrap.R.ExceptionHandler)
+  name.vb: MapAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of T, TReturn), ExceptionHandler)
+  fullName: Wrap.ResultExtensions.MapAsync<T, TReturn>(System.Threading.Tasks.Task<Wrap.Result<T>>, System.Func<T, TReturn>, Wrap.R.ExceptionHandler)
+  fullName.vb: Wrap.ResultExtensions.MapAsync(Of T, TReturn)(System.Threading.Tasks.Task(Of Wrap.Result(Of T)), System.Func(Of T, TReturn), Wrap.R.ExceptionHandler)
+  nameWithType: ResultExtensions.MapAsync<T, TReturn>(Task<Result<T>>, Func<T, TReturn>, R.ExceptionHandler)
+  nameWithType.vb: ResultExtensions.MapAsync(Of T, TReturn)(Task(Of Result(Of T)), Func(Of T, TReturn), R.ExceptionHandler)
 - uid: Wrap.ResultExtensions.MapAsync``2(Wrap.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}})
   name: MapAsync<T, TReturn>(Result<T>, Func<T, Task<TReturn>>)
   href: api/Wrap.ResultExtensions.MapAsync.html#Wrap_ResultExtensions_MapAsync__2_Wrap_Result___0__System_Func___0_System_Threading_Tasks_Task___1___
@@ -6020,6 +6170,15 @@ references:
   fullName.vb: Wrap.ResultExtensions.MapAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)))
   nameWithType: ResultExtensions.MapAsync<T, TReturn>(Result<T>, Func<T, Task<TReturn>>)
   nameWithType.vb: ResultExtensions.MapAsync(Of T, TReturn)(Result(Of T), Func(Of T, Task(Of TReturn)))
+- uid: Wrap.ResultExtensions.MapAsync``2(Wrap.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}},Wrap.R.ExceptionHandler)
+  name: MapAsync<T, TReturn>(Result<T>, Func<T, Task<TReturn>>, ExceptionHandler)
+  href: api/Wrap.ResultExtensions.MapAsync.html#Wrap_ResultExtensions_MapAsync__2_Wrap_Result___0__System_Func___0_System_Threading_Tasks_Task___1___Wrap_R_ExceptionHandler_
+  commentId: M:Wrap.ResultExtensions.MapAsync``2(Wrap.Result{``0},System.Func{``0,System.Threading.Tasks.Task{``1}},Wrap.R.ExceptionHandler)
+  name.vb: MapAsync(Of T, TReturn)(Result(Of T), Func(Of T, Task(Of TReturn)), ExceptionHandler)
+  fullName: Wrap.ResultExtensions.MapAsync<T, TReturn>(Wrap.Result<T>, System.Func<T, System.Threading.Tasks.Task<TReturn>>, Wrap.R.ExceptionHandler)
+  fullName.vb: Wrap.ResultExtensions.MapAsync(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of T, System.Threading.Tasks.Task(Of TReturn)), Wrap.R.ExceptionHandler)
+  nameWithType: ResultExtensions.MapAsync<T, TReturn>(Result<T>, Func<T, Task<TReturn>>, R.ExceptionHandler)
+  nameWithType.vb: ResultExtensions.MapAsync(Of T, TReturn)(Result(Of T), Func(Of T, Task(Of TReturn)), R.ExceptionHandler)
 - uid: Wrap.ResultExtensions.Map``2(Wrap.Result{``0},System.Func{``0,``1})
   name: Map<T, TReturn>(Result<T>, Func<T, TReturn>)
   href: api/Wrap.ResultExtensions.Map.html#Wrap_ResultExtensions_Map__2_Wrap_Result___0__System_Func___0___1__
@@ -6029,6 +6188,15 @@ references:
   fullName.vb: Wrap.ResultExtensions.Map(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of T, TReturn))
   nameWithType: ResultExtensions.Map<T, TReturn>(Result<T>, Func<T, TReturn>)
   nameWithType.vb: ResultExtensions.Map(Of T, TReturn)(Result(Of T), Func(Of T, TReturn))
+- uid: Wrap.ResultExtensions.Map``2(Wrap.Result{``0},System.Func{``0,``1},Wrap.R.ExceptionHandler)
+  name: Map<T, TReturn>(Result<T>, Func<T, TReturn>, ExceptionHandler)
+  href: api/Wrap.ResultExtensions.Map.html#Wrap_ResultExtensions_Map__2_Wrap_Result___0__System_Func___0___1__Wrap_R_ExceptionHandler_
+  commentId: M:Wrap.ResultExtensions.Map``2(Wrap.Result{``0},System.Func{``0,``1},Wrap.R.ExceptionHandler)
+  name.vb: Map(Of T, TReturn)(Result(Of T), Func(Of T, TReturn), ExceptionHandler)
+  fullName: Wrap.ResultExtensions.Map<T, TReturn>(Wrap.Result<T>, System.Func<T, TReturn>, Wrap.R.ExceptionHandler)
+  fullName.vb: Wrap.ResultExtensions.Map(Of T, TReturn)(Wrap.Result(Of T), System.Func(Of T, TReturn), Wrap.R.ExceptionHandler)
+  nameWithType: ResultExtensions.Map<T, TReturn>(Result<T>, Func<T, TReturn>, R.ExceptionHandler)
+  nameWithType.vb: ResultExtensions.Map(Of T, TReturn)(Result(Of T), Func(Of T, TReturn), R.ExceptionHandler)
 - uid: Wrap.ResultExtensions.Match*
   name: Match
   href: api/Wrap.ResultExtensions.Match.html
